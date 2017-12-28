@@ -1,0 +1,642 @@
+,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Unnamed: 0.1.1,Unnamed: 0.1.1.1,Unnamed: 0.1.1.1.1,Unnamed: 0.1.1.1.1,BAIRRO,TOTAL,HOMENS,MULHERES,LATITUDE,LONGITUDE,PLACE_ID,LOCATION,LOCATION_2,LOCATION_3
+0,0,0,1,1,1,1,1,Bairro Água Branca,3265.39,1568.45,1696.93,-16.692922699999997,-49.2296697,ChIJOY3MjLjxXpMRDQsYZRXpJp4,sublocality_level_1,sublocality,political
+1,1,1,2,2,2,2,2,Bairro Alto da Glória,5049.0,2345.0,2703.98,-16.715418300000003,-49.2384542,ChIJzR1o1VDwXpMRytAvd6NM_a8,sublocality_level_1,sublocality,political
+2,2,2,3,3,3,3,3,Bairro Anhanguera,1611.77,770.2,841.61,-16.7252175,-49.2951537,ChIJz1OLPSb3XpMR-JAMEhf3kOE,sublocality_level_1,sublocality,political
+3,3,3,4,4,4,4,4,Bairro Boa Vista,4141.7,2047.54,2094.16,-16.5826415,-49.3412051,ChIJ_R7W7fWKXpMR_OYMQLhkB6M,sublocality_level_1,sublocality,political
+4,4,4,5,5,5,5,5,Bairro Capuava,8164.73,3950.5,4214.21,-16.656984,-49.3209099,ChIJdRkPo1P0XpMRIyZlyDpEWi4,sublocality_level_1,sublocality,political
+5,5,5,6,6,6,6,6,Bairro Cidade Jardim,13318.65,6227.72,7090.94,-16.6886758,-49.3077784,ChIJQ-Z5uSP0XpMRqwF0VxhMWcc,sublocality_level_1,sublocality,political
+6,6,6,7,7,7,7,7,Bairro da Serrinha,1201.04,575.82,625.24,-16.722011600000002,-49.2664018,ChIJZy8bRtzwXpMR9M_7kwKg_d8,sublocality_level_1,sublocality,political
+7,7,7,8,8,8,8,8,Bairro da Vitória,5940.96,2968.56,2972.35,-16.6030144,-49.34628000000001,ChIJneEpZr-KXpMRfJg7uRq5Jfc,sublocality_level_1,sublocality,political
+8,8,8,9,9,9,9,9,Bairro dos Aeroviários,2862.69,1359.71,1502.9,-16.6653798,-49.3056932,ChIJF_30IUD0XpMRhfkuEbRK3_g,sublocality_level_1,sublocality,political
+9,9,9,10,10,10,10,10,Bairro Feliz,1381.57,641.03,740.56,-16.658780599999996,-49.2271373,ChIJ3WxPHSPyXpMRr-_IPjdgJx8,sublocality_level_1,sublocality,political
+10,10,10,11,11,11,11,11,Bairro Floresta,5641.18,2806.49,2834.72,-16.585051,-49.3310566,ChIJMyGFRPuKXpMRdQlVdoS1HHA,sublocality_level_1,sublocality,political
+11,11,11,12,12,12,12,12,Bairro Goiá,5223.11,2513.03,2710.07,-16.6796729,-49.32769179999999,ChIJ6Y0Hrs31XpMRzid-sQ3FEss,hospital,point_of_interest,establishment
+12,12,12,13,13,13,13,13,Bairro Goiá 2,1533.3,743.17,790.12,-16.6818164,-49.326336100000006,ChIJf7MokdL1XpMRxNlLbIqFXrE,sublocality_level_1,sublocality,political
+13,13,13,14,14,14,14,14,Bairro Goiá 2 Complemento,197.18,101.55,95.63,-16.7631678,-49.30699909999999,EltSLiBHb2nDom5pYSwgMiAtIEphcmRpbSBIZWx2ZWNpYSBDb21wbGVtZW50bywgQXBhcmVjaWRhIGRlIEdvacOibmlhIC0gR08sIDc0OTMzLTYxNSwgQnJhc2ls,street_address,,
+14,14,14,15,15,15,15,15,Bairro Goiá 4,334.98,165.35,169.63,-16.6872928,-49.3399045,ChIJl2QS49v1XpMRtaw53prQceQ,sublocality_level_1,sublocality,political
+15,15,15,16,16,16,16,16,Bairro Goiá Setor Veloso,303.58,150.85,152.74,-16.7433921,-49.2790229,ChIJMfduYrHwXpMRpa66U8eOuS4,sublocality_level_1,sublocality,political
+16,16,16,17,17,17,17,17,Bairro Industrial Mooca,761.74,358.17,403.59,-16.67618,-49.3202529,ChIJgbrW3DP0XpMRRNs4bqL-UF8,sublocality_level_1,sublocality,political
+17,17,17,18,18,18,18,18,Bairro Ipiranga,1163.47,589.65,573.82,-16.6629777,-49.32598300000001,ChIJR7UFsLL1XpMRDkzYsIh7x9k,sublocality_level_1,sublocality,political
+18,18,18,19,19,19,19,19,Bairro Jardim América,41012.27,19024.03,21988.2,-16.7124336,-49.2866779,ChIJAdZhsdL2XpMRh2z8_U2BspA,sublocality_level_1,sublocality,political
+19,19,19,20,20,20,20,20,Bairro Jardim Botânico,1473.96,740.82,733.08,-16.7294291,-49.38033470000001,ChIJTWZHfJFYXpMRrGnWspMEhPk,sublocality_level_1,sublocality,political
+20,20,20,21,21,21,21,21,Bairro Jardim Califórnia,2714.38,1294.2,1420.17,-16.676428400000002,-49.19549179999999,ChIJfVDkqxnuXpMRdTHJuUWonIE,sublocality_level_1,sublocality,political
+21,21,21,22,22,22,22,22,Bairro Jardim das Esmeraldas,1625.0,740.98,884.0,-16.720036999999998,-49.25792089999999,ChIJKbcFBY3wXpMRqANvh4oLli0,sublocality_level_1,sublocality,political
+22,22,22,23,23,23,23,23,Bairro Jardim Diamantina,1514.37,711.45,802.9,-16.6337509,-49.2758744,ChIJf6T_FXrzXpMR1jLeNbq71Zw,sublocality_level_1,sublocality,political
+23,23,23,24,24,24,24,24,Bairro Nossa Senhora de Fátima,1771.37,848.46,922.94,-16.6875612,-49.3183735,ChIJX2qpyyn0XpMR4HHZdeLkCXk,sublocality_level_1,sublocality,political
+24,24,24,25,25,25,25,25,Bairro Nova Suiça,7155.13,3220.71,3934.4,-16.7069962,-49.2821365,ChIJXUh1ODLxXpMRYPZNWGObXAU,sublocality_level_1,sublocality,political
+25,25,25,26,26,26,26,26,Bairro Operário,110.62,49.93,60.69,-16.750560999999998,-49.3763459,ChIJTxdq9m9YXpMRAHqYWSONY1w,church,place_of_worship,point_of_interest
+26,26,26,27,27,27,27,27,Bairro Recreio do Funcionário Publico,315.44,150.57,164.91,-16.7115516,-49.3386678,ChIJ0eC0Imr2XpMR-GdGVa-8vFY,sublocality_level_1,sublocality,political
+27,27,27,28,28,28,28,28,Bairro Rodoviário,3504.15,1627.68,1876.47,-16.673610800000002,-49.300797,ChIJ3RNsSxf0XpMR5qk-OuAcIf4,sublocality_level_1,sublocality,political
+28,28,28,29,29,29,29,29,Bairro Santa Genoveva,6078.07,3032.55,3045.56,-16.6381213,-49.2360011,ChIJE_8uzFbyXpMRWdVzMiRR3-U,sublocality_level_1,sublocality,political
+29,29,29,30,30,30,30,30,Bairro Santa Rita,604.52,293.98,310.53,-16.737305,-49.34385009999999,ChIJTbFp6LX3XpMR9OYEcRRe61M,sublocality_level_1,sublocality,political
+30,30,30,31,31,31,31,31,Bairro Santo Hilário,4163.16,2036.13,2127.05,-16.650234599999994,-49.1935936,ChIJa_rSnvDtXpMRBNQVU5r_5nc,sublocality_level_1,sublocality,political
+31,31,31,32,32,32,32,32,Bairro Santo Hilário - Complemento,779.13,394.33,384.8,-16.6501629,-49.19040579999999,ChIJVWZtVOTtXpMRImQEwfe46iw,route,,
+32,32,32,33,33,33,33,33,Bairro Santo Hilário II,396.83,193.72,203.09,-16.651623,-49.196753,ChIJfxQIQPrtXpMRjQluXV6uL1c,school,point_of_interest,establishment
+33,33,33,34,34,34,34,34,Bairro São Carlos,6990.43,3430.81,3559.62,-16.5829329,-49.34754879999999,ChIJqUivmYuKXpMRomJ_Dp27juM,sublocality_level_1,sublocality,political
+34,34,34,35,35,35,35,35,Bairro São Domingos,3012.78,1466.53,1546.31,-16.5784561,-49.3335936,ChIJkyKAX_iKXpMR3uo7ZXbHz1g,sublocality_level_1,sublocality,political
+35,35,35,36,36,36,36,36,Bairro São Francisco,4248.96,2060.36,2188.62,-16.66626089999999,-49.3335971,ChIJu8ZUi7D1XpMR-i4XhEEWRbg,sublocality_level_1,sublocality,political
+36,36,36,37,37,37,37,37,Chácara Anhanguera,1133.84,594.04,539.82,-16.7100668,-49.3653109,ChIJ0x0nWx32XpMRcQ_5Xuasw7o,point_of_interest,establishment,
+37,37,37,38,38,38,38,38,Chácara Botafogo,37.99,17.29,20.69,-16.6684582,-49.21130340000001,ChIJ9a2nKPrxXpMR-_eiNpJwKb8,sublocality_level_1,sublocality,political
+38,38,38,39,39,39,39,39,Chácara Botafogo,33.48,15.24,18.24,-16.6684582,-49.21130340000001,ChIJ9a2nKPrxXpMR-_eiNpJwKb8,sublocality_level_1,sublocality,political
+39,39,39,40,40,40,40,40,Chácara Buritis,199.33,111.33,87.99,-16.7137954,-49.3725321,ChIJ9dDBU6RYXpMRAMhqm_Q8lZM,sublocality_level_1,sublocality,political
+40,40,40,41,41,41,41,41,Chácara Califórnia,414.49,202.97,211.49,-16.6045708,-49.276539,ChIJmXTDs0zzXpMRrQ51IxajX5w,sublocality_level_1,sublocality,political
+41,41,41,42,42,42,42,42,Chácara de Recreio São Joaquim,1805.1403699999998,904.7664599999999,900.3739099999997,-16.638919400000002,-49.34272010000001,ChIJR_OMBhX1XpMRw9MhFiTjYrA,sublocality_level_1,sublocality,political
+42,42,42,43,43,43,43,43,Chácara do Governador,2216.45,1021.46,1194.98,-16.725870800000006,-49.2271373,ChIJVRBwdBTwXpMRqSnEB9fbE1Q,sublocality_level_1,sublocality,political
+43,43,43,44,44,44,44,44,Chácara Dona Gê,193.64483,92.68114,100.96369,-16.7068384,-49.32178370000001,ChIJ3zCNBIv2XpMRCmFQAqYjLYo,sublocality_level_1,sublocality,political
+44,44,44,45,45,45,45,45,Chácara Elísio Campos,435.55,207.25,228.31,-16.664899,-49.23374,ChIJ6ZlvGybyXpMRq7C6G31mk9E,clothing_store,store,point_of_interest
+45,45,45,46,46,46,46,46,Chácara Maria Dilce,306.19,154.62,151.56,-16.6224554,-49.30702609999999,ChIJBWyjVcb0XpMRdO-bJkaT9Lc,sublocality_level_1,sublocality,political
+46,46,46,47,47,47,47,47,Chácara Nossa Senhora da Piedade,1622.87,777.31,845.57,-16.5953628,-49.2588531,ChIJlZa7gMuMXpMRAJJpMjK7oFA,church,place_of_worship,point_of_interest
+47,47,47,48,48,48,48,48,Chácara Nossa Senhora da Piedade,265.59,125.39,140.2,-16.5953628,-49.2588531,ChIJlZa7gMuMXpMRAJJpMjK7oFA,church,place_of_worship,point_of_interest
+48,48,48,49,49,49,49,49,Chácara Retiro,230.37,112.84,117.52,-16.6228442,-49.2676689,ChIJWbJM5GvzXpMRbUjbFQNJTyY,sublocality_level_1,sublocality,political
+49,49,49,50,50,50,50,50,Chácara Rio Branco,139.14,67.37,71.78,-16.72356,-49.38962009999999,ChIJq6qqql5YXpMRAjhAoDoEoEw,lodging,point_of_interest,establishment
+50,50,50,51,51,51,51,51,Chácara Samambaia,17.02,8.04,8.97,-16.5894008,-49.2824719,ChIJczbb36aMXpMRylA5yZvSTNc,lodging,point_of_interest,establishment
+51,51,51,52,52,52,52,52,Chácara Santa Rita,83.55400999999998,42.46944000000001,41.08457,-16.7070531,-49.3373844,ChIJ9ZUAKG_2XpMRioSY_7wv4Ds,point_of_interest,establishment,
+52,52,52,53,53,53,53,53,Chácara São José,2159.65,1091.26,1068.38,-16.6615758,-49.29821430000001,ChIJ16GZaWz0XpMR0e93jrS_bhY,point_of_interest,establishment,
+53,53,53,54,54,54,54,54,Chácara Shangri-la,578.68,297.72,281.03,-16.6362098,-49.349824100000006,ChIJnQYogEH1XpMRgM48Lre5KKw,point_of_interest,establishment,
+54,54,54,55,55,55,55,55,Chácara Solange Parque,223.97,107.9,116.07,-16.7054474,-49.3517543,ChIJeY29Ow72XpMRRQ1xtbC5MEs,point_of_interest,establishment,
+55,55,55,56,56,56,56,56,Chácara Solange Parque II,261.33,125.9,135.43,-16.76511,-49.23174099999999,ChIJja19UY36XpMR9W36HopRVGo,point_of_interest,establishment,
+56,56,56,57,57,57,57,57,Colônia Santa Marta,328.01,173.0,154.98,-16.6845725,-49.1931156,ChIJL6V-yiTuXpMRPLzxV7Jp0qw,hospital,point_of_interest,establishment
+57,57,57,58,58,58,58,58,Condomínio Anhanguera,181.07,94.26,86.81,-16.7151954,-49.3628756,ChIJ-f_LWB72XpMRIUWDjSB87O0,sublocality_level_1,sublocality,political
+58,58,58,59,59,59,59,59,Condomínio Cidade Universitária,112.39,57.79,54.62,-16.2965515,-48.9459128,ChIJA82txR2kXpMRl2xWZoOKnlw,premise,point_of_interest,establishment
+59,59,59,60,60,60,60,60,Condomínio do Lago,38.63,18.85,19.76,-16.6608462,-49.3676802,ChIJJzy4OIBfXpMRn95xQvGTXxo,point_of_interest,establishment,
+60,60,60,61,61,61,61,61,Condomínio do Lago 2ª e 3ª Etapas,90.36,44.15,46.25,-16.6608462,-49.3676802,ChIJJzy4OIBfXpMRn95xQvGTXxo,point_of_interest,establishment,
+61,61,61,62,62,62,62,62,Condomínio Privê das Oliveiras,386.96,202.0,185.01,-16.707056599999998,-49.2928019,ChIJTXSTNs_2XpMRP-8g-4p3SWw,point_of_interest,establishment,
+62,62,62,63,63,63,63,63,Condomínio Residencial Santa Rita,735.17356,316.85213999999996,418.32141,-16.678348,-49.3189881,ChIJAWu_3zD0XpMRrigNZurvhLM,premise,point_of_interest,establishment
+63,63,63,64,64,64,64,64,Condomínio Rio Branco,1286.23,633.93,652.31,-16.7179112,-49.3936179,ChIJ6a4CS9pYXpMRZslSH2fxlk4,sublocality_level_1,sublocality,political
+64,64,64,65,65,65,65,65,Condomínio Samambaia,168.34,79.55,88.81,-16.5818019,-49.2942802,ChIJxWrvXGaLXpMRzC6QGTAy17I,premise,point_of_interest,establishment
+65,65,65,66,66,66,66,66,Condomínio Santa Rita,992.21,499.06,493.16,-16.6762686,-49.33009389999999,ChIJMwJXWcn1XpMRLxEi-lj4QtE,sublocality_level_1,sublocality,political
+66,66,66,67,67,67,67,67,Condomínio Santa Rita - 2ª etapa,45.2158,21.98907,23.22673,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+67,67,67,68,68,68,68,68,Condomínio Santa Rita - 6ª etapa,341.21,165.94,175.28,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+68,68,68,69,69,69,69,69,Condomínio Santa Rita - 7ª etapa,35.02247,16.45184,18.570629999999998,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+69,69,69,70,70,70,70,70,Condomínio Santa Rita - 8ª etapa,49.55,23.49,26.05,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+70,70,70,71,71,71,71,71,Condomínio Santa Rita - 9ª etapa,10.2994,4.84731,5.45209,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+71,71,71,72,72,72,72,72,Condomínio Santa Rita Irregular,36.48988,18.225379999999998,18.26449,,,,,,
+72,72,72,73,73,73,73,73,Condomínio Setor Amin Camargo,1156.78,585.62,571.15,-16.769287300000002,-49.3667884,ChIJiWY9owdYXpMRMC-dRljHsh0,point_of_interest,establishment,
+73,73,73,74,74,74,74,74,Conjunto Anhanguera,411.18,189.47,221.71,-16.7290858,-49.24119880000001,ChIJx2xRYGDwXpMR0LYzvFtVUag,sublocality_level_1,sublocality,political
+74,74,74,75,75,75,75,75,Conjunto Baliza,817.99,395.0,423.0,-16.772922400000002,-49.3596213,ChIJ_7r8K_n3XpMR59p9CPKqI_E,church,place_of_worship,point_of_interest
+75,75,75,76,76,76,76,76,Conjunto Caiçara,1712.31,790.45,921.84,-16.657577,-49.2119453,ChIJuU6N4gTyXpMRw_jvbhn_dpQ,sublocality_level_1,sublocality,political
+76,76,76,77,77,77,77,77,Conjunto Castelo Branco,861.74,389.59,472.14,-16.749006,-49.23151420000001,ChIJ5RfOmpz6XpMRtj1sWGC9L4M,route,,
+77,77,77,78,78,78,78,78,Conjunto Fabiana,1201.05,557.06,644.02,-16.7315614,-49.2258711,ChIJiT89FAzwXpMRXHsaFOXeQXI,sublocality_level_1,sublocality,political
+78,78,78,79,79,79,79,79,Conjunto Guadalajara,1055.0,485.02,570.0,-16.6797667,-49.3158372,ChIJcfuImy_0XpMR3RWrz-FataY,sublocality_level_1,sublocality,political
+79,79,79,80,80,80,80,80,Conjunto Habitacional Aruanã I,1817.29,833.65,983.64,-16.6912862,-49.2043347,ChIJ4xPS7NfxXpMRG4pIdTI3xck,sublocality_level_1,sublocality,political
+80,80,80,81,81,81,81,81,Conjunto Habitacional Aruanã II,577.63,266.99,310.62,-16.6944908,-49.2015902,ChIJnS-1iynuXpMR2tYvt4AelWQ,sublocality_level_1,sublocality,political
+81,81,81,82,82,82,82,82,Conjunto Habitacional Aruanã III,781.94,385.92,396.04,-16.6830518,-49.2034429,ChIJea8Qgt_xXpMREmoT5NPcZhI,sublocality_level_1,sublocality,political
+82,82,82,83,83,83,83,83,Conjunto Habitacional Madre Germana 2,5163.65,2554.3,2609.33,-16.8153699,-49.37452389999999,ChIJHbpDjtJXXpMRCXTiq-su0zU,sublocality_level_1,sublocality,political
+83,83,83,84,84,84,84,84,Conjunto Morada Nova,142.12,66.53,75.59,-16.6786236,-49.3124403,ChIJfZxtJCX0XpMRofw4I5OR0WQ,sublocality_level_1,sublocality,political
+84,84,84,85,85,85,85,85,Conjunto Morada Nova,2113.28,955.48,1157.83,-16.6786236,-49.3124403,ChIJfZxtJCX0XpMRofw4I5OR0WQ,sublocality_level_1,sublocality,political
+85,85,85,86,86,86,86,86,Conjunto Parque dos Eucaliptos,147.65,71.49,76.16,-16.6074475,-49.20983769999999,ChIJi9mW5ZjyXpMRe-0bYFcOsVo,sublocality_level_1,sublocality,political
+86,86,86,87,87,87,87,87,Conjunto Primavera,7228.64,3554.27,3674.35,-16.6287771,-49.36404570000001,ChIJe22kCFH1XpMRMxD-YJ4vgh0,sublocality_level_1,sublocality,political
+87,87,87,88,88,88,88,88,Conjunto Primavera Extensão,1033.41,528.77,504.66,,,,,,
+88,88,88,89,89,89,89,89,Conjunto Residencial Cachoeira Dourada,1985.01,902.01,1083.03,-16.71263889999999,-49.3172974,ChIJZcNXfvH2XpMRN-P2ZN0JX0k,point_of_interest,establishment,
+89,89,89,90,90,90,90,90,Conjunto Residencial Campus,347.32,160.41,186.91,-16.3733301,-48.9820758,ChIJHRwjODajXpMRvF5Aw6wdGYw,university,point_of_interest,establishment
+90,90,90,91,91,91,91,91,Conjunto Residencial Padre Pelágio,1231.01,531.0,699.99,-16.6596508,-49.327833,ChIJ29CFWaz1XpMRwg3q_mp4Jac,bus_station,transit_station,point_of_interest
+91,91,91,92,92,92,92,92,Conjunto Residencial Palmares,179.9,79.77,100.12,-16.6902854,-49.30014749999999,ChIJ-9VU7KP2XpMRt2_SwMOMi54,point_of_interest,establishment,
+92,92,92,93,93,93,93,93,Conjunto Residencial Rodoviário,677.52,312.9,364.6,-16.67292849999999,-49.3175073,ChIJYXRo5zb0XpMR1OiU9jZhwu8,night_club,point_of_interest,establishment
+93,93,93,94,94,94,94,94,Conjunto Residencial Romildo F. R. do Amaral,302.02,140.15,161.88,,,,,,
+94,94,94,95,95,95,95,95,Conjunto Residencial Yara,466.09,211.19,254.91,-16.6526144,-49.26723219999999,ChIJG8qinZbzXpMRicV8DfctKJM,sublocality_level_1,sublocality,political
+95,95,95,96,96,96,96,96,Conjunto Riviera,3725.0,1668.99,2056.01,-16.690816,-49.2157429,ChIJt8DXc8TxXpMRdytWBAd1whw,sublocality_level_1,sublocality,political
+96,96,96,97,97,97,97,97,Conjunto Vera Cruz,18900.19,9019.4,9880.59,-16.677031500000002,-49.41102399999999,ChIJc3nemuReXpMRus4DkYFO4Rc,sublocality_level_1,sublocality,political
+97,97,97,98,98,98,98,98,Conjunto Vila Isabel,121.83,54.07,67.77,-16.713527,-49.2420167,ChIJl0CL7VXwXpMRuhXRKnkDcdQ,sublocality_level_1,sublocality,political
+98,98,98,99,99,99,99,99,Distrito de Vila Rica,499.0,242.0,257.0,-16.571050699999994,-49.2376588,ChIJKThoJBmNXpMRYqjPkx8-3o8,locality,political,
+99,99,99,100,100,100,100,100,Esplanada do Anicuns,1176.77,567.87,608.93,-16.6652289,-49.312667,ChIJy2MuFkb0XpMRZoi5tOMrndM,sublocality_level_1,sublocality,political
+100,100,100,101,101,101,101,101,Gleba,117.49,57.14,60.34,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+101,101,101,102,102,102,102,102,Gleba,202.0,99.0,103.0,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+102,102,102,103,103,103,103,103,Gleba,219.37,107.34,112.02,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+103,103,103,104,104,104,104,104,Gleba,42.76,20.47,22.28,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+104,104,104,105,105,105,105,105,Gleba,377.4,183.54,193.86,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+105,105,105,106,106,106,106,106,Gleba,174.09,86.92,87.17,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+106,106,106,107,107,107,107,107,Gleba,128.26,68.63,59.63,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+107,107,107,108,108,108,108,108,Gleba,25.3,12.44,12.87,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+108,108,108,109,109,109,109,109,Gleba,0.0,0.0,0.0,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+109,109,109,110,110,110,110,110,Gleba,6.89,3.73,3.16,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+110,110,110,111,111,111,111,111,Gleba,21.37,10.18,11.19,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+111,111,111,112,112,112,112,112,Gleba,15.73,7.92,7.82,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+112,112,112,113,113,113,113,113,Gleba,24.8,13.09,11.72,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+113,113,113,114,114,114,114,114,Gleba,829.51,416.83,412.71,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+114,114,114,115,115,115,115,115,Gleba,213.72,103.16,110.56,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+115,115,115,116,116,116,116,116,Gleba,30.47,14.07,16.39,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+116,116,116,117,117,117,117,117,Gleba,581.47,293.43,288.03,-16.6975996,-49.326615,ChIJmc-BcNn1XpMRPGMdGo-2qWU,point_of_interest,establishment,
+117,117,117,118,118,118,118,118,Gleba Construída,25.45,12.85,12.59,,,,,,
+118,118,118,119,119,119,119,119,Gleba Construída,56.22,26.39,29.83,,,,,,
+119,119,119,120,120,120,120,120,Gleba Construída,61.62,27.69,33.93,,,,,,
+120,120,120,121,121,121,121,121,Gleba Construída,253.35,125.6,127.75,,,,,,
+121,121,121,122,122,122,122,122,Gleba Construída,177.66,87.99,89.67,,,,,,
+122,122,122,123,123,123,123,123,Gleba Construída,72.2,41.82,30.38,,,,,,
+123,123,123,124,124,124,124,124,Gleba Fracionada Cond. Alto Boa Vista,268.82,129.76,139.06,,,,,,
+124,124,124,125,125,125,125,125,Gleba Fracionada Cond. Housing Flamboyant,317.0,143.0,174.0,,,,,,
+125,125,125,126,126,126,126,126,Gleba Fracionada Cond. Privê dos Girassóis,726.0,352.0,374.0,,,,,,
+126,126,126,127,127,127,127,127,Gleba Fracionada Cond. Res. Bosque dos Buritis+B332,199.0,97.0,102.0,,,,,,
+127,127,127,128,128,128,128,128,Gleba Fracionada Cond. Res. Paulo Pacheco,539.0,272.0,267.0,,,,,,
+128,128,128,129,129,129,129,129,Gleba Fracionada Cond. Residencial Terra Nova I,0.0,0.0,0.0,,,,,,
+129,129,129,130,130,130,130,130,Gleba Fracionada Cond. Residencial Havay,230.29,116.55,113.74,,,,,,
+130,130,130,131,131,131,131,131,Gleba Fracionada Cond. Residencial Malibu,88.04,45.63,42.41,,,,,,
+131,131,131,132,132,132,132,132,Gleba Fracionada Cond. Residencial Atibaia,423.0,204.0,219.0,-16.769287300000002,-49.3667884,ChIJiWY9owdYXpMRMC-dRljHsh0,point_of_interest,establishment,
+132,132,132,133,133,133,133,133,Gleba Jardim Primavera,142.0,77.0,65.0,-16.5932174,-49.3745294,ChIJY29kwy5gXpMRUEz6ugG-nYs,car_repair,point_of_interest,establishment
+133,133,133,134,134,134,134,134,Gleba Loteada Chácara Santa Rita,54.25,27.23,27.01,-16.7070531,-49.3373844,ChIJ9ZUAKG_2XpMRioSY_7wv4Ds,point_of_interest,establishment,
+134,134,134,135,135,135,135,135,Gleba Recreio Panorama,154.53,77.51,77.01,,,,,,
+135,135,135,136,136,136,136,136,Granja Cruzeiro do Sul,1456.01,678.01,778.01,-16.6408126,-49.2828756,ChIJ9T3dFn7zXpMRWpg1ByTPVGU,sublocality_level_1,sublocality,political
+136,136,136,137,137,137,137,137,Granja Santos Dumont,154.4,72.39,82.01,-16.6699215,-49.2992728,ChIJ73xqVRH0XpMRL2Kwng4zs90,sublocality_level_1,sublocality,political
+137,137,137,138,138,138,138,138,Jardim Abaporu,813.22,396.41,416.83,-16.6528886,-49.18630599999999,ChIJG42IM-HtXpMRkU_q7-tOjyE,sublocality_level_1,sublocality,political
+138,138,138,139,139,139,139,139,Jardim Alphaville,635.29,320.38,314.89,-16.7326753,-49.3781262,ChIJu_btNI5YXpMRWng6TNGfvx8,sublocality_level_1,sublocality,political
+139,139,139,140,140,140,140,140,Jardim Ana Lúcia,3635.76,1673.73,1962.04,-16.6967609,-49.3117599,ChIJq4taf5r2XpMRtrO-B--MFS0,sublocality_level_1,sublocality,political
+140,140,140,141,141,141,141,141,Jardim Aritana,645.51,320.62,324.92,-16.7192038,-49.3735653,ChIJO1yAW6JYXpMRQAd97v7ZaBc,sublocality_level_1,sublocality,political
+141,141,141,142,142,142,142,142,Jardim Aroeiras,2429.78,1230.45,1199.33,-16.6641568,-49.1992883,ChIJPbhiaQHuXpMRx4eQfMxMMpY,sublocality_level_1,sublocality,political
+142,142,142,143,143,143,143,143,Jardim Atenas,861.38,428.24,433.06,-16.5947685,-49.3450414,ChIJpR3XrJSKXpMRm-rHHOUTfoI,sublocality_level_1,sublocality,political
+143,143,143,144,144,144,144,144,Jardim Atlântico,6164.61,3052.33,3112.2,-16.732821400000002,-49.29174799999999,ChIJgUrN48rwXpMR5MF6isB-z7E,sublocality_level_1,sublocality,political
+144,144,144,145,145,145,145,145,Jardim Balneário Meia Ponte,15709.45,7577.97,8131.6,-16.6156407,-49.29808629999999,ChIJvw_Z6rD0XpMR_MfKEGyUK68,sublocality_level_1,sublocality,political
+145,145,145,146,146,146,146,146,Jardim Bela Vista,2533.53,1194.95,1338.56,-16.7372641,-49.2347348,ChIJdSlQEXvwXpMRR_P04ZyjWH8,sublocality_level_1,sublocality,political
+146,146,146,147,147,147,147,147,Jardim Bom Jesus,34.87,17.07,17.79,-16.614653699999998,-49.26993849999999,ChIJ68URDETzXpMRm2H9Is_Keu8,sublocality_level_1,sublocality,political
+147,147,147,148,148,148,148,148,Jardim Bonanza,782.24,399.66,382.58,-16.6576603,-49.3538618,ChIJz4wkwHf1XpMRt17sDn1cgNw,sublocality_level_1,sublocality,political
+148,148,148,149,149,149,149,149,Jardim Brasil,3120.88,1535.25,1585.59,-16.6931933,-49.2091839,ChIJx9zCw9DxXpMR0f0ltS-Hl0I,sublocality_level_1,sublocality,political
+149,149,149,150,150,150,150,150,Jardim Califórnia - Parque Industrial,571.51,274.2,297.29,-16.6708837,-49.19951409999999,ChIJ5w5BxhzuXpMR7HnNjP4qHQc,sublocality_level_1,sublocality,political
+150,150,150,151,151,151,151,151,Jardim Caravelas,4597.69,2260.7,2336.97,-16.7524828,-49.3547896,ChIJQ3STKcP3XpMRAZbfriWzLo4,sublocality_level_1,sublocality,political
+151,151,151,152,152,152,152,152,Jardim Clarissa,933.53,483.95,449.6,-16.6581485,-49.3462708,ChIJTXkcwJ_1XpMRheQgAFkOUoA,sublocality_level_1,sublocality,political
+152,152,152,153,153,153,153,153,Jardim Colorado,2216.25,1100.7,1115.52,-16.63209999999999,-49.3323251,ChIJd_LsSCP1XpMRA8IG1hBr4G4,sublocality_level_1,sublocality,political
+153,153,153,154,154,154,154,154,Jardim Colorado Extensão,196.69,99.26,97.43,-16.630177,-49.330431,ChIJqePe1CmLXpMRER8YExjTCJ0,home_goods_store,store,point_of_interest
+154,154,154,155,155,155,155,155,Jardim Colorado I,328.86,167.06,161.79,-16.63209999999999,-49.3323251,ChIJd_LsSCP1XpMRA8IG1hBr4G4,sublocality_level_1,sublocality,political
+155,155,155,156,156,156,156,156,Jardim Colorado II,123.62,62.8,60.82,-16.6287131,-49.3336657,ChIJn0U4wCT1XpMRGqAvSTRPJLw,local_government_office,point_of_interest,establishment
+156,156,156,157,157,157,157,157,Jardim Colorado Sul,119.39,60.25,59.14,-16.63209999999999,-49.3323251,ChIJd_LsSCP1XpMRA8IG1hBr4G4,sublocality_level_1,sublocality,political
+157,157,157,158,158,158,158,158,Jardim Conquista,1539.15,772.14,767.02,-16.667507099999998,-49.19247319999999,ChIJpbNT8g_uXpMRSzqImObW-VM,sublocality_level_1,sublocality,political
+158,158,158,159,159,159,159,159,Jardim Corte Real,42.12,20.64,21.47,,,,,,
+159,159,159,160,160,160,160,160,Jardim Curitiba,17355.01,8499.99,8855.02,-16.604522199999998,-49.3373992,ChIJ8eZeU9uKXpMR32el5swWi4M,sublocality_level_1,sublocality,political
+160,160,160,161,161,161,161,161,Jardim da Luz,2298.93,1083.92,1215.02,-16.72438199999999,-49.2360011,ChIJgeRE-FzwXpMRgdaQaCYKB9A,sublocality_level_1,sublocality,political
+161,161,161,162,162,162,162,162,Jardim das Hortências,2179.91,1099.36,1080.56,-16.6233215,-49.3341903,ChIJ3QUYzi_1XpMRqMdpqth0tak,park,point_of_interest,establishment
+162,162,162,163,163,163,163,163,Jardim das Rosas,2204.98,1132.0,1072.99,-16.729256200000002,-49.3983234,ChIJHa8EBuFYXpMREu8XghrKPgE,sublocality_level_1,sublocality,political
+163,163,163,164,164,164,164,164,Jardim Dom Fernando I,2688.9,1312.4,1376.5,-16.6651304,-49.1898533,ChIJdQli-g7uXpMRNo4pJhwS8hY,sublocality_level_1,sublocality,political
+164,164,164,165,165,165,165,165,Jardim Dom Fernando II,1262.01,598.01,664.0,-16.6666685,-49.1915625,ChIJh8GpvQ_uXpMRYfnUK1Lzp3w,sublocality_level_1,sublocality,political
+165,165,165,166,166,166,166,166,Jardim Eli Forte,557.98,284.18,273.8,-16.7350164,-49.3502208,ChIJG7-Eqcz3XpMRnkz2oQn4t1k,sublocality_level_1,sublocality,political
+166,166,166,167,167,167,167,167,Jardim Eli Forte - Complemento,106.12,52.05,54.07,,,,,,
+167,167,167,168,168,168,168,168,Jardim Europa,11487.3,5533.35,5953.91,-16.7160533,-49.3067696,ChIJ8aNjt-32XpMR-TQI90y9M4I,sublocality_level_1,sublocality,political
+168,168,168,169,169,169,169,169,Jardim Fonte Nova,1190.88,590.72,600.14,-16.6236033,-49.3142848,ChIJr0Ua0sT0XpMRbQ3J4N0PcPU,sublocality_level_1,sublocality,political
+169,169,169,170,170,170,170,170,Jardim Fonte Nova I,389.95,198.38,191.58,-16.6236033,-49.3142848,ChIJr0Ua0sT0XpMRbQ3J4N0PcPU,sublocality_level_1,sublocality,political
+170,170,170,171,171,171,171,171,Jardim Gardênia,593.84,300.04,293.81,-16.738004800000002,-49.37924919999999,ChIJVdlOFYlYXpMRxpplv_7Cg5M,administrative_area_level_4,political,
+171,171,171,172,172,172,172,172,Jardim Goiás,11851.1,5580.78,6270.34,-16.693827300000002,-49.23853390000001,ChIJ5XyO96XxXpMRr2636q9MeIs,sublocality_level_1,sublocality,political
+172,172,172,173,173,173,173,173,Jardim Gramado,333.49,162.88,170.63,-16.634514300000006,-49.3018896,ChIJmyA4BJL0XpMRQqGqlVkSZkI,sublocality_level_1,sublocality,political
+173,173,173,174,174,174,174,174,Jardim Guanabara,16387.43,7996.29,8391.14,-16.6204575,-49.2170088,ChIJr_3NWI7yXpMRwbDLo7V8rGM,sublocality_level_1,sublocality,political
+174,174,174,175,175,175,175,175,Jardim Guanabara II,5170.58,2452.85,2717.75,-16.6126753,-49.214477,ChIJv1Mki5nyXpMRNfpKWChHExM,sublocality_level_1,sublocality,political
+175,175,175,176,176,176,176,176,Jardim Guanabara III,5308.02,2509.0,2799.0,-16.6114775,-49.2195408,ChIJXYHuW5TyXpMRnI5p92rwUdI,sublocality_level_1,sublocality,political
+176,176,176,177,177,177,177,177,Jardim Guanabara IV,278.38,131.42,146.95,-16.6084858,-49.2068821,ChIJY3fnyJ7yXpMRocrSZ5Mx1Sc,sublocality_level_1,sublocality,political
+177,177,177,178,178,178,178,178,Jardim Imperial,277.7,140.01,137.69,-16.6847041,-49.3697572,ChIJ76E6gF5fXpMR7FmC-_1qWrE,sublocality_level_1,sublocality,political
+178,178,178,179,179,179,179,179,Jardim Ipanema,560.6,284.52,276.09,-16.790024600000002,-49.24486629999999,ChIJlYKyWqr7XpMRO3mPleDIP6E,sublocality_level_1,sublocality,political
+179,179,179,180,180,180,180,180,Jardim Ipê,405.34,195.15,210.19,-16.624188099999998,-49.274648600000006,ChIJV55VO2bzXpMRqRa34lsBdOI,sublocality_level_1,sublocality,political
+180,180,180,181,181,181,181,181,Jardim Itaipu,4815.01,2342.0,2472.98,-16.781931699999998,-49.3632554,ChIJ_Tp2Iwf4XpMRcgd-DDAAeqA,sublocality_level_1,sublocality,political
+181,181,181,182,182,182,182,182,Jardim Lageado,643.47,325.23,318.24,-16.645808499999998,-49.1890987,ChIJAxHr3e7tXpMRrRA6qdBvvuU,sublocality_level_1,sublocality,political
+182,182,182,183,183,183,183,183,Jardim Lago Azul,182.62,92.16,90.46,-16.6322209,-49.33087889999999,ChIJ8ahjRyL1XpMRsS6QZHU1ns4,route,,
+183,183,183,184,184,184,184,184,Jardim Leblon,811.55,385.33,426.22,-16.6743699,-49.32344639999999,ChIJaf60tTT0XpMRjmmtd2iWfx0,sublocality_level_1,sublocality,political
+184,184,184,185,185,185,185,185,Jardim Leblon II,189.77,94.74,95.02,-16.676370000000002,-49.32415579999999,ChIJwevnTzP0XpMR3YS0RrpOdbU,sublocality_level_1,sublocality,political
+185,185,185,186,186,186,186,186,Jardim Liberdade,3248.0,1583.0,1664.99,-16.615003599999998,-49.34628000000001,ChIJJYX84bWKXpMR7opyRAtEh5A,sublocality_level_1,sublocality,political
+186,186,186,187,187,187,187,187,Jardim Madri,1571.3,770.3,801.07,-16.74879899999999,-49.3439554,ChIJVVVVVcb3XpMRqU-JN-bNntU,point_of_interest,establishment,
+187,187,187,188,188,188,188,188,Jardim Madri Complemento,163.88,80.55,83.33,-16.74879899999999,-49.3439554,ChIJVVVVVcb3XpMRqU-JN-bNntU,point_of_interest,establishment,
+188,188,188,189,189,189,189,189,Jardim Maria Helena,1087.23,529.52,557.71,-16.6577576,-49.1841066,ChIJ-5onlgruXpMRnwDL_1qyvGc,park,point_of_interest,establishment
+189,189,189,190,190,190,190,190,Jardim Mariliza,5494.1,2751.21,2742.97,-16.7351242,-49.2005539,ChIJYUNLNP7vXpMR313wU7lJWYM,sublocality_level_1,sublocality,political
+190,190,190,191,191,191,191,191,Jardim Marques de Abreu,858.98,428.03,431.02,-16.714403400000002,-49.368488,ChIJMcWoK6dYXpMRoYCR9lhBs0Y,sublocality_level_1,sublocality,political
+191,191,191,192,192,192,192,192,Jardim Mirabel,1411.2,680.58,730.62,-16.686961,-49.3361306,ChIJ6SFPENr1XpMRrcJEcLQNjJE,sublocality_level_1,sublocality,political
+192,192,192,193,193,193,193,193,Jardim Nova Esperança,15479.74,7556.71,7923.05,-16.645291399999998,-49.32725139999999,ChIJ_fGm3Bz1XpMRvcqqd2cOleM,sublocality_level_1,sublocality,political
+193,193,193,194,194,194,194,194,Jardim Novo Mundo,34020.52,16299.93,17720.49,-16.6794382,-49.2182748,ChIJ-zvrMu7xXpMRu0ZMHB1eysA,sublocality_level_1,sublocality,political
+194,194,194,195,195,195,195,195,Jardim Novo Mundo - Extensão,364.16,181.7,182.45,-16.69274,-49.1892568,ChIJx-luxjPuXpMRFTtTNIkYhrc,route,,
+195,195,195,196,196,196,196,196,Jardim Novo Mundo II,943.14,477.5,465.64,-16.6766089,-49.2191808,ChIJzW3vxe3xXpMR8n1pEqougos,school,point_of_interest,establishment
+196,196,196,197,197,197,197,197,Jardim Novo Petrópolis,400.09,189.74,210.34,-16.6549676,-49.34550919999999,ChIJ53FoT3X1XpMRhnK5Mfqop9M,sublocality_level_1,sublocality,political
+197,197,197,198,198,198,198,198,Jardim Pampulha,137.17,68.8,68.34,-16.674881900000006,-49.3355474,ChIJQcm7wsf1XpMRltoh53mY_ow,sublocality_level_1,sublocality,political
+198,198,198,199,199,199,199,199,Jardim Paris,696.61,362.72,333.92,-16.7285331,-49.2066103,ChIJsbaClRzwXpMRdMHkhfMzLOU,point_of_interest,establishment,
+199,199,199,200,200,200,200,200,Jardim Petrópolis,4585.96,2263.06,2322.96,-16.6623757,-49.3335936,ChIJ3bp6nLv1XpMR_vEimZJMwZY,sublocality_level_1,sublocality,political
+200,200,200,201,201,201,201,201,Jardim Planalto,4882.64,2287.42,2595.24,-16.7157402,-49.30569319999999,ChIJg0z_wuf2XpMRKTn9k1lkitE,sublocality_level_1,sublocality,political
+201,201,201,202,202,202,202,202,Jardim Presidente,5431.43,2708.71,2722.78,-16.7355288,-49.3378807,ChIJ1atH06_3XpMRD7ohUJLP4Vs,sublocality_level_1,sublocality,political
+202,202,202,203,203,203,203,203,Jardim Presidente - Extensão,146.6,72.3,74.3,-16.6486358,-49.1885389,ChIJK7Ft9-XtXpMRSdCTskvzyG8,route,,
+203,203,203,204,204,204,204,204,Jardim Presidente - Extensão I,57.79,28.5,29.29,-16.6486358,-49.1885389,ChIJK7Ft9-XtXpMRSdCTskvzyG8,route,,
+204,204,204,205,205,205,205,205,Jardim Presidente - Extensão II,17.22,8.49,8.73,-16.7416625,-49.33425769999999,ChIJaSTDN6X3XpMR3zwVpzP3ewg,route,,
+205,205,205,206,206,206,206,206,Jardim Presidente - Extensão III,59.18,29.19,29.99,-16.743014000000002,-49.3421382,ChIJrdYIzrn3XpMRAb8-ds6wQt4,route,,
+206,206,206,207,207,207,207,207,Jardim Real,918.01,459.99,457.99,-16.6526654,-49.37789129999999,ChIJNRMkdJBfXpMRwkSqPIbxlCI,sublocality_level_1,sublocality,political
+207,207,207,208,208,208,208,208,Jardim Real Extensão,708.8,364.87,343.9,,,,,,
+208,208,208,209,209,209,209,209,Jardim Santa Cecília,78.52,38.36,40.19,-16.773025699999998,-49.25455529999999,ChIJ4QH7OEP6XpMRLBk8--d7Ebw,sublocality_level_1,sublocality,political
+209,209,209,210,210,210,210,210,Jardim Santo Antônio,2558.85,1246.74,1312.15,-16.7291957,-49.2562665,ChIJq-tUCe7wXpMRwzTbSCnNvOE,sublocality_level_1,sublocality,political
+210,210,210,211,211,211,211,211,Jardim São José,1317.55,641.9,675.65,-16.7022382,-49.41610499999999,ChIJG_dwlilfXpMRiHwPX0OYqLU,sublocality_level_1,sublocality,political
+211,211,211,212,212,212,212,212,Jardim Sônia Maria,256.93,127.6,129.33,-16.7299915,-49.3312956,ChIJNyz4MlP2XpMRlhJd3b0tZ_w,sublocality_level_1,sublocality,political
+212,212,212,213,213,213,213,213,Jardim Tancredo Neves,986.97,479.95,507.02,-16.685972800000002,-49.34423579999999,ChIJFWyu8uX1XpMRcaNlDTjmFNc,school,point_of_interest,establishment
+213,213,213,214,214,214,214,214,Jardim Valência,0.0,0.0,0.0,-16.7253508,-49.20635850000001,ChIJ8WZtGhzwXpMRZ-vQ__JN9RM,point_of_interest,establishment,
+214,214,214,215,215,215,215,215,Jardim Verona,0.0,0.0,0.0,-16.724657399999998,-49.213068,ChIJn70o3xnwXpMRnI6ybuNQfvk,sublocality_level_1,sublocality,political
+215,215,215,216,216,216,216,216,Jardim Vila Boa,6568.97,3079.95,3489.05,-16.730872400000006,-49.316962,ChIJP-CrdwP3XpMR0lhZXadE_6I,sublocality_level_1,sublocality,political
+216,216,216,217,217,217,217,217,Jardim Vista Bela,605.15,301.05,304.09,-16.6305051,-49.33923370000001,ChIJ69VB7zv1XpMRCr1Ur_6y2NY,sublocality_level_1,sublocality,political
+217,217,217,218,218,218,218,218,Jardim Xavier,793.28,380.1,413.16,-16.6686606,-49.2123791,ChIJGUMQPvrxXpMRtiS_Bf4h9Wc,place_of_worship,point_of_interest,establishment
+218,218,218,219,219,219,219,219,Loteamento Alphaville Flamboyant,1622.96,797.0,825.97,-16.713635,-49.201082,ChIJbWrE0tjvXpMRY6k4V5I1XDc,real_estate_agency,point_of_interest,establishment
+219,219,219,220,220,220,220,220,Loteamento Alphaville Flamboyant/Res. Araguaia,361.02,178.97,182.01,-16.709162300000003,-49.19874799999999,ChIJndtB7tnvXpMRAcUbUXI4tL4,point_of_interest,establishment,
+220,220,220,221,221,221,221,221,Loteamento Alphaville Residencial,2985.29,1472.15,1513.14,-16.7490657,-49.39070439999999,ChIJUy6TtkNYXpMR0wl990hWFyY,sublocality_level_1,sublocality,political
+221,221,221,222,222,222,222,222,Loteamento Araguaia Park,547.1,267.57,279.56,-16.6961434,-49.3549341,ChIJC3hryuL1XpMRJOxbxcyPUCA,store,point_of_interest,establishment
+222,222,222,223,223,223,223,223,Loteamento Areião I,553.4,264.1,289.28,-16.7008709,-49.247284500000006,ChIJTxgrKwbxXpMR2jSz4jiyOmc,sublocality_level_1,sublocality,political
+223,223,223,224,224,224,224,224,Loteamento Aruanã Park,480.37,222.14,258.21,-16.6938353,-49.19975710000001,ChIJc3JgZCnuXpMRGpBaharGedI,sublocality_level_1,sublocality,political
+224,224,224,225,225,225,225,225,Loteamento Capuava Residencial Privê,29.74,14.36,15.39,-16.6806296,-49.39832120000001,ChIJo3yq4hpfXpMRyJzSxbTzkkM,point_of_interest,establishment,
+225,225,225,226,226,226,226,226,Loteamento Carolina Parque,1485.96,728.09,757.86,-16.695848,-49.367068,ChIJq6qqolZfXpMRxbQJUPd52JU,school,point_of_interest,establishment
+226,226,226,227,227,227,227,227,Loteamento Carolina Parque Extensão,1095.03,525.01,570.0,,,,,,
+227,227,227,228,228,228,228,228,Loteamento Celina Park,2266.9,1101.87,1165.0,-16.705799,-49.323206,ChIJq6qqwmH2XpMR6MhMIj5n5WI,school,point_of_interest,establishment
+228,228,228,229,229,229,229,229,Loteamento Estâncias Vista Alegre,295.85,172.58,123.27,-16.6624908,-49.2914271,ChIJw8HXJXP0XpMRcx8AXemBu0Q,point_of_interest,establishment,
+229,229,229,230,230,230,230,230,Loteamento Faiçalville,8630.8,4195.64,4435.17,-16.746017900000002,-49.31256370000001,ChIJ0cbjIm33XpMRnAnynv390b4,point_of_interest,establishment,
+230,230,230,231,231,231,231,231,Loteamento Goiânia 2,5899.83,2905.38,2994.43,-16.60155,-49.209368,ChIJg8G67KPyXpMRWIVXox24YMc,point_of_interest,establishment,
+231,231,231,232,232,232,232,232,Loteamento Grande Retiro,3245.21,1596.64,1648.53,-16.6651924,-49.1809407,ChIJf4cxCW3uXpMRFyS2ymPKT3g,sublocality_level_1,sublocality,political
+232,232,232,233,233,233,233,233,Loteamento Jardim Helou,179.82,91.35,88.45,,,,,,
+233,233,233,234,234,234,234,234,Loteamento Lorena Parque,1692.72,828.24,864.48,-16.694677900000002,-49.3587375,ChIJeWxzavz1XpMR6z8fF4LIvlc,dentist,health,point_of_interest
+234,234,234,235,235,235,235,235,Loteamento Manso Pereira,402.33,188.21,214.12,-16.6815362,-49.2518338,ChIJox9EnAb0XpMR6oSQVONe7lM,lawyer,point_of_interest,establishment
+235,235,235,236,236,236,236,236,Loteamento Mansões Goianas,533.12,268.73,264.4,-16.625236800000003,-49.27780629999999,ChIJN05ps2bzXpMRqSjFWjMYeC8,sublocality_level_1,sublocality,political
+236,236,236,237,237,237,237,237,Loteamento Moinho dos Ventos,1604.01,777.66,826.38,-16.72660089999999,-49.35110019999999,ChIJefn2vzD2XpMRAdjHcluhyxA,store,point_of_interest,establishment
+237,237,237,238,238,238,238,238,Loteamento Morada dos Sonhos,644.66,299.91,344.78,-16.5967613,-49.25343530000001,ChIJZbSoVC3zXpMRIVqRCZYVL30,sublocality_level_1,sublocality,political
+238,238,238,239,239,239,239,239,Loteamento Nova Vila,1746.93,810.24,936.69,-16.6945281,-49.346906,ChIJmdHfOeD1XpMRDmCtJa2KxE0,hospital,point_of_interest,establishment
+239,239,239,240,240,240,240,240,Loteamento Panorama Parque,4382.97,2004.08,2378.88,-16.8426439,-49.2222373,ChIJNTmq7cH8XpMRKRD_XETM8Qo,point_of_interest,establishment,
+240,240,240,241,241,241,241,241,Loteamento Park Lozandes,282.67,144.08,138.57,,,,,,
+241,241,241,242,242,242,242,242,Loteamento Portal do Sol I,1394.03,677.03,716.97,-16.7174975,-49.1862218,ChIJudmgs-vvXpMRxzVH8W-t2Pg,sublocality_level_1,sublocality,political
+242,242,242,243,243,243,243,243,Loteamento Portal do Sol II,1585.03,758.02,827.0,-16.722118,-49.1853107,ChIJA1SRAO3vXpMRsXdJ8PA1Oew,sublocality_level_1,sublocality,political
+243,243,243,244,244,244,244,244,Loteamento Recanto Barravento,183.0,89.7,93.3,-16.738360800000002,-49.3678661,ChIJ5xqJh4BYXpMRYWEG14-JtFQ,point_of_interest,establishment,
+244,244,244,245,245,245,245,245,Loteamento Solange Parque - Extensão,29.17,15.19,13.99,,,,,,
+245,245,245,246,246,246,246,246,Loteamento Solange Parque Complemento,50.83,26.46,24.37,,,,,,
+246,246,246,247,247,247,247,247,Loteamento Solange Parque I,2523.34,1243.09,1280.22,-16.703899300000003,-49.354114700000004,ChIJIRLFbA_2XpMR-bfrIbocKOI,school,point_of_interest,establishment
+247,247,247,248,248,248,248,248,Loteamento Solange Parque II,964.02,472.83,491.23,-16.703899300000003,-49.354114700000004,ChIJIRLFbA_2XpMR-bfrIbocKOI,school,point_of_interest,establishment
+248,248,248,249,249,249,249,249,Loteamento Solange Parque III,414.87,209.92,204.97,-16.703899300000003,-49.354114700000004,ChIJIRLFbA_2XpMR-bfrIbocKOI,school,point_of_interest,establishment
+249,249,249,250,250,250,250,250,Loteamento Tropical Verde,837.99,426.0,412.01,-16.6863603,-49.3437425,ChIJWfBXbd31XpMR15qRFrprujg,sublocality_level_1,sublocality,political
+250,250,250,251,251,251,251,251,Loteamento Tropical Ville,715.01,367.01,347.99,-16.6526018,-49.37983329999999,ChIJUU0LJpFfXpMRvdxui3-at0I,sublocality_level_1,sublocality,political
+251,251,251,252,252,252,252,252,Loteamento Tupynambá dos Reis,836.94,403.4,433.58,-16.6312261,-49.2828756,ChIJq0lFImPzXpMR1BbiDa7_YqA,sublocality_level_1,sublocality,political
+252,252,252,253,253,253,253,253,Loteamento Vila Pedroso Extensão,403.46,193.82,209.65,-16.6518717,-49.1739239,ChIJDx0cytntXpMRq_h3hNiATIw,point_of_interest,establishment,
+253,253,253,254,254,254,254,254,Parque Acalanto,1080.01,467.98,612.0,-16.739968400000002,-49.2188283,ChIJDX-4LwrwXpMRFW5-RP8TFpc,sublocality_level_1,sublocality,political
+254,254,254,255,255,255,255,255,Parque Aeronáutico Antônio Sebba Filho,589.7,301.18,288.48,-16.6825509,-49.312839000000004,ChIJ-XYj5yX0XpMRxk34-pVfL60,store,point_of_interest,establishment
+255,255,255,256,256,256,256,256,Parque Amazônia,20907.19,10005.26,10901.98,-16.7256195,-49.28160820000001,ChIJtfMMO8zwXpMRTawWuIIEiBI,sublocality_level_1,sublocality,political
+256,256,256,257,257,257,257,257,Parque Anhanguera,2729.49,1290.59,1438.93,-16.7252175,-49.2951537,ChIJz1OLPSb3XpMR-JAMEhf3kOE,sublocality_level_1,sublocality,political
+257,257,257,258,258,258,258,258,Parque Anhanguera II,4695.85,2251.87,2444.0,-16.7259356,-49.308229,ChIJsUxzph_3XpMRdxIIl6YWfJY,sublocality_level_1,sublocality,political
+258,258,258,259,259,259,259,259,Parque Atheneu,14068.17,6718.84,7349.33,-16.7450027,-49.19675729999999,ChIJ6TjaI1DlXpMR4c29ogcIU3o,sublocality_level_1,sublocality,political
+259,259,259,260,260,260,260,260,Parque Balneário,294.59,145.62,148.96,-16.6161308,-49.28410600000001,ChIJLbjagVjzXpMRMRnuy4yegSw,sublocality_level_1,sublocality,political
+260,260,260,261,261,261,261,261,Parque Bom Jesus,615.86,306.31,309.57,-16.697492699999998,-49.40820460000001,ChIJVRLomNheXpMRLZYdhXT11Wg,sublocality_level_1,sublocality,political
+261,261,261,262,262,262,262,262,Parque Buriti,1198.33,568.33,630.0,-16.6488525,-49.3830864,ChIJW8CaQMBfXpMRn7PDtBWradA,sublocality_level_1,sublocality,political
+262,262,262,263,263,263,263,263,Parque das Amendoeiras,2926.91,1448.62,1478.35,-16.6557723,-49.1942263,ChIJkx_OefztXpMRXOdX-lzHwDM,sublocality_level_1,sublocality,political
+263,263,263,264,264,264,264,264,Parque das Amendoeiras I,203.78,100.54,103.24,-16.6557723,-49.1942263,ChIJkx_OefztXpMRXOdX-lzHwDM,sublocality_level_1,sublocality,political
+264,264,264,265,265,265,265,265,Parque das Flores,2770.44,1354.26,1416.14,-16.6221376,-49.2934815,ChIJ74C0O6P0XpMRLq-TcNfvaek,sublocality_level_1,sublocality,political
+265,265,265,266,266,266,266,266,Parque das Flores Complemento,17.32,8.76,8.56,,,,,,
+266,266,266,267,267,267,267,267,Parque das Laranjeiras,3597.46,1724.48,1873.02,-16.726409099999998,-49.22547160000001,ChIJZaNy_GrwXpMRA7CEF1vvAjQ,sublocality_level_1,sublocality,political
+267,267,267,268,268,268,268,268,Parque das Laranjeiras Acréscimo,201.28,98.43,102.85,,,,,,
+268,268,268,269,269,269,269,269,Parque das Nações,234.83,109.81,125.03,-16.6208916,-49.2822419,ChIJf-F6HF_zXpMRnTAcxRcGZoE,sublocality_level_1,sublocality,political
+269,269,269,270,270,270,270,270,Parque das Paineiras I,45.61,21.62,23.97,-16.7450879,-49.3419797,ChIJQfnLBbn3XpMRXXFB82y_DgQ,sublocality_level_1,sublocality,political
+270,270,270,271,271,271,271,271,Parque das Paineiras II Etapa,49.45,23.46,26.01,-16.7450879,-49.3419797,ChIJQfnLBbn3XpMRXXFB82y_DgQ,sublocality_level_1,sublocality,political
+271,271,271,272,272,272,272,272,Parque das Paineiras III Etapa,56.33,26.72,29.62,-16.7450879,-49.3419797,ChIJQfnLBbn3XpMRXXFB82y_DgQ,sublocality_level_1,sublocality,political
+272,272,272,273,273,273,273,273,Parque das Paineiras IV Etapa,51.14,24.25,26.9,-16.7450879,-49.3419797,ChIJQfnLBbn3XpMRXXFB82y_DgQ,sublocality_level_1,sublocality,political
+273,273,273,274,274,274,274,274,Parque dos Cisnes,281.99,145.02,137.0,-16.5770473,-49.24106680000001,ChIJ3fZxmCGNXpMR8rkMIep_frk,sublocality_level_1,sublocality,political
+274,274,274,275,275,275,275,275,Parque Eldorado Oeste,3880.59,1873.39,2007.2,-16.688203400000006,-49.4104407,ChIJ6YJuMOFeXpMRg-gWuX0OoT4,sublocality_level_1,sublocality,political
+275,275,275,276,276,276,276,276,Parque Eldorado Oeste Extensão,254.4,122.6,131.8,-16.68847079999999,-49.406918,ChIJmRyROeBeXpMRtCyMCftgm9g,hospital,health,point_of_interest
+276,276,276,277,277,277,277,277,Parque Industrial de Goiânia,2366.39,1147.96,1218.45,-16.65758439999999,-49.2322022,ChIJR-flyzryXpMRp1CEyNK3cLY,sublocality_level_1,sublocality,political
+277,277,277,278,278,278,278,278,Parque Industrial João Braz,8939.89,4345.64,4594.22,-16.684731699999997,-49.35451090000001,ChIJgZwDMO71XpMRGpjx5qZhQmg,sublocality_level_1,sublocality,political
+278,278,278,279,279,279,279,279,Parque Industrial João Braz 2,34.44,18.21,16.23,-16.685164800000006,-49.3549056,ChIJY4W4Le71XpMRcPmqfWCO4CM,point_of_interest,establishment,
+279,279,279,280,280,280,280,280,Parque Industrial Paulista,778.82,387.59,391.24,-16.65577919999999,-49.336130600000004,ChIJjYaCmKf1XpMRKiWE4q4lXC0,sublocality_level_1,sublocality,political
+280,280,280,281,281,281,281,281,Parque Maracanã,208.46008999999998,111.54252,96.91757,-16.5729601,-49.38185039999999,ChIJ67HicCxgXpMRIc2XsDPu3U0,sublocality_level_1,sublocality,political
+281,281,281,282,282,282,282,282,Parque Oeste Industrial,6045.75,2970.0,3075.75,-16.6944576,-49.3323251,ChIJo1GLJnn2XpMR-qFwTkYrzyY,sublocality_level_1,sublocality,political
+282,282,282,283,283,283,283,283,Parque Oeste Industrial Extensão,60.19,29.02,31.17,-16.6953773,-49.3259663,ChIJJ5cG4H32XpMRLhMz2lde2sg,store,point_of_interest,establishment
+283,283,283,284,284,284,284,284,Parque Paraíso,579.49,287.23,292.25,-16.70296009999999,-49.3559779,ChIJSb81Bgf2XpMRxFmoG1a1qJk,sublocality_level_1,sublocality,political
+284,284,284,285,285,285,285,285,Parque Res Fortaleza,741.01,361.0,379.99,-16.763846599999994,-49.34731159999999,ChIJuSzSCiL7XpMRLfvYkKRrN1E,shoe_store,clothing_store,store
+285,285,285,286,286,286,286,286,Parque Santa Cruz,3628.52,1712.88,1915.57,-16.7324782,-49.2225386,ChIJ814euxLwXpMRMA-wLW9Vbrk,sublocality_level_1,sublocality,political
+286,286,286,287,287,287,287,287,Parque Santa Rita,4498.06,2153.71,2344.36,-16.7256537,-49.3627765,ChIJHa5miSb2XpMRSpJZdxxKYj8,sublocality_level_1,sublocality,political
+287,287,287,288,288,288,288,288,Residencial 14 Bis,306.52,158.89,147.62,-16.653005800000006,-49.3513988,ChIJX0M9NnH1XpMRfAR1A4tIleA,sublocality_level_1,sublocality,political
+288,288,288,289,289,289,289,289,Residencial 14 Bis - Extensão,58.77,30.46,28.3,-16.6557703,-49.35242729999999,ChIJ_9OP_nb1XpMR2FDJX12KSBk,store,point_of_interest,establishment
+289,289,289,290,290,290,290,290,Residencial Aldeia do Vale,1614.51,798.96,815.64,-16.6129745,-49.1904301,ChIJGzuBmnHtXpMRqQdfB76obJ8,sublocality_level_1,sublocality,political
+290,290,290,291,291,291,291,291,Residencial Alice Barbosa,993.99,494.03,500.0,-16.5946921,-49.2702031,ChIJnfIoX7GMXpMRMOX-IdJBAW4,sublocality_level_1,sublocality,political
+291,291,291,292,292,292,292,292,Residencial Ana Clara,523.25,265.49,257.79,-16.78004809999999,-49.3644229,ChIJoQ2wxwD4XpMRS31TKRmgMRo,sublocality_level_1,sublocality,political
+292,292,292,293,293,293,293,293,Residencial Ana Moraes,517.25,255.57,261.68,-16.6776805,-49.26461159999999,ChIJy9-1J2HxXpMRnyYF-6Kv4rs,premise,point_of_interest,establishment
+293,293,293,294,294,294,294,294,Residencial Anglo,89.31,45.37,43.93,-16.624049300000006,-49.2119453,ChIJEX6TAYnyXpMRDDLhAkWOJoE,sublocality_level_1,sublocality,political
+294,294,294,295,295,295,295,295,Residencial Anicuns,242.71,123.36,119.34,-16.664619199999994,-49.3125392,ChIJS3l7XUb0XpMRn4tdLYuJYbY,point_of_interest,establishment,
+295,295,295,296,296,296,296,296,Residencial Antônio Barbosa,119.08,59.53,59.53,-16.585508400000002,-49.26871269999999,ChIJmSEeqb6MXpMRgo_7dFisIFw,sublocality_level_1,sublocality,political
+296,296,296,297,297,297,297,297,Residencial Antonio Carlos Pires,25.2,13.63,11.6,-16.5443928,-49.2702031,ChIJndj_kWyMXpMRO4iLdDOEXyA,sublocality_level_1,sublocality,political
+297,297,297,298,298,298,298,298,Residencial Aquários,100.45,50.59,49.88,-16.7264056,-49.329550399999995,ChIJ_SlAdFT2XpMRoCu9eswCVWQ,sublocality_level_1,sublocality,political
+298,298,298,299,299,299,299,299,Residencial Aquários II,119.06,59.96,59.1,-16.7264056,-49.329550399999995,ChIJ_SlAdFT2XpMRoCu9eswCVWQ,sublocality_level_1,sublocality,political
+299,299,299,300,300,300,300,300,Residencial Arco Verde,446.44,217.02,229.41,-16.7458196,-49.189873299999995,ChIJVVVVpVzlXpMR90tF4U0kyK0,car_repair,point_of_interest,establishment
+300,300,300,301,301,301,301,301,Residencial Aruanã,10.41,5.71,4.7,-16.6971146,-49.1967782,ChIJieP7vyzuXpMRCA4SxOilXXw,sublocality_level_1,sublocality,political
+301,301,301,302,302,302,302,302,Residencial Aruanã - Complemento,2.67,1.46,1.21,,,,,,
+302,302,302,303,303,303,303,303,Residencial Atalaia,276.4,127.66,148.75,-16.58489429999999,-49.25784999999999,ChIJVVVVOcSMXpMRqWd8ARnrwYA,park,point_of_interest,establishment
+303,303,303,304,304,304,304,304,Residencial Balneário,644.3,318.56,325.72,-16.6117532,-49.2866779,ChIJt-xUmKj0XpMRHHJ3VZN3qk8,sublocality_level_1,sublocality,political
+304,304,304,305,305,305,305,305,Residencial Barcelona,303.1,148.23,154.87,-16.744825199999998,-49.34131619999999,ChIJl1FuC7n3XpMReG-ZDL05cho,sublocality_level_1,sublocality,political
+305,305,305,306,306,306,306,306,Residencial Barravento,1323.98,659.31,664.72,-16.626741199999998,-49.1980228,ChIJKSLVf5HtXpMRFE0XaA7tVUM,sublocality_level_1,sublocality,political
+306,306,306,307,307,307,307,307,Residencial Beatriz Nascimento,314.88,158.59,156.31,-16.6973135,-49.378316299999994,ChIJZcD0h05fXpMRAB6nqdU0mNM,sublocality_level_1,sublocality,political
+307,307,307,308,308,308,308,308,Residencial Belo Horizonte,477.8,248.48,229.33,-16.6405433,-49.185060799999995,ChIJb4fXVertXpMRxbqZTmYKQ6w,sublocality_level_1,sublocality,political
+308,308,308,309,309,309,309,309,Residencial Belo Horizonte Complemento,79.21,41.19,38.01,-16.6395963,-49.1845643,ChIJHQrq7urtXpMRqdzzKXc27fg,route,,
+309,309,309,310,310,310,310,310,Residencial Bethel,14.639610000000001,7.3586,7.28101,-16.674619699999994,-49.24716129999999,ChIJh7P0837xXpMRVB4gBjZVsPk,point_of_interest,establishment,
+310,310,310,311,311,311,311,311,Residencial Brisas da Mata,3947.21,2016.93,1930.27,-16.5996522,-49.3123223,ChIJvXl89DqLXpMRgL4kI_BURhM,sublocality_level_1,sublocality,political
+311,311,311,312,312,312,312,312,Residencial Brisas do Cerrado,346.23,166.77,179.45,-16.757858900000002,-49.1937447,ChIJCyXicDflXpMRLfUeWpb-lo8,sublocality_level_1,sublocality,political
+312,312,312,313,313,313,313,313,Residencial Buena Vista I,513.89,255.94,257.87,-16.7206294,-49.397901,ChIJ4xqJ1CFZXpMRRIvt0cMi9hg,sublocality_level_1,sublocality,political
+313,313,313,314,314,314,314,314,Residencial Buena Vista II,8.57,3.89,4.68,-16.7206122,-49.39514370000001,ChIJtWqeusRYXpMRKRih0fr8tGc,point_of_interest,establishment,
+314,314,314,315,315,315,315,315,Residencial Buena Vista III,773.11,384.55,388.57,-16.7206122,-49.39514370000001,ChIJtWqeusRYXpMRKRih0fr8tGc,point_of_interest,establishment,
+315,315,315,316,316,316,316,316,Residencial Buena Vista IV,966.44,477.58,488.87,-16.719085699999994,-49.3965196,ChIJeaYxwdpYXpMR9CxUAmjltqE,school,point_of_interest,establishment
+316,316,316,317,317,317,317,317,Residencial Campos Dourados,1725.99,811.98,914.0,-16.8003325,-49.365127799999996,ChIJQYNyWd9XXpMRMohCu9YduPM,sublocality_level_1,sublocality,political
+317,317,317,318,318,318,318,318,Residencial Canadá,1702.61,847.85,854.77,-16.721532800000002,-49.318321600000004,ChIJWy5ff_v2XpMRlL6Geas8VnA,sublocality_level_1,sublocality,political
+318,318,318,319,319,319,319,319,Residencial Carla Cristina,462.14,235.98,226.16,-16.629097,-49.35402699999999,ChIJ1Yx760_1XpMRHbFAVyG9Qc8,car_wash,point_of_interest,establishment
+319,319,319,320,320,320,320,320,Residencial Centerville,2354.34,1161.09,1193.29,-16.7531336,-49.34261789999999,ChIJ75gAdZX3XpMRYVlgxY-nOsY,sublocality_level_1,sublocality,political
+320,320,320,321,321,321,321,321,Residencial Cidade Verde,548.12,273.64,274.49,-16.6739656,-49.331252299999996,ChIJKVj9vsn1XpMRr8EnTP_22ZA,sublocality_level_1,sublocality,political
+321,321,321,322,322,322,322,322,Residencial Clea Borges,259.97,130.34,129.65,-16.6970073,-49.2021451,ChIJfbTVYyruXpMRURFMniug0G8,sublocality_level_1,sublocality,political
+322,322,322,323,323,323,323,323,Residencial Coronel Álvaro Alves Júnior,179.02,94.46,84.57,,,,,,
+323,323,323,324,324,324,324,324,Residencial Costa Paranhos,336.39,170.28,166.11,-16.650218900000002,-49.17386679999999,ChIJOTiUxtbtXpMR_mV9JpzI8Is,sublocality_level_1,sublocality,political
+324,324,324,325,325,325,325,325,Residencial das Acácias,643.16,302.96,340.17,-16.6211658,-49.298133899999996,ChIJU_ja8rv0XpMRsAxVNcQywPk,sublocality_level_1,sublocality,political
+325,325,325,326,326,326,326,326,Residencial Della Pena,551.25,280.31,270.92,-16.7221562,-49.4007507,ChIJ5TMP_dtYXpMRoJsedIMOVQw,sublocality_level_1,sublocality,political
+326,326,326,327,327,327,327,327,Residencial Dezopi,94.22,45.69,48.55,-16.65813,-49.368616,ChIJPfT_9IZfXpMRoq8YjQOZxmA,store,point_of_interest,establishment
+327,327,327,328,328,328,328,328,Residencial Dom Rafael,443.1,224.41,218.7,-16.6986269,-49.342439500000005,ChIJkXKuYnT2XpMRd_FMw75B4xE,grocery_or_supermarket,food,store
+328,328,328,329,329,329,329,329,Residencial dos Ipês,609.8,280.31,329.48,-16.5951363,-49.2532946,ChIJuZfIm9KMXpMRxNAT0Wn0NXo,sublocality_level_1,sublocality,political
+329,329,329,330,330,330,330,330,Residencial Eldorado,5095.71,2408.65,2687.05,-16.7091179,-49.32868930000001,ChIJuSiLwGD2XpMRo5DiJZEW9fg,sublocality_level_1,sublocality,political
+330,330,330,331,331,331,331,331,Residencial Eldorado Expansão,651.29,309.35,341.95,-16.7048547,-49.3263902,ChIJIwQNIWL2XpMRvk4Nv81iz9c,point_of_interest,establishment,
+331,331,331,332,332,332,332,332,Residencial Eli Forte,1917.53,901.07,1016.44,-16.732588699999994,-49.35121919999999,ChIJmWhzdTP2XpMRaDiGu2afem0,sublocality_level_1,sublocality,political
+332,332,332,333,333,333,333,333,Residencial Eli Forte - Extensão,511.66,255.15,256.49,-16.7299998,-49.3523059,ChIJe_nfezH2XpMR7HD0s5GrUNw,sublocality_level_1,sublocality,political
+333,333,333,334,334,334,334,334,Residencial Espanha,27.199170000000002,12.8965,14.302660000000001,-16.7852998,-49.3595524,ChIJo4NuWg_4XpMRcSV_Ox-5QyI,premise,point_of_interest,establishment
+334,334,334,335,335,335,335,335,Residencial Estrela D'alva,141.62,75.67,65.96,-16.597975,-49.32505090000001,ChIJDWo-aCXxXpMRQ2BQBTFtMbI,point_of_interest,establishment,
+335,335,335,336,336,336,336,336,Residencial Felicidade,1081.02,557.31,523.69,-16.6078848,-49.224605,ChIJj24nTsDyXpMRmR4ProcjURg,sublocality_level_1,sublocality,political
+336,336,336,337,337,337,337,337,Residencial Fidélis,916.77,453.5,463.28,-16.7437049,-49.3696394,ChIJ01W9sX5YXpMR8F8NmymA0-U,sublocality_level_1,sublocality,political
+337,337,337,338,338,338,338,338,Residencial Flamingo,392.3,193.48,198.83,-16.739842499999998,-49.3307745,ChIJ-Xw7ZK_3XpMRvlKe-8BXBCo,sublocality_level_1,sublocality,political
+338,338,338,339,339,339,339,339,Residencial Florida,102.42,59.32,43.09,-16.7168019,-49.34818320000001,ChIJV4uGlj72XpMRny5F26mAQLw,sublocality_level_1,sublocality,political
+339,339,339,340,340,340,340,340,Residencial Fonte das Aguas,119.46,58.88,60.57,-16.6005797,-49.3767388,ChIJcRLY9jpgXpMRztjcsX-ubDw,sublocality_level_1,sublocality,political
+340,340,340,341,341,341,341,341,Residencial Forte Ville - Extensão,631.58,322.86,308.71,-16.7486043,-49.36986470000001,ChIJuaVl-3lYXpMR5CeJnKlF1t0,sublocality_level_1,sublocality,political
+341,341,341,342,342,342,342,342,Residencial Forteville,1201.44,597.58,603.85,-16.7457906,-49.3724912,ChIJ0UUDmXtYXpMRnzxQOT89J4I,sublocality_level_1,sublocality,political
+342,342,342,343,343,343,343,343,Residencial Goiânia Golfe Clube,274.96,150.01,125.04,-16.7459788,-49.1726641,ChIJh2gxCHLlXpMRj9D5d8b-VUE,shopping_mall,point_of_interest,establishment
+343,343,343,344,344,344,344,344,Residencial Goiânia Viva,7504.18,3635.53,3868.64,-16.7002241,-49.3488591,ChIJ4-S58gv2XpMR_v2GRt8S19M,sublocality_level_1,sublocality,political
+344,344,344,345,345,345,345,345,Residencial Goyaz Park,225.34,113.49,111.86,-16.7079749,-49.37645279999999,ChIJTWQcrrNYXpMRkE9u58vkqKE,sublocality_level_1,sublocality,political
+345,345,345,346,346,346,346,346,Residencial Granville,2263.98,1098.98,1165.02,-16.7163479,-49.32851979999999,ChIJQVkPHFz2XpMR0WUTIp4PlvI,sublocality_level_1,sublocality,political
+346,346,346,347,347,347,347,347,Residencial Green Park,1069.21,543.34,525.87,-16.613858999999998,-49.3544785,ChIJ6YDCz7GKXpMRxfXrNXr8YxU,sublocality_level_1,sublocality,political
+347,347,347,348,348,348,348,348,Residencial Guanabara,879.99,453.68,426.32,-16.610981,-49.2284796,ChIJcZuV9enyXpMRoAXABSy0yLU,sublocality_level_1,sublocality,political
+348,348,348,349,349,349,349,349,Residencial Guarema,269.11,129.68,139.45,-16.6384877,-49.2869409,ChIJy11MeYH0XpMRbtN8NkDR4R4,sublocality_level_1,sublocality,political
+349,349,349,350,350,350,350,350,Residencial Hawaí,515.98,275.1,240.9,-16.6502391,-49.2037179,ChIJYUP4HwjyXpMRDdPllfXsVcU,sublocality_level_1,sublocality,political
+350,350,350,351,351,351,351,351,Residencial Hugo Moraes,996.01,483.46,512.54,-16.6359207,-49.2930938,ChIJRflnQIX0XpMR59gNEVjcxkk,sublocality_level_1,sublocality,political
+351,351,351,352,352,352,352,352,Residencial Humaita,643.74,309.57,334.17,-16.6697828,-49.272702,ChIJrREO3OTzXpMRPKeLvxsz218,point_of_interest,establishment,
+352,352,352,353,353,353,353,353,Residencial Itaipú,8598.82,4348.59,4250.28,-16.7922976,-49.37182840000001,ChIJd3PTI-RXXpMRhSkK282y0Ok,sublocality_level_1,sublocality,political
+353,353,353,354,354,354,354,354,Residencial Itaipú I,363.02,177.72,185.29,-16.7922976,-49.37182840000001,ChIJd3PTI-RXXpMRhSkK282y0Ok,sublocality_level_1,sublocality,political
+354,354,354,355,355,355,355,355,Residencial Itália,270.97,127.64,143.32,-16.618423999999994,-49.2975192,ChIJg20_Rbr0XpMRQHclP9zvh8c,sublocality_level_1,sublocality,political
+355,355,355,356,356,356,356,356,Residencial Itamaraca,1300.53,633.61,666.92,-16.648008400000002,-49.3012632,ChIJYa9_sGH0XpMRdJEy1XpDtv0,sublocality_level_1,sublocality,political
+356,356,356,357,357,357,357,357,Residencial Jardim Belvedere,367.16,181.29,185.87,-16.6348111,-49.308229,ChIJPaq_D-z0XpMRT-7v5D59ztA,sublocality_level_1,sublocality,political
+357,357,357,358,358,358,358,358,Residencial Jardim Belvedere Expansão,151.17,76.91,74.26,,,,,,
+358,358,358,359,359,359,359,359,Residencial Jardim Camargo,118.05,59.96,58.08,-16.612054699999998,-49.3425561,ChIJX5DdncmKXpMRfznBorfVLdo,point_of_interest,establishment,
+359,359,359,360,360,360,360,360,Residencial Jardim Florença,1260.99,595.01,665.98,-16.7286267,-49.31183490000001,ChIJGdd76Bz3XpMRM3s7JSBDuko,point_of_interest,establishment,
+360,360,360,361,361,361,361,361,Residencial Jardim Leblon,883.62,441.12,442.48,-16.6744665,-49.32163679999999,ChIJg4kVZTT0XpMRuFw0J9QbPaQ,sublocality_level_1,sublocality,political
+361,361,361,362,362,362,362,362,Residencial Jardins do Cerrado 1,806.03,368.07,437.88,-16.6647019,-49.4166451,ChIJp-HhpFpeXpMRCmO8UgcjOp0,sublocality_level_1,sublocality,political
+362,362,362,363,363,363,363,363,Residencial Jardins do Cerrado 10,179.68,86.03,93.66,-16.742035,-49.2286557,ChIJmalC1nXwXpMRiMGXOWdnWhk,point_of_interest,establishment,
+363,363,363,364,364,364,364,364,Residencial Jardins do Cerrado 11,74.1,38.45,35.66,-16.742035,-49.2286557,ChIJmalC1nXwXpMRiMGXOWdnWhk,point_of_interest,establishment,
+364,364,364,365,365,365,365,365,Residencial Jardins do Cerrado 2,110.7,53.0,57.71,-16.6714766,-49.41546990000001,ChIJizpU61deXpMRYtxfHnPjCvs,sublocality_level_1,sublocality,political
+365,365,365,366,366,366,366,366,Residencial Jardins do Cerrado 3,1884.02,868.97,1015.04,-16.742035,-49.2286557,ChIJmalC1nXwXpMRiMGXOWdnWhk,point_of_interest,establishment,
+366,366,366,367,367,367,367,367,Residencial Jardins do Cerrado 4,2875.0,1339.0,1536.01,-16.6659117,-49.43008009999999,ChIJm58VlmheXpMR2E0bueqFLcA,sublocality_level_1,sublocality,political
+367,367,367,368,368,368,368,368,Residencial Jardins do Cerrado 5,191.22,91.58,99.67,-16.6734425,-49.4319494,ChIJp6fa52NeXpMReSqeLdbXi5A,point_of_interest,establishment,
+368,368,368,369,369,369,369,369,Residencial Jardins do Cerrado 6,192.4,92.11,100.29,-16.6734425,-49.4319494,ChIJp6fa52NeXpMReSqeLdbXi5A,point_of_interest,establishment,
+369,369,369,370,370,370,370,370,Residencial Jardins do Cerrado 7,374.97,179.5,195.43,-16.6734425,-49.4319494,ChIJp6fa52NeXpMReSqeLdbXi5A,point_of_interest,establishment,
+370,370,370,371,371,371,371,371,Residencial Jardins do Cerrado 8,217.32,104.04,113.24,-16.6734425,-49.4319494,ChIJp6fa52NeXpMReSqeLdbXi5A,point_of_interest,establishment,
+371,371,371,372,372,372,372,372,Residencial Jardins do Cerrado 9,109.34,52.34,56.99,-16.742035,-49.2286557,ChIJmalC1nXwXpMRiMGXOWdnWhk,point_of_interest,establishment,
+372,372,372,373,373,373,373,373,Residencial Jardins Lisboa,52.01,26.0,26.0,-16.7714608,-49.3537711,ChIJIaiTzPv3XpMR2Ovfwekdhs0,point_of_interest,establishment,
+373,373,373,374,374,374,374,374,Residencial Jardins Milão,139.99,67.98,71.99,-16.724895800000002,-49.204824,ChIJAVU2jx3wXpMRi2V3093J9pA,point_of_interest,establishment,
+374,374,374,375,375,375,375,375,Residencial Jardins Munique,113.68,62.32,51.34,-16.7203824,-49.20291950000001,ChIJka3J5B_wXpMRuYwOfBsBBhM,point_of_interest,establishment,
+375,375,375,376,376,376,376,376,Residencial João Paulo II,221.08,111.22,109.85,-16.60155,-49.209368,ChIJg8G67KPyXpMRWIVXox24YMc,point_of_interest,establishment,
+376,376,376,377,377,377,377,377,Residencial José Viandeli,122.58,57.32,65.26,-16.609385500000002,-49.2829781,ChIJ7_GdFFbzXpMRHLX9whJWt9M,point_of_interest,establishment,
+377,377,377,378,378,378,378,378,Residencial Junqueira,756.66,362.03,394.62,-16.6592813,-49.3670796,ChIJ538c94BfXpMRo2eHNyyOAX8,sublocality_level_1,sublocality,political
+378,378,378,379,379,379,379,379,Residencial Kátia,290.92,141.37,149.56,-16.733818499999998,-49.3638786,ChIJo_jiPCr2XpMR17yIVEB3FDc,bakery,food,store
+379,379,379,380,380,380,380,380,Residencial Licardino Ney,485.13,239.81,245.32,-16.616340599999994,-49.2878331,ChIJFacPXab0XpMR8irP3phgzA0,sublocality_level_1,sublocality,political
+380,380,380,381,381,381,381,381,Residencial Linda Vista,398.69,211.72,186.97,-16.6093249,-49.31638099999999,ChIJ2_E4CS2LXpMRCEBpr8jHOZU,route,,
+381,381,381,382,382,382,382,382,Residencial Lírios do Campo,282.22,137.74,144.44,-16.697485500000006,-49.4079474,ChIJiQlc-theXpMRz76oJ4x2ElA,sublocality_level_1,sublocality,political
+382,382,382,383,383,383,383,383,Residencial London Park,592.05,304.79,287.27,-16.6508289,-49.3572667,ChIJB1fczGT1XpMRc3nmojjMTvg,sublocality_level_1,sublocality,political
+383,383,383,384,384,384,384,384,Residencial Luana Park,337.2,163.82,173.39,-16.7004634,-49.36654179999999,ChIJ_U0PtqpYXpMR9QUL0Q4XQDc,sublocality_level_1,sublocality,political
+384,384,384,385,385,385,385,385,Residencial Luana Park - Continuação,343.82,167.03,176.8,-16.762238399999998,-49.329864799999996,ChIJ7fdJdYT3XpMRgL2ah-JOSNs,point_of_interest,establishment,
+385,385,385,386,386,386,386,386,Residencial Manhattan,958.48,438.25,520.23,-16.7046312,-49.2979245,ChIJoa7xFsf2XpMRJuWklN4Q92E,point_of_interest,establishment,
+386,386,386,387,387,387,387,387,Residencial Mansões Paraíso,780.79,398.8,381.95,-16.622275,-49.3435128,ChIJUXrz3DX1XpMRk6Thf9yMvZE,sublocality_level_1,sublocality,political
+387,387,387,388,388,388,388,388,Residencial Mar Del Plata,618.95,306.24,312.71,-16.665188,-49.1781845,ChIJZ_OW-G3uXpMRurmUPRxKBCA,sublocality_level_1,sublocality,political
+388,388,388,389,389,389,389,389,Residencial Maria Lourença,983.43,507.48,475.95,-16.6246299,-49.295550899999995,ChIJ78MNY730XpMRUFJrw_t7q9Y,sublocality_level_1,sublocality,political
+389,389,389,390,390,390,390,390,Residencial Maringá,975.89,508.58,467.31,-16.6291932,-49.3291806,ChIJLfAMUiH1XpMRYiFZNS5k9iY,sublocality_level_1,sublocality,political
+390,390,390,391,391,391,391,391,Residencial Mendanha,242.95,122.48,120.46,-16.6831562,-49.3735091,ChIJCzeJb2dfXpMRiJhDm7-bAy8,grocery_or_supermarket,food,store
+391,391,391,392,392,392,392,392,Residencial Monte Carlo,1256.02,603.94,652.1,-16.7253434,-49.33797670000001,ChIJj4jM8U72XpMRcz5LEXbgkXQ,sublocality_level_1,sublocality,political
+392,392,392,393,393,393,393,393,Residencial Monte Pascoal,1298.39,669.87,628.47,-16.694029,-49.40229209999999,ChIJT9AOOSFfXpMRTwizBPB_N1k,sublocality_level_1,sublocality,political
+393,393,393,394,394,394,394,394,Residencial Monte Pascoal I,466.78,230.04,236.75,-16.694029,-49.40229209999999,ChIJT9AOOSFfXpMRTwizBPB_N1k,sublocality_level_1,sublocality,political
+394,394,394,395,395,395,395,395,Residencial Monte Verde,651.02,309.99,341.0,-16.620083100000002,-49.191140000000004,ChIJPUGJFn_tXpMRkTTHRSHlzc8,point_of_interest,establishment,
+395,395,395,396,396,396,396,396,Residencial Morada da Bosque,595.99,275.26,320.73,-16.5946984,-49.260067,ChIJVx2wxsuMXpMRnbakHTUNOw0,sublocality_level_1,sublocality,political
+396,396,396,397,397,397,397,397,Residencial Morada do Ipê,35.39,17.71,17.71,-16.5899761,-49.2608709,ChIJSfj8jMiMXpMRVjha5AlzjX4,sublocality_level_1,sublocality,political
+397,397,397,398,398,398,398,398,Residencial Morumbi,394.58,198.34,196.25,-16.6463799,-49.28062729999999,ChIJgx5ly4bzXpMR10kmBuOp8mY,sublocality_level_1,sublocality,political
+398,398,398,399,399,399,399,399,Residencial Mundo Novo 1,923.04,411.86,511.1,-16.6585866,-49.4197662,ChIJDzTi6kZeXpMRrbHkvnJkjFE,street_address,,
+399,399,399,400,400,400,400,400,Residencial Mundo Novo 2,496.38,224.51,271.91,-16.6585866,-49.4197662,ChIJDzTi6kZeXpMRrbHkvnJkjFE,street_address,,
+400,400,400,401,401,401,401,401,Residencial Mundo Novo 3,383.59,173.51,210.12,-16.6585866,-49.4197662,ChIJDzTi6kZeXpMRrbHkvnJkjFE,street_address,,
+401,401,401,402,402,402,402,402,Residencial Noroeste,37.91,19.51,18.39,-16.6042423,-49.32903650000001,ChIJL3-58NmKXpMR65OWanlR-Zs,point_of_interest,establishment,
+402,402,402,403,403,403,403,403,Residencial Nossa Morada,593.65,291.63,302.05,-16.58489429999999,-49.25784999999999,ChIJVVVVOcSMXpMRqWd8ARnrwYA,park,point_of_interest,establishment
+403,403,403,404,404,404,404,404,Residencial Nova Aurora,336.78,171.34,165.45,-16.6876687,-49.3712249,ChIJ1Xfo7ltfXpMRqd9XXiBqJ_8,sublocality_level_1,sublocality,political
+404,404,404,405,405,405,405,405,Residencial Nunes de Morais 1ª Etapa,386.91,195.94,190.96,-16.698872899999998,-49.34183400000001,ChIJEb1fd3T2XpMRczsc_S7EoxM,point_of_interest,establishment,
+405,405,405,406,406,406,406,406,Residencial Nunes de Morais 2ª Etapa,125.55,63.59,61.97,-16.6988729,-49.34183400000001,ChIJEb1fd3T2XpMRczsc_S7EoxM,point_of_interest,establishment,
+406,406,406,407,407,407,407,407,Residencial Nunes de Morais 3ª Etapa,135.23,68.49,66.74,-16.6988729,-49.34183400000001,ChIJEb1fd3T2XpMRczsc_S7EoxM,point_of_interest,establishment,
+407,407,407,408,408,408,408,408,Residencial Olinda,1245.82,599.06,646.75,-16.6835124,-49.20034279999999,ChIJDZxuHyHuXpMRDHnd_NRa_90,sublocality_level_1,sublocality,political
+408,408,408,409,409,409,409,409,Residencial Orlando de Morais,31.7,17.15,14.58,-16.5515774,-49.2702031,ChIJ1dMtz2OMXpMR8EzYcp2cvhs,sublocality_level_1,sublocality,political
+409,409,409,410,410,410,410,410,Residencial Park Solar,665.57,335.59,329.95,-16.6240065,-49.3571738,ChIJv0v2UFL1XpMRADqsaQU39yE,sublocality_level_1,sublocality,political
+410,410,410,411,411,411,411,411,Residencial Parque Flamboyant,1463.52,705.08,758.42,-16.7406934,-49.2214398,ChIJcR93inTwXpMR1EmPdDGSCZk,sublocality_level_1,sublocality,political
+411,411,411,412,412,412,412,412,Residencial Parque Mendanha,278.89,135.96,142.95,-16.6831562,-49.3735091,ChIJCzeJb2dfXpMRiJhDm7-bAy8,grocery_or_supermarket,food,store
+412,412,412,413,413,413,413,413,Residencial Parque Oeste,106.79,53.61,53.19,-16.691095100000002,-49.3246705,ChIJwUfvCYD2XpMRF75CULWkRxQ,sublocality_level_1,sublocality,political
+413,413,413,414,414,414,414,414,Residencial Perim,145.77,71.41,74.36,-16.647662099999998,-49.2998295,ChIJhZjPkWH0XpMR_uROLKcM04k,point_of_interest,establishment,
+414,414,414,415,415,415,415,415,Residencial Perim Continuação,136.7,66.97,69.73,-16.6465981,-49.2939708,ChIJES2PFIzzXpMRO04Ri1p9W3E,point_of_interest,establishment,
+415,415,415,416,416,416,416,416,Residencial Petrópolis,373.4,200.09,173.32,-16.6617687,-49.3513554,ChIJqc-tipv1XpMRfIIezd238dQ,sublocality_level_1,sublocality,political
+416,416,416,417,417,417,417,417,Residencial Pilar dos Sonhos,385.45,186.89,198.56,-16.6268052,-49.22245679999999,ChIJ0ftcuYryXpMRuHxVGoSSOxE,store,point_of_interest,establishment
+417,417,417,418,418,418,418,418,Residencial Ponta Negra,90.83,47.29,43.55,-16.7142443,-49.3608092,ChIJb2metx72XpMRqVTcrMTkC1w,sublocality_level_1,sublocality,political
+418,418,418,419,419,419,419,419,Residencial Portal da Mata,208.16,121.42,86.73,,,,,,
+419,419,419,420,420,420,420,420,Residencial Portinari,520.3,262.34,257.99,-16.6819967,-49.3749911,ChIJcyqKS2ZfXpMRg5fMVy66mp8,sublocality_level_1,sublocality,political
+420,420,420,421,421,421,421,421,Residencial Porto Seguro,529.86,260.26,269.59,-16.7125261,-49.33625410000001,ChIJad7amEL2XpMR0EaE7If4KqE,sublocality_level_1,sublocality,political
+421,421,421,422,422,422,422,422,Residencial Português,503.0,276.0,227.01,-16.6872553,-49.2530777,ChIJfbVU-nHxXpMR3JGx1dm4svU,real_estate_agency,point_of_interest,establishment
+422,422,422,423,423,423,423,423,Residencial Primavera,1129.47,558.06,571.42,-16.6813134,-49.39334210000001,ChIJRX_D3xBfXpMRXIJO23L1Zl8,sublocality_level_1,sublocality,political
+423,423,423,424,424,424,424,424,Residencial Prive Atlântico,1278.53,622.28,656.26,-16.7386166,-49.3056773,ChIJsx504BX3XpMRSBUH_uqS5_o,point_of_interest,establishment,
+424,424,424,425,425,425,425,425,Residencial Privê Ilhas do Caribe,409.0,205.99,203.0,-16.7114923,-49.2673215,ChIJRwtbEyHxXpMRJET1csxNOBg,point_of_interest,establishment,
+425,425,425,426,426,426,426,426,Residencial Privê Norte,757.52,382.19,375.35,-16.649802400000002,-49.3097307,ChIJ6yCTy1j0XpMR494Pnh_1rcU,point_of_interest,establishment,
+426,426,426,427,427,427,427,427,Residencial Real,17.73,8.69,9.04,-16.7817773,-49.38434280000001,ChIJI5F9WPVXXpMRT_dFvp4ORBM,sublocality_level_1,sublocality,political
+427,427,427,428,428,428,428,428,Residencial Real Conquista,5216.97,2555.29,2661.69,-16.7817773,-49.38434280000001,ChIJI5F9WPVXXpMRT_dFvp4ORBM,sublocality_level_1,sublocality,political
+428,428,428,429,429,429,429,429,Residencial Recanto das Garças,910.52,457.82,452.71,-16.644665099999994,-49.3858652,ChIJa3O41MFfXpMRd33VF3ulX44,sublocality_level_1,sublocality,political
+429,429,429,430,430,430,430,430,Residencial Recanto do Bosque,9908.19,4856.96,5051.19,-16.6021529,-49.3069611,ChIJD0UaKzeLXpMRpQoljYi5R8A,sublocality_level_1,sublocality,political
+430,430,430,431,431,431,431,431,Residencial Recanto dos Buritis,59.25,32.48,26.76,-16.6923316,-49.235283100000004,ChIJW0KrHQ34XpMRG8Yk9a1vrB0,point_of_interest,establishment,
+431,431,431,432,432,432,432,432,Residencial Recreio Panorama,485.21,241.58,243.63,-16.6287402,-49.3061661,ChIJA-6nm-r0XpMRbCpMqJ3BNtw,sublocality_level_1,sublocality,political
+432,432,432,433,433,433,433,433,Residencial Recreio Panorama extensão,21.38,10.8,10.58,,,,,,
+433,433,433,434,434,434,434,434,Residencial Rio Jordão,565.98,294.32,271.65,-16.642187099999994,-49.18173779999999,ChIJCWJVHsLtXpMR60Xen1n8ki8,sublocality_level_1,sublocality,political
+434,434,434,435,435,435,435,435,Residencial Rio Verde,1087.11,539.14,548.01,-16.7383893,-49.370089,ChIJ28cmtIBYXpMRlGlj9_PvDbM,sublocality_level_1,sublocality,political
+435,435,435,436,436,436,436,436,Residencial Santa Fé,1825.37,926.82,898.51,-16.747487200000002,-49.386142299999996,ChIJP__CRGdYXpMRrf1Po0kkuuA,sublocality_level_1,sublocality,political
+436,436,436,437,437,437,437,437,Residencial Santa Fé I,1618.43,810.45,807.98,-16.747487200000002,-49.386142299999996,ChIJP__CRGdYXpMRrf1Po0kkuuA,sublocality_level_1,sublocality,political
+437,437,437,438,438,438,438,438,Residencial Santa Maria,210.0,90.0,120.0,-16.6522595,-49.2761191,ChIJbTXoA4_zXpMRju6yKUx00q0,premise,point_of_interest,establishment
+438,438,438,439,439,439,439,439,Residencial Santa Rita - 4ª etapa,228.81,112.67,116.16,-16.728538,-49.3401396,ChIJ2RL7Akz2XpMRKyLGhem17MQ,point_of_interest,establishment,
+439,439,439,440,440,440,440,440,Residencial São Bernardo,182.32,88.4,93.91,-16.7121856,-49.26284329999999,ChIJWYlSlx_xXpMR2-EktAd-o_c,premise,point_of_interest,establishment
+440,440,440,441,441,441,441,441,Residencial São Geraldo,248.3,114.68,133.62,-16.6079242,-49.358255,Ej5Fc3RyLiBkZSBTw6NvIEdlcmFsZG8gLSBQYXJxdWUgTWFyYWNhbmEsIEdvacOibmlhIC0gR08sIEJyYXNpbA,route,,
+441,441,441,442,442,442,442,442,Residencial São Leopoldo,399.91,198.83,201.07,-16.6492258,-49.17731679999999,ChIJvxD_jNvtXpMRMYqUH1S7fw4,sublocality_level_1,sublocality,political
+442,442,442,443,443,443,443,443,Residencial São Leopoldo - Complemento,298.52,151.1,147.42,-16.6490054,-49.175296100000004,ChIJpd7aytvtXpMRZsMKIty_Wng,sublocality_level_1,sublocality,political
+443,443,443,444,444,444,444,444,Residencial São Marcos,1522.34,753.36,768.98,-16.7021213,-49.370441299999996,ChIJ6fdioKxYXpMR4SCKM21SG2w,sublocality_level_1,sublocality,political
+444,444,444,445,445,445,445,445,Residencial Senador Albino Boaventura,129.47,66.19,63.28,-16.6364061,-49.3144274,ChIJjRpUYO_0XpMRegB8YHaEqe8,church,place_of_worship,point_of_interest
+445,445,445,446,446,446,446,446,Residencial Senador Paranhos,362.85,176.2,186.66,-16.6586861,-49.1847436,ChIJnzXh8QruXpMR0MOeAEary1k,sublocality_level_1,sublocality,political
+446,446,446,447,447,447,447,447,Residencial Serra Azul I,1297.75,631.65,666.16,-16.681112300000002,-49.3443769,ChIJcREFH8L1XpMR4rU5W13feWY,sublocality_level_1,sublocality,political
+447,447,447,448,448,448,448,448,Residencial Serra Azul II,259.04,127.12,131.91,-16.6836584,-49.3461619,ChIJmfwCN-j1XpMRedIXTS7G_qA,church,place_of_worship,point_of_interest
+448,448,448,449,449,449,449,449,Residencial Sevilha,59.18,28.06,31.12,-16.742644,-49.341999200000004,ChIJM4Eq0bn3XpMRlu9eFbbPElo,sublocality_level_1,sublocality,political
+449,449,449,450,450,450,450,450,Residencial Solar Bougainville,1731.57,856.12,875.46,-16.731453400000003,-49.362207500000004,ChIJKaFBDSn2XpMR5DyX3rzMp68,sublocality_level_1,sublocality,political
+450,450,450,451,451,451,451,451,Residencial Solar Ville,3473.29,1702.43,1770.87,-16.6313918,-49.36322910000001,ChIJY-yxm1f1XpMReCla-jYDers,sublocality_level_1,sublocality,political
+451,451,451,452,452,452,452,452,Residencial Sonho Dourado,740.47,373.85,366.63,-16.65297079999999,-49.19577349999999,ChIJu3TzTfntXpMRWulQghQBOew,sublocality_level_1,sublocality,political
+452,452,452,453,453,453,453,453,Residencial Sonho Verde,951.51,462.19,489.3,-16.6902017,-49.21425999999999,ChIJXwCa3sTxXpMRJoX0i0U_n7k,sublocality_level_1,sublocality,political
+453,453,453,454,454,454,454,454,Residencial Sonho Verde Complemento,534.5,260.8,273.7,,,,,,
+454,454,454,455,455,455,455,455,Residencial Talismã,288.12,143.66,144.47,-16.7407066,-49.35301219999999,ChIJrXhIe873XpMRXr6ugL3-ruo,sublocality_level_1,sublocality,political
+455,455,455,456,456,456,456,456,Residencial Tempo Novo,819.96,412.11,407.84,-16.652627300000002,-49.3824465,ChIJeV0C7pZfXpMR5WxYwQXCU7c,sublocality_level_1,sublocality,political
+456,456,456,457,457,457,457,457,Residencial Triunfo,0.0,0.0,0.0,-16.5768862,-49.3830864,ChIJyVoPycBhXpMRPww3I0VEiIw,sublocality_level_1,sublocality,political
+457,457,457,458,458,458,458,458,Residencial Vale da Serra,17.48,8.66,8.81,-16.6057823,-49.209263,ChIJp_osopjyXpMRPKkx7b1rlK4,grocery_or_supermarket,food,store
+458,458,458,459,459,459,459,459,Residencial Vale das Brisas,11.0,7.0,4.0,-16.73573,-49.17881999999999,ChIJS8a-a2HlXpMRd7QApeBHJnI,park,point_of_interest,establishment
+459,459,459,460,460,460,460,460,Residencial Vale do Araguaia,1345.75,662.04,683.76,-16.681164199999998,-49.203776899999994,ChIJV5GVAODxXpMR5z8biP_-UQM,sublocality_level_1,sublocality,political
+460,460,460,461,461,461,461,461,Residencial Vale dos Sonhos I,6835.35,3398.21,3437.14,-16.600571,-49.202789300000006,ChIJUbYUd6byXpMRWXCFXlcXsdA,sublocality_level_1,sublocality,political
+461,461,461,462,462,462,462,462,Residencial Vale dos Sonhos II,324.0,147.01,176.99,-16.5987311,-49.2086086,ChIJ6f_PV6TyXpMRldCPMpULkTs,grocery_or_supermarket,food,store
+462,462,462,463,463,463,463,463,Residencial Vereda dos Buritis,2125.87,1055.85,1070.03,-16.7182574,-49.3427681,ChIJf2lTFj_2XpMR6xbXh-IpRKM,sublocality_level_1,sublocality,political
+463,463,463,464,464,464,464,464,Residencial Village Santa Rita I,107.8,54.16,53.62,-16.7253035,-49.3584886,ChIJbUZHvyX2XpMR-eyXCQBSPeg,sublocality_level_1,sublocality,political
+464,464,464,465,465,465,465,465,Residencial Village Santa Rita II,128.03,64.32,63.74,-16.76336019999999,-49.3713744,ChIJbxZVGQxYXpMRvL_pCdwVxpY,route,,
+465,465,465,466,466,466,466,466,Residencial Village Santa Rita III,160.48,81.73,78.75,-16.7253035,-49.3584886,ChIJbUZHvyX2XpMR-eyXCQBSPeg,sublocality_level_1,sublocality,political
+466,466,466,467,467,467,467,467,Residencial Village Santa Rita IV,475.53,240.99,234.54,-16.735958,-49.3495777,ChIJ_anLZcv3XpMRqSMa2MoKjKg,sublocality_level_1,sublocality,political
+467,467,467,468,468,468,468,468,Residencial Ville de France,918.25,446.4,471.86,-16.7420999,-49.1881065,ChIJe4A5fFvlXpMRqMhHQ8xIEOo,sublocality_level_1,sublocality,political
+468,468,468,469,469,469,469,469,Residencial Ville de France 1,58.31,28.35,29.97,-16.7416369,-49.18615510000001,ChIJR0jf8FzlXpMR5b5K2G0Pjkc,church,place_of_worship,point_of_interest
+469,469,469,470,470,470,470,470,Residencial Ytapuã,391.41,196.22,195.19,-16.686289300000002,-49.3870151,ChIJHdcZ3T9fXpMRjcYydAd4Olw,sublocality_level_1,sublocality,political
+470,470,470,471,471,471,471,471,Setor Aeroporto,10658.45,4783.04,5875.31,-16.66927399999999,-49.2664018,ChIJH5S0rubzXpMRN-dp5tU6LxI,sublocality_level_1,sublocality,political
+471,471,471,472,472,472,472,472,Setor Alto do Vale,1763.72,874.07,889.62,-16.611674800000007,-49.31161289999999,ChIJ9fVl58z0XpMRnkr-lbxAM2U,sublocality_level_1,sublocality,political
+472,472,472,473,473,473,473,473,Setor Andréia,1116.29,546.28,570.01,-16.788610300000002,-49.364197600000004,ChIJAwtr5N1XXpMR0-zU8nVHTn4,sublocality_level_1,sublocality,political
+473,473,473,474,474,474,474,474,Setor Areião II,441.62,222.91,218.71,-16.7020914,-49.253009399999996,ChIJAQAAABfxXpMRW-4P7eVkqOw,store,point_of_interest,establishment
+474,474,474,475,475,475,475,475,Setor Asa Branca,754.54,365.34,389.22,-16.612196599999994,-49.21080960000001,ChIJIbbzTJryXpMR_McEFowMVd4,sublocality_level_1,sublocality,political
+475,475,475,476,476,476,476,476,Setor Barra da Tijuca,468.44,232.61,235.81,-16.657439,-49.358874799999995,ChIJN8KcInn1XpMRisbinxRz7Q4,sublocality_level_1,sublocality,political
+476,476,476,477,477,477,477,477,Setor Bela Vista,10761.35,4818.56,5942.76,-16.7145149,-49.260067,ChIJx9dMTODwXpMRR27ygpF-VVs,sublocality_level_1,sublocality,political
+477,477,477,478,478,478,478,478,Setor Bueno,39393.68,17763.76,21629.94,-16.7004399,-49.27653899999999,ChIJE5sXfDfxXpMRfn-zfgBpA90,sublocality_level_1,sublocality,political
+478,478,478,479,479,479,479,479,Setor Campinas,10917.54,4952.97,5964.58,-16.6608843,-49.2927256,ChIJWSS3HxL0XpMRUk-qHsSrTUo,sublocality_level_1,sublocality,political
+479,479,479,480,480,480,480,480,Setor Candida de Morais,3319.16,1620.34,1698.84,-16.6472671,-49.3288709,ChIJiTbP7gP1XpMRJymCmx4r5To,sublocality_level_1,sublocality,political
+480,480,480,481,481,481,481,481,Setor Central,24204.28,10407.77,13796.56,-16.6716683,-49.256266499999995,ChIJuWfCIdnzXpMR3S2nSDajaDo,sublocality_level_1,sublocality,political
+481,481,481,482,482,482,482,482,Setor Centro Oeste,7334.16,3329.15,4005.07,-16.653959,-49.2739164,ChIJ0Yj7vOzzXpMREpFk9o4eeTM,sublocality_level_1,sublocality,political
+482,482,482,483,483,483,483,483,Setor Coimbra,8265.98,3778.75,4487.29,-16.682784400000006,-49.286782099999996,ChIJxTczX6r2XpMRfwvBypaAHvE,sublocality_level_1,sublocality,political
+483,483,483,484,484,484,484,484,Setor Criméia Leste,5283.27,2466.19,2817.04,-16.645049800000002,-49.2613451,ChIJnyzj4aLzXpMRkq877by8w5c,sublocality_level_1,sublocality,political
+484,484,484,485,485,485,485,485,Setor Criméia Oeste,4041.35,1892.36,2148.97,-16.6492027,-49.26766889999999,ChIJi3i8BpfzXpMRDyx2WFsh8Cg,sublocality_level_1,sublocality,political
+485,485,485,486,486,486,486,486,Setor Cristina,984.67,473.72,510.95,-16.7604629,-49.3678533,ChIJHaBuPeD3XpMRFB5g9A6-It4,sublocality_level_1,sublocality,political
+486,486,486,487,487,487,487,487,Setor das Esmeraldas,3663.94,1804.0,1860.01,-16.7315907,-49.2568223,ChIJx06L0uzwXpMRim2g2XS5eB0,sublocality_level_1,sublocality,political
+487,487,487,488,488,488,488,488,Setor das Nações,391.05,197.15,193.89,-16.6778288,-49.3810389,ChIJG2w7G2ZfXpMRSH9npqJyLzs,sublocality_level_1,sublocality,political
+488,488,488,489,489,489,489,489,Setor das Nações Extensão,414.76,210.63,204.1,-16.6888277,-49.3775449,ChIJQ5uohURfXpMRZ5kooN_PPHQ,sublocality_level_1,sublocality,political
+489,489,489,490,490,490,490,490,Setor dos Afonsos,185.67,85.17,100.49,-16.7408975,-49.2702031,ChIJqfEvwLvwXpMRN-mVVUGD4vg,sublocality_level_1,sublocality,political
+490,490,490,491,491,491,491,491,Setor dos Dourados,316.76,150.53,166.25,-16.7668189,-49.3506031,ChIJhQPGZfH3XpMRL0wHCxRPEGM,sublocality_level_1,sublocality,political
+491,491,491,492,492,492,492,492,Setor dos Funcionários,5360.29,2509.02,2851.24,-16.6689764,-49.28034090000001,ChIJM0YTV_fzXpMRDXa6ixfzC3s,sublocality_level_1,sublocality,political
+492,492,492,493,493,493,493,493,Setor Empresarial,903.01,460.87,442.15,-16.6399886,-49.3123998,ChIJsbh2Z_D0XpMRoZ5mrZcAXEM,sublocality_level_1,sublocality,political
+493,493,493,494,494,494,494,494,Setor Estrela Dalva,7086.48,3576.29,3509.99,-16.591353,-49.3221781,ChIJmX23ah-LXpMRHLe1-F5xxEo,sublocality_level_1,sublocality,political
+494,494,494,495,495,495,495,495,Setor Garavelo,4586.3,2231.9,2354.4,-16.7490517,-49.3500865,ChIJjeAg_MT3XpMR6OBm03xjZRI,sublocality_level_1,sublocality,political
+495,495,495,496,496,496,496,496,Setor Gentil Meirelles,1946.77,957.73,989.0,-16.6486017,-49.2854104,ChIJZUBwi4HzXpMRimgFcylVcI0,sublocality_level_1,sublocality,political
+496,496,496,497,497,497,497,497,Setor Grajaú,1817.0,917.0,899.99,-16.7609305,-49.3669106,ChIJr2OeRApYXpMRWiDOw7vl2wY,sublocality_level_1,sublocality,political
+497,497,497,498,498,498,498,498,Setor Jaó,6984.94,3329.47,3655.42,-16.646504699999998,-49.2309359,ChIJXwHAyEbyXpMRPYGTJHIW5bs,sublocality_level_1,sublocality,political
+498,498,498,499,499,499,499,499,Setor Jardim Ana Flávia,189.33,90.58,98.76,-16.6827693,-49.3306451,ChIJ7d8W79H1XpMRD-hhPZFRyTY,point_of_interest,establishment,
+499,499,499,500,500,500,500,500,Setor Leste Universitário,21174.68,9864.36,11310.3,-16.676733900000002,-49.24609840000001,ChIJ2e4TU4PxXpMRKVGHiLd1s00,sublocality_level_1,sublocality,political
+500,500,500,501,501,501,501,501,Setor Leste Vila Nova,16460.44,7402.67,9057.81,-16.665381699999998,-49.24449749999999,ChIJx9k7R9PzXpMRC-11i0oy4Uw,sublocality_level_1,sublocality,political
+501,501,501,502,502,502,502,502,Setor Marabá,473.01,237.0,235.99,-16.6419449,-49.3173265,ChIJkS2C5vr0XpMRTvuXype5KZ8,sublocality_level_1,sublocality,political
+502,502,502,503,503,503,503,503,Setor Marechal Rondon,2739.4,1227.65,1511.73,-16.6635821,-49.2676689,ChIJ_Q1mPunzXpMRfZViK7t-CsQ,sublocality_level_1,sublocality,political
+503,503,503,504,504,504,504,504,Setor Maria Celeste,442.57,208.83,233.75,-16.764040400000006,-49.3508666,ChIJjeT25PH3XpMR-NjND7voX_8,sublocality_level_1,sublocality,political
+504,504,504,505,505,505,505,505,Setor Marista,6800.89,2997.06,3803.98,-16.6996858,-49.26127819999999,ChIJf97ApxvxXpMR3QzAUFpoz0Q,sublocality_level_1,sublocality,political
+505,505,505,506,506,506,506,506,Setor Maysa Extensão,918.97,438.4,480.57,-16.645439,-49.3869469,ChIJnQQxSMBfXpMRVIosdXeRaO4,sublocality_level_1,sublocality,political
+506,506,506,507,507,507,507,507,Setor Morada do Sol,11245.55,5528.59,5717.14,-16.6153242,-49.3221781,ChIJ3SSYmdX0XpMRRyodkUxErEw,sublocality_level_1,sublocality,political
+507,507,507,508,508,508,508,508,Setor Morais,2644.01,1269.01,1374.99,-16.674947,-49.25998509999999,ChIJJwbZtCDyXpMRe5YlMqv0VqQ,sublocality_level_1,sublocality,political
+508,508,508,509,509,509,509,509,Setor Negrão de Lima,6640.44,3110.89,3529.57,-16.6551911,-49.24233329999999,ChIJb1ggMTXyXpMRDGttlvkc8NE,sublocality_level_1,sublocality,political
+509,509,509,510,510,510,510,510,Setor Noroeste,148.42,75.04,73.36,-16.6383299,-49.3184193,ChIJ0dvkhuT0XpMRlqj-LJKN4Ac,sublocality_level_1,sublocality,political
+510,510,510,511,511,511,511,511,Setor Norte Ferroviário,3446.07,1648.84,1797.25,-16.6578785,-49.2618853,ChIJh68j1OvzXpMRnvzwuLIlE1k,sublocality_level_1,sublocality,political
+511,511,511,512,512,512,512,512,Setor Norte Ferroviário II,682.23,330.09,352.16,-16.655793,-49.2651348,ChIJtffuEMDzXpMR-nPBEmy0gJI,sublocality_level_1,sublocality,political
+512,512,512,513,513,513,513,513,Setor Novo Horizonte,9302.02,4215.95,5086.02,-16.6357292,-49.26810529999999,ChIJ4_cpJXTzXpMRb3yxUMMd-B0,point_of_interest,establishment,
+513,513,513,514,514,514,514,514,Setor Novo Planalto,2801.79,1373.99,1427.82,-16.6260935,-49.3475488,ChIJiZ934Uf1XpMRZ4mfV2fkrBU,sublocality_level_1,sublocality,political
+514,514,514,515,515,515,515,515,Setor Oeste,26519.01,11589.03,14930.0,-16.6848554,-49.2714702,ChIJgZXteFvxXpMRZKVRXDUHLao,sublocality_level_1,sublocality,political
+515,515,515,516,516,516,516,516,Setor OrientVille,1735.03,871.84,863.14,-16.7481355,-49.356848600000006,ChIJ8zW75dr3XpMRpwaykUududY,sublocality_level_1,sublocality,political
+516,516,516,517,517,517,517,517,Setor Parque Tremendão,13110.28,6469.33,6640.89,-16.619211,-49.3335936,ChIJUQBO-y31XpMRwVZc1XxExy8,sublocality_level_1,sublocality,political
+517,517,517,518,518,518,518,518,Setor Pedro Ludovico,24890.16,11690.11,13200.08,-16.7133125,-49.254999700000006,ChIJ_ep4JOPwXpMRkesc_BHO0sk,sublocality_level_1,sublocality,political
+518,518,518,519,519,519,519,519,Setor Perim,3135.73,1527.86,1607.89,-16.6500995,-49.2866779,ChIJzVDchHn0XpMR3IpITZBWu74,sublocality_level_1,sublocality,political
+519,519,519,520,520,520,520,520,Setor Progresso,2828.21,1374.65,1453.56,-16.6470688,-49.29181120000001,ChIJd9wW-Hz0XpMRoFv-SDpIgy8,sublocality_level_1,sublocality,political
+520,520,520,521,521,521,521,521,Setor Recanto das Minas Gerais,9310.93,4642.31,4668.64,-16.6452923,-49.1853689,ChIJ1eRQC-ntXpMRmGEieTZcijg,sublocality_level_1,sublocality,political
+521,521,521,522,522,522,522,522,Setor Rio Formoso,4043.48,1948.81,2094.63,-16.7212266,-49.33008199999999,ChIJXdkGtFD2XpMRK5k0cump6HA,sublocality_level_1,sublocality,political
+522,522,522,523,523,523,523,523,Setor Santos Dumont,8706.33,4246.51,4459.79,-16.6548742,-49.3475488,ChIJuXP1f3T1XpMRqL4_geHVPD0,sublocality_level_1,sublocality,political
+523,523,523,524,524,524,524,524,Setor São José,7124.88,3412.55,3712.34,-16.657588,-49.3031574,ChIJU6ETq2n0XpMRzfSvBtiOZ5M,sublocality_level_1,sublocality,political
+524,524,524,525,525,525,525,525,Setor Sevene,463.28,224.88,238.41,-16.6369152,-49.291748,ChIJlTJfooT0XpMRPiam-hDWwY4,sublocality_level_1,sublocality,political
+525,525,525,526,526,526,526,526,Setor Sol Nascente,1118.01,522.92,595.1,-16.6872198,-49.29463270000001,ChIJaR5037n2XpMRh3Hq05Mk6Ak,sublocality_level_1,sublocality,political
+526,526,526,527,527,527,527,527,Setor Solar Santa Rita,907.07,464.62,442.47,-16.7232415,-49.35737630000001,ChIJuwlf8yT2XpMREKglnfOCw7k,point_of_interest,establishment,
+527,527,527,528,528,528,528,528,Setor Sudoeste,14994.92,6924.7,8070.17,-16.6923696,-49.29783210000001,ChIJH930Rb32XpMR_6EJlD4GsOo,sublocality_level_1,sublocality,political
+528,528,528,529,529,529,529,529,Setor Sul,11296.02,5041.0,6254.96,-16.68964069999999,-49.25119950000001,ChIJSe7Bp3LxXpMRhl2T01KZAqY,sublocality_level_1,sublocality,political
+529,529,529,530,530,530,530,530,Setor Três Marias,922.64,458.46,464.18,-16.7398067,-49.3306836,ChIJYwKsorn3XpMRjsSSX-bjodE,sublocality_level_1,sublocality,political
+530,530,530,531,531,531,531,531,Setor Ulisses Guimarães,319.11,155.08,164.03,-16.7303265,-49.3334211,ChIJazkLyVL2XpMRd9q6_s1lrYo,sublocality_level_1,sublocality,political
+531,531,531,532,532,532,532,532,Setor União,4101.01,1837.39,2263.66,-16.7076867,-49.3098029,ChIJhfSonOz2XpMRdQWZd5O3h98,store,point_of_interest,establishment
+532,532,532,533,533,533,533,533,Setor Urias Magalhães,10532.75,5020.5,5512.35,-16.6345264,-49.2613339,ChIJzV8zMQvzXpMR10PF5CGx2Ew,sublocality_level_1,sublocality,political
+533,533,533,534,534,534,534,534,Setor Urias Magalhães II,408.33,205.18,203.15,-16.641087,-49.271628,ChIJx74gA53zXpMRaQ3DxVcsdtM,school,point_of_interest,establishment
+534,534,534,535,535,535,535,535,Sítios de Recreio Caraíbas,158.64,85.0,73.63,-16.694837900000003,-49.22871170000001,ChIJr6qq6rnxXpMRlQ2z9dsDVHU,school,point_of_interest,establishment
+535,535,535,536,536,536,536,536,Sítios de Recreio dos Bandeirantes,671.12,314.8,356.29,-16.609273,-49.3780083,ChIJV2Sb4zZgXpMRi1TpbQxsELE,sublocality_level_1,sublocality,political
+536,536,536,537,537,537,537,537,Sítios de Recreio Mansões Bernardo Sayão,235.41,121.04,114.38,-16.609256900000002,-49.202228100000006,ChIJtzPrEGLtXpMRRzW2jatgj3k,sublocality_level_1,sublocality,political
+537,537,537,538,538,538,538,538,Sítios de Recreio Mansões do Campus,1163.03,587.98,575.06,-16.5698181,-49.291748,ChIJzyQyYnCLXpMRZVnxr8MOglA,sublocality_level_1,sublocality,political
+538,538,538,539,539,539,539,539,Sítios de Recreio Panorama,588.52,297.21,291.32,-16.6283573,-49.31114530000001,ChIJ3RSH4lXxXpMReGr94K6re4c,lawyer,point_of_interest,establishment
+539,539,539,540,540,540,540,540,Sítios de Recreio Paraiso Tropical,314.0,169.99,144.0,-16.518372,-49.2562665,ChIJtUjBcZ2OXpMRPSiMD9dvVmg,sublocality_level_1,sublocality,political
+540,540,540,541,541,541,541,541,Sítios de Recreio Pindorama,423.76,236.09,187.68,-16.7333739,-49.19859199999999,ChIJL2GUt_7vXpMRvuhr6sIQqSA,sublocality_level_1,sublocality,political
+541,541,541,542,542,542,542,542,Vila Abajá,2298.04,1089.86,1208.25,-16.6656805,-49.291748,ChIJ5RW_T3P0XpMRdwHQQkOVXFE,sublocality_level_1,sublocality,political
+542,542,542,543,543,543,543,543,Vila Adélia,286.81,135.82,150.98,-16.6887605,-49.32344639999999,ChIJdQ9g2Cr0XpMR_MSOOpUjMo8,sublocality_level_1,sublocality,political
+543,543,543,544,544,544,544,544,Vila Adélia I e II,596.08,272.26,323.8,-16.6815767,-49.324952,ChIJfQPTvNL1XpMRBjZodMI7M3o,school,point_of_interest,establishment
+544,544,544,545,545,545,545,545,Vila Aguiar,213.88,101.92,111.96,-16.6821637,-49.29555089999999,ChIJ0ZG7zhz0XpMRKrd8WCaERE0,sublocality_level_1,sublocality,political
+545,545,545,546,546,546,546,546,Vila Alpes,3871.54,1688.04,2183.5,-16.7004478,-49.29681859999999,ChIJJXoFg7j2XpMRBoEZHZ2fRco,sublocality_level_1,sublocality,political
+546,546,546,547,547,547,547,547,Vila Alto da Glória,1153.99,542.98,611.0,-16.718237300000002,-49.2328353,ChIJBx90KUXwXpMRmJyifyRojEw,sublocality_level_1,sublocality,political
+547,547,547,548,548,548,548,548,Vila Alvorada,1372.87,593.3,779.54,-16.7078664,-49.3092895,ChIJAx0lfOv2XpMRV13qIuVm-hA,sublocality_level_1,sublocality,political
+548,548,548,549,549,549,549,549,Vila Americano do Brasil,761.17,325.45,435.71,-16.687557,-49.28794540000001,ChIJ_7NPbK32XpMRvFNeeI5zfzM,sublocality_level_1,sublocality,political
+549,549,549,550,550,550,550,550,Vila Anchieta,518.51,242.39,276.12,-16.692821,-49.3142452,ChIJg8SgVpv2XpMRCjk3D-bv4Tk,sublocality_level_1,sublocality,political
+550,550,550,551,551,551,551,551,Vila Aurora,2191.26,1035.52,1155.74,-16.6794306,-49.3003082,ChIJWfb3Sxn0XpMR3A5MdnhrkI8,sublocality_level_1,sublocality,political
+551,551,551,552,552,552,552,552,Vila Aurora Oeste,1093.99,502.22,591.8,-16.6778054,-49.304351,ChIJ_b-KeBj0XpMRrmcmNcBP7gI,sublocality_level_1,sublocality,political
+552,552,552,553,553,553,553,553,Vila Bandeirantes,1702.71,836.95,865.75,-16.670306099999998,-49.22696759999999,ChIJZywDuYvxXpMRLKqyajyN0Ms,sublocality_level_1,sublocality,political
+553,553,553,554,554,554,554,554,Vila Bela,1255.0,553.99,701.0,-16.7077932,-49.2999879,ChIJuZRHS8H2XpMRCGH0y1itP6c,sublocality_level_1,sublocality,political
+554,554,554,555,555,555,555,555,Vila Bethel,1182.99,525.99,656.99,-16.684481299999998,-49.2955748,ChIJQYw2laf2XpMRqPykT5KyvjA,sublocality_level_1,sublocality,political
+555,555,555,556,556,556,556,556,Vila Boa Sorte,772.37,370.61,401.77,-16.686982399999998,-49.2969534,ChIJY-6_Aa_2XpMRFYTpSgQo7DM,sublocality_level_1,sublocality,political
+556,556,556,557,557,557,557,557,Vila Canaã,432.01,198.61,233.39,-16.690534099999994,-49.3152997,ChIJYXe5J4P2XpMR1iuGZyJz1Z0,sublocality_level_1,sublocality,political
+557,557,557,558,558,558,558,558,Vila Clemente,817.85,393.42,424.45,-16.6530969,-49.28939859999999,ChIJXw2PAHr0XpMRmOTGoufK9v8,sublocality_level_1,sublocality,political
+558,558,558,559,559,559,559,559,Vila Colemar Natal e Silva,438.35,204.15,234.23,-16.665971300000002,-49.23726749999999,ChIJ6_XqPinyXpMRbw9izdBlv-Y,sublocality_level_1,sublocality,political
+559,559,559,560,560,560,560,560,Vila Concórdia,3790.0,1832.99,1957.02,-16.662949800000003,-49.18410369999999,ChIJ3wAdnAzuXpMRDl2PbleVtqo,sublocality_level_1,sublocality,political
+560,560,560,561,561,561,561,561,Vila Cristina,823.54,378.77,444.78,-16.641460000000002,-49.2956254,ChIJu7ii6oj0XpMRvaBuLDEEstU,sublocality_level_1,sublocality,political
+561,561,561,562,562,562,562,562,Vila Cristina Continuação,319.29,150.67,168.63,-16.6338375,-49.2939095,ChIJ0ZoJopr0XpMRvEsdpW5CXQY,sublocality_level_1,sublocality,political
+562,562,562,563,563,563,563,563,Vila Cristina Extensão,91.75,44.54,47.22,,,,,,
+563,563,563,564,564,564,564,564,Vila Divino Pai Eterno,264.16,136.52,127.65,-16.728907999999997,-49.2702031,ChIJaXTsQ8TwXpMRspp85XSgMmo,sublocality_level_1,sublocality,political
+564,564,564,565,565,565,565,565,Vila Fernandes,79.96,38.9,41.08,-16.66247389999999,-49.289603,ChIJZZmOfw70XpMRAd9I6gtJOWc,store,point_of_interest,establishment
+565,565,565,566,566,566,566,566,Vila Finsocial,16070.79,7840.7,8230.13,-16.6237185,-49.3171053,ChIJX9Su7dr0XpMR2Y6iZoF_nGQ,sublocality_level_1,sublocality,political
+566,566,566,567,567,567,567,567,Vila Froes,1318.14,623.96,694.22,-16.6484539,-49.2568999,ChIJMSu5CLvzXpMRs5okagQbiUw,sublocality_level_1,sublocality,political
+567,567,567,568,568,568,568,568,Vila Irany,1109.14,544.4,564.78,-16.6557618,-49.2930011,ChIJ5wz5R3D0XpMR39nlAHcidDo,sublocality_level_1,sublocality,political
+568,568,568,569,569,569,569,569,Vila Isaura,2273.9,1089.18,1184.72,-16.6617103,-49.28129140000001,ChIJS08U2vTzXpMRybgsXv7w8yQ,sublocality_level_1,sublocality,political
+569,569,569,570,570,570,570,570,Vila Isaura Extensão,109.7,52.08,57.63,,,,,,
+570,570,570,571,571,571,571,571,Vila Itatiaia,5903.02,2772.04,3130.99,-16.6030848,-49.254999700000006,ChIJwX6M5zHzXpMRRNK3_vTYyCs,sublocality_level_1,sublocality,political
+571,571,571,572,572,572,572,572,Vila Jacaré,307.32,150.09,157.23,-16.6539686,-49.2777068,ChIJO6fM6o7zXpMRJwUadCgvaxY,school,point_of_interest,establishment
+572,572,572,573,573,573,573,573,Vila Jaraguá,1728.58,798.2,930.38,-16.652193099999998,-49.25430069999999,ChIJYfGeLbjzXpMR7PN-a2tlcsA,sublocality_level_1,sublocality,political
+573,573,573,574,574,574,574,574,Vila Jardim Pompéia,4573.82,2206.15,2367.61,-16.6107239,-49.2442331,ChIJHfMde9_yXpMRKI8E_p1MO20,sublocality_level_1,sublocality,political
+574,574,574,575,575,575,575,575,Vila Jardim São Judas Tadeu,5612.89,2736.65,2876.23,-16.616561800000003,-49.246132900000006,ChIJBx6Evx7zXpMRuP1Z-HZh65o,sublocality_level_1,sublocality,political
+575,575,575,576,576,576,576,576,Vila Jardim Vitória,1845.94,866.69,979.25,-16.7195678,-49.2157429,ChIJmVF7TD3wXpMRn_H0BnkfX9Q,sublocality_level_1,sublocality,political
+576,576,576,577,577,577,577,577,Vila João Vaz,4772.12,2348.81,2423.26,-16.6554265,-49.3129673,ChIJhTsa8F70XpMRdkaIYXkJavI,sublocality_level_1,sublocality,political
+577,577,577,578,578,578,578,578,Vila Legionárias,172.62,79.33,93.29,-16.7307533,-49.23217609999999,ChIJjZNmNW_wXpMR_epNa3VeSh8,sublocality_level_1,sublocality,political
+578,578,578,579,579,579,579,579,Vila Luciana,469.23,223.58,245.69,-16.7025538,-49.3310566,ChIJdSK8WGT2XpMR8Hlm9lefMhc,sublocality_level_1,sublocality,political
+579,579,579,580,580,580,580,580,Vila Lucy,1571.2,728.1,843.1,-16.6884597,-49.3069611,ChIJEcwscp72XpMRa4jJ7xjYhDo,sublocality_level_1,sublocality,political
+580,580,580,581,581,581,581,581,Vila Maria Dilce,1093.25,532.16,561.07,-16.6386277,-49.29631699999999,ChIJu5DQGo_0XpMRYW0E03rWZhY,sublocality_level_1,sublocality,political
+581,581,581,582,582,582,582,582,Vila Maria José,976.44,434.61,541.83,-16.7115007,-49.2372675,ChIJGd6LM1LwXpMRqrY9kMUxbZg,sublocality_level_1,sublocality,political
+582,582,582,583,583,583,583,583,Vila Maria Luiza,2479.27,1194.92,1284.31,-16.685727800000002,-49.2195408,ChIJPcwW2sHxXpMRC3by1DdcNa8,sublocality_level_1,sublocality,political
+583,583,583,584,584,584,584,584,Vila Maria Rosa,421.18,214.96,206.22,-16.6676821,-49.29282050000001,ChIJucUkww30XpMRG9_ljB3zJxQ,jewelry_store,store,point_of_interest
+584,584,584,585,585,585,585,585,Vila Martins,170.23,81.67,88.56,-16.672944,-49.2068702,ChIJvQdjP-PxXpMREZdkbhBeqGA,sublocality_level_1,sublocality,political
+585,585,585,586,586,586,586,586,Vila Martins Extensão,71.11,34.11,36.98,-16.69274,-49.1892568,ChIJx-luxjPuXpMRFTtTNIkYhrc,route,,
+586,586,586,587,587,587,587,587,Vila Matilde,473.17,215.01,258.16,-16.6548695,-49.1853689,ChIJ64RBPN7tXpMRhKWDGKyBDDA,sublocality_level_1,sublocality,political
+587,587,587,588,588,588,588,588,Vila Mauá,2847.83,1380.82,1467.03,-16.702038199999997,-49.3155149,ChIJybiBDo72XpMROLzkNh5l-iA,sublocality_level_1,sublocality,political
+588,588,588,589,589,589,589,589,Vila Megale,826.01,412.0,414.0,-16.6498019,-49.260067,ChIJpfovQrzzXpMRZuST-suTvqg,sublocality_level_1,sublocality,political
+589,589,589,590,590,590,590,590,Vila Militar,106.57,54.71,51.87,-16.6226583,-49.22612119999999,ChIJPwhDn_PyXpMR82S2tePq82Y,church,place_of_worship,point_of_interest
+590,590,590,591,591,591,591,591,Vila Monticelli,2135.64,1018.59,1117.06,-16.649094400000006,-49.251817900000006,ChIJm5hZLbfzXpMRi_sUZH0J_vc,sublocality_level_1,sublocality,political
+591,591,591,592,592,592,592,592,Vila Mooca,583.22,271.87,311.35,-16.6779917,-49.3180386,ChIJ8TDyzjH0XpMRzdnZFCumicM,sublocality_level_1,sublocality,political
+592,592,592,593,593,593,593,593,Vila Mooca - Complemento,433.95,203.08,230.87,,,,,,
+593,593,593,594,594,594,594,594,Vila Morais,3419.99,1660.02,1760.0,-16.6623719,-49.22207279999999,ChIJG5c0Vx_yXpMRwkgtizLnai0,sublocality_level_1,sublocality,political
+594,594,594,595,595,595,595,595,Vila Mutirão I,4100.56,2023.69,2076.85,-16.6186459,-49.3554036,ChIJbxGgfq2KXpMRNp1hLJc2Cmk,sublocality_level_1,sublocality,political
+595,595,595,596,596,596,596,596,Vila Mutirão II,2457.66,1186.99,1270.65,-16.6131464,-49.3475812,ChIJxacNiraKXpMRLbQC8YRvKwA,sublocality_level_1,sublocality,political
+596,596,596,597,597,597,597,597,Vila Nossa Senhora Aparecida,746.43,347.43,399.01,-16.643211100000002,-49.2727374,ChIJA3f3fJvzXpMRvgR6a95ZUAM,sublocality_level_1,sublocality,political
+597,597,597,598,598,598,598,598,Vila Nova Canaã,1984.89,887.16,1097.71,-16.6903984,-49.3136027,ChIJe20L3Jz2XpMR8Rb_Zs-vbDw,sublocality_level_1,sublocality,political
+598,598,598,599,599,599,599,599,Vila Nova Canaã,25.98,11.66,14.32,-16.6903984,-49.3136027,ChIJe20L3Jz2XpMR8Rb_Zs-vbDw,sublocality_level_1,sublocality,political
+599,599,599,600,600,600,600,600,Vila Nova Canaã,305.19,136.94,168.26,-16.6903984,-49.3136027,ChIJe20L3Jz2XpMR8Rb_Zs-vbDw,sublocality_level_1,sublocality,political
+600,600,600,601,601,601,601,601,Vila Ofugi,231.97,104.23,127.74,,,,,,
+601,601,601,602,602,602,602,602,Vila Oswaldo Rosa,523.37,244.24,279.13,-16.6664184,-49.23156900000001,ChIJDy_bqSfyXpMRJn8G15a-TcY,sublocality_level_1,sublocality,political
+602,602,602,603,603,603,603,603,Vila Paraíso,1252.47,581.55,670.93,-16.6575907,-49.2727374,ChIJUdDUgpLzXpMRMMBKwb_jVHo,sublocality_level_1,sublocality,political
+603,603,603,604,604,604,604,604,Vila Parque Santa Maria,315.46,158.14,157.31,-16.6389574,-49.2960442,ChIJAfsDF4_0XpMRHTK6b6xFhag,park,point_of_interest,establishment
+604,604,604,605,605,605,605,605,Vila Pedroso,5554.67,2701.48,2853.21,-16.6578332,-49.17823130000001,ChIJm7e0-9ftXpMRlQt6rUMg_E0,sublocality_level_1,sublocality,political
+605,605,605,606,606,606,606,606,Vila Perdiz,232.37,113.5,118.87,-16.6532478,-49.27765850000001,ChIJfYGt547zXpMR1qHsXFwluYw,sublocality_level_1,sublocality,political
+606,606,606,607,607,607,607,607,Vila Redenção,5712.94,2573.56,3139.25,-16.7219947,-49.2461329,ChIJK6BV2ffwXpMRayRSB3LkHo8,sublocality_level_1,sublocality,political
+607,607,607,608,608,608,608,608,Vila Regina,2143.4,1055.76,1087.66,-16.6555158,-49.33678199999999,ChIJt5J5mqf1XpMRUhLtaO_SkhY,sublocality_level_1,sublocality,political
+608,608,608,609,609,609,609,609,Vila Rezende,1481.37,711.68,769.67,-16.72026409999999,-49.30581160000001,ChIJN-5nPdz2XpMRswN-KHj_OLw,sublocality_level_1,sublocality,political
+609,609,609,610,610,610,610,610,Vila Rizzo,701.13,343.11,358.03,-16.7231046,-49.3799125,ChIJC9PkFZZYXpMRTmE09ZCLHOw,sublocality_level_1,sublocality,political
+610,610,610,611,611,611,611,611,Vila Romana,621.12,296.25,324.89,-16.618653899999998,-49.260067,ChIJj3iPUxTzXpMR59ELFikSh3I,sublocality_level_1,sublocality,political
+611,611,611,612,612,612,612,612,Vila Rosa,2039.4,1032.09,1007.34,-16.7439155,-49.2930156,ChIJ6QydNkb3XpMRJPH202fj8l0,sublocality_level_1,sublocality,political
+612,612,612,613,613,613,613,613,Vila Santa Cruz,165.5,78.13,87.37,-16.6128381,-49.21084389999999,ChIJt0NwqZvyXpMRONPDaPlPyVs,sublocality_level_1,sublocality,political
+613,613,613,614,614,614,614,614,Vila Santa Efigênia,419.97,197.07,222.9,-16.688630800000002,-49.29113570000001,ChIJk_j75a72XpMR_pDrje3jGbU,sublocality_level_1,sublocality,political
+614,614,614,615,615,615,615,615,Vila Santa Helena,7027.59,3327.31,3700.26,-16.6575905,-49.2828756,ChIJBdm8lInzXpMRGaJtJZ4dLZw,sublocality_level_1,sublocality,political
+615,615,615,616,616,616,616,616,Vila Santa Isabel,746.26,344.36,401.9,-16.6689631,-49.2296697,ChIJr0VRyInxXpMRNK38OOLCAlQ,sublocality_level_1,sublocality,political
+616,616,616,617,617,617,617,617,Vila Santa Maria Extensão,380.84,181.78,199.06,-16.6707818,-49.2314228,ChIJO6AgJIvxXpMRMLMXZE-_FVo,point_of_interest,establishment,
+617,617,617,618,618,618,618,618,Vila Santa Rita,1093.77,526.24,567.54,-16.679017,-49.32027579999999,ChIJJXTCbTL0XpMR3_B1ZCNlV9w,sublocality_level_1,sublocality,political
+618,618,618,619,619,619,619,619,Vila Santa Rita - 5ª Etapa,1311.24,644.15,667.08,-16.7269837,-49.3394528,ChIJOxonr072XpMRbF4huwf4TXI,sublocality_level_1,sublocality,political
+619,619,619,620,620,620,620,620,Vila Santa Rita Acréscimo,977.52,457.53,519.98,-16.678236,-49.318495,ChIJwf7ThH32XpMRekUUyrCzvY0,food,point_of_interest,establishment
+620,620,620,621,621,621,621,621,Vila Santa Tereza,1746.99,835.02,911.98,-16.681717000000006,-49.298151,ChIJt7iLyh30XpMROcpMgGfyps8,sublocality_level_1,sublocality,political
+621,621,621,622,622,622,622,622,Vila Santana,572.58,280.01,292.57,-16.65983899999999,-49.2883408,ChIJj-DCZXT0XpMRSnHS74mgeVE,sublocality_level_1,sublocality,political
+622,622,622,623,623,623,623,623,Vila Santo Afonso,145.04,66.11,78.94,-16.6740717,-49.3069611,ChIJR6yiEz30XpMRayyRPJ4lFwM,sublocality_level_1,sublocality,political
+623,623,623,624,624,624,624,624,Vila São Francisco,851.22,398.41,452.83,-16.6587891,-49.27780629999999,ChIJvd1WsIzzXpMRd7RbTaaHgk0,sublocality_level_1,sublocality,political
+624,624,624,625,625,625,625,625,Vila São João,1356.43,614.43,742.0,-16.706285,-49.2423785,ChIJOxc5rqrxXpMRAQe1criYdCw,sublocality_level_1,sublocality,political
+625,625,625,626,626,626,626,626,Vila São José - Complemento,121.91,57.83,64.08,,,,,,
+626,626,626,627,627,627,627,627,Vila São José - Extensão,326.83,155.03,171.8,,,,,,
+627,627,627,628,628,628,628,628,Vila São Luiz,847.41,408.22,439.19,-16.6536575,-49.2713936,ChIJLU7nf5HzXpMRUOLVYhw7fEA,sublocality_level_1,sublocality,political
+628,628,628,629,629,629,629,629,Vila São Paulo,1850.0,885.98,963.99,-16.6555008,-49.2938385,ChIJq9GeGHD0XpMR8p2xjFEdxmI,sublocality_level_1,sublocality,political
+629,629,629,630,630,630,630,630,Vila São Paulo,134.29,67.65,66.64,-16.6555008,-49.2938385,ChIJq9GeGHD0XpMR8p2xjFEdxmI,sublocality_level_1,sublocality,political
+630,630,630,631,631,631,631,631,Vila São Tomaz,100.43,48.78,51.65,-16.742829500000006,-49.2779768,ChIJIwBBwrHwXpMRtSBdah2VtJk,sublocality_level_1,sublocality,political
+631,631,631,632,632,632,632,632,Vila Teófilo Neto,217.31,92.45,124.86,-16.6929525,-49.29048050000001,ChIJVeTNtLP2XpMR2suQi7UMAHk,sublocality_level_1,sublocality,political
+632,632,632,633,633,633,633,633,Vila Vera Cruz,394.97,188.79,206.19,-16.653396400000002,-49.2752717,ChIJCzCxZo7zXpMRBqaDQAiPf8k,sublocality_level_1,sublocality,political
+633,633,633,634,634,634,634,634,Vila Viana,1609.06,742.82,866.24,-16.6587837,-49.23726749999999,ChIJhxD9aDHyXpMRXIMoQ5YtHTk,sublocality_level_1,sublocality,political
+634,634,634,635,635,635,635,635,Vila Viandelli,150.32,73.42,76.9,-16.6619076,-49.2389002,ChIJiz4T6S3yXpMRXKHFxXmblbU,clothing_store,store,point_of_interest
+635,635,635,636,636,636,636,636,Vilage Atalaia,941.71,460.24,481.48,-16.59453659999999,-49.2569151,ChIJyxhURcyMXpMReUZbtZfXRZs,sublocality_level_1,sublocality,political
+636,636,636,637,637,637,637,637,Vilage Casa Grande,126.61,62.01,64.6,-16.6129593,-49.2714702,ChIJjwRV4EDzXpMRZuBDkVrFeUc,sublocality_level_1,sublocality,political
+637,637,637,638,638,638,638,638,Vilage Maringá,76.26,41.43,34.83,-23.444211,-51.9547641,ChIJr-MOhWrX7JQRKcxrotXVeQU,point_of_interest,establishment,
+638,638,638,639,639,639,639,639,Vilage Santa Rita,680.29,329.93,350.34,-16.7217504,-49.36333519999999,ChIJyUOf5SD2XpMRInOHobIqeo0,sublocality_level_1,sublocality,political
+639,639,639,640,640,640,640,640,Vilage Veneza,254.87,126.55,128.31,-16.7124868,-49.3222122,ChIJ_7yvyvX2XpMREXVvD7cafWk,point_of_interest,establishment,
+640,640,640,641,641,641,641,641,Zona Industrial Pedro Abrão,577.13,284.7,292.45,-16.6424447,-49.2989322,ChIJg1NV44r0XpMRPh11WzbRACM,food,point_of_interest,establishment
