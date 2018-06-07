@@ -1,0 +1,17 @@
+default: &default
+  provider: mysql
+  port: 3306
+
+production:
+  <<: *default
+  host: localhost
+  user: root
+  password: xpto1234
+  database: ssp_go
+
+development:
+  <<: *default
+  host: localhost
+  user: root
+  password: xpto1234
+  database: ssp_go

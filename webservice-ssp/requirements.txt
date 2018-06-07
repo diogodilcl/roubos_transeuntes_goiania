@@ -1,0 +1,7 @@
+flask
+PyMySQL
+PyYAML
+Flask-SQLAlchemy
+statsmodels
+scipy
+pandas
