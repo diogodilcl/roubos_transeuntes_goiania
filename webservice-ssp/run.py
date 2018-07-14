@@ -2,6 +2,7 @@ import logging
 from http import HTTPStatus
 
 from flask import Flask, jsonify
+from flask_cors import CORS
 from werkzeug.exceptions import NotFound
 
 from config import APP_ENV
@@ -9,20 +10,22 @@ from ssp.common.database import db
 from ssp.neighborhood import neighborhood_bp
 from ssp.theft import theft_bp
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-app.config.from_object('config.Config')
+application.config.from_object('config.Config')
 
-db.init_app(app)
+db.init_app(application)
 
-app.register_blueprint(theft_bp, url_prefix='/v1/thefts')
+application.register_blueprint(theft_bp, url_prefix='/v1/thefts')
 
-app.register_blueprint(neighborhood_bp, url_prefix='/v1/neighborhood')
+application.register_blueprint(neighborhood_bp, url_prefix='/v1/neighborhood')
 
 logger = logging.getLogger(__name__)
 
+CORS(application)
 
-@app.errorhandler(Exception)
+
+@application.errorhandler(Exception)
 def handle_invalid_usage(e):
     logger.exception(e)
     error_description = "Internal server error"
@@ -33,18 +36,19 @@ def handle_invalid_usage(e):
     return response
 
 
-@app.errorhandler(NotFound)
+@application.errorhandler(NotFound)
 def not_found_exception(e):
     response = jsonify({"error_description": "Not found this resource."})
     response.status_code = HTTPStatus.NOT_FOUND
     return response
 
 
-@app.route('/health')
+@application.route('/health')
 def health():
     return jsonify({'message': 'ok'})
 
 
 if __name__ == '__main__':
-    app.debug = APP_ENV
-    app.run()
+    application.debug = APP_ENV
+    application.run(host='0.0.0.0')
+    # application.run()
