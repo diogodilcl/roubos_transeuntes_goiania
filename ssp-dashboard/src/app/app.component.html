@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="snav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-icon class="system-icon">show_chart</mat-icon>
+  <span class="system-title">SSP Dashboard</span>
+  <span class="spacer"></span>
+</mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav class="sidenav" #snav fixedTopGap="56">
+    <nav>
+      <a mat-button class="nav-link" *ngFor="let link of links" [routerLink]="link.path" routerLinkActive="active">
+        <mat-icon>{{link.icon}}</mat-icon>
+        {{link.label}}
+      </a>
+    </nav>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content">
+    <div class="app-content" [@routerAnimations]="prepareRouterState(routerOutlet)">
+      <router-outlet #routerOutlet="outlet"></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
