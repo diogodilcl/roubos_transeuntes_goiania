@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from './api/api.service';
 import { AnalyticsDataParserService, AnalyticsSettingsService } from './analytics/analytics.service';
 import { DateService } from './date/date.service';
+import { ParamsService } from './params/params.service';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { DateService } from './date/date.service';
     ApiService,
     AnalyticsDataParserService,
     AnalyticsSettingsService,
-    DateService
+    DateService,
+    ParamsService
   ]
 })
 export class CoreModule { }
