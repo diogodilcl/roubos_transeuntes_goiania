@@ -4,6 +4,7 @@ import { Subject, BehaviorSubject, merge } from 'rxjs';
 import { flatMap } from 'rxjs/operators';
 
 import { ApiService } from '../core/api/api.service';
+import { ParamsService } from '../core/params/params.service';
 
 declare const moment: any;
 
@@ -17,25 +18,43 @@ export class HomeComponent implements OnInit {
   private params$: Subject<any>;
 
   chartCitySerial: any;
-  
+
   chartDistrictPie: any;
   chartDistrictSerial: any;
 
   chartNeighborhoodPie: any;
   chartNeighborhoodSerial: any;
 
-  years: Array<any> = [
-    { value: '2017', viewValue: '2017'},
-    { value: '2016', viewValue: '2016'},
-    { value: '2015', viewValue: '2015'},
-    { value: 'Todos', viewValue: 'todos'}
-  ];
+  year: string;
+  perioid: string;
+  locality: string;
+  modelType: boolean;
+  labelModelType: String;
 
-  constructor(
-    private apiService: ApiService
-  ) {
-    this.params$ = new BehaviorSubject({
-      year: this.years[0].value
+  years: Array<any>;
+  periods: Array<any>;
+  localities: Array<any>;
+
+
+
+
+  constructor(private apiService: ApiService, private paramsService: ParamsService) {
+
+    this.modelType = true;
+    this.labelModelType = "Modelo Multiplicativo";
+
+    paramsService.getLocalities().subscribe((localities) => {
+      this.localities = localities;
+    });
+    paramsService.getYears().subscribe((years) => {
+      this.years = years;
+      this.year = this.years[0].value
+      this.params$ = new BehaviorSubject({
+        year: this.year
+      });
+    });
+    paramsService.getPeriods().subscribe((periods) => {
+      this.periods = periods;
     });
   }
 
@@ -97,5 +116,17 @@ export class HomeComponent implements OnInit {
       year: event.value
     });
   }
+
+  onSelectPeriod(event) {
+    // this.params$.next({
+    //   year: event.value
+    // });
+  }
+
+  onCheck(event) {
+    this.modelType = event.checked;
+    this.labelModelType = "Modelo " + (this.modelType ? "Multiplicativo" : "Aditivo");
+  }
+
 
 }
