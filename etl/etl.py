@@ -17,7 +17,7 @@ def add_months(sourcedate, months):
 
 
 DATE_START = datetime.date(2010, 1, 1)
-DATE_END = datetime.date(2018, 7, 1)
+DATE_END = datetime.date(2018, 12, 1)
 
 current = DATE_START
 
@@ -84,7 +84,7 @@ with db.db_session() as session:
                                                     child.date_occurrence.day)),
                     DIM_neighborhood_id=dim_neighborhood_save.id, theft=child.theft)
                 session.add(fact_thefts_save)
-        session.commit()
+            session.commit()
     except Exception as e:
         print(e)
 

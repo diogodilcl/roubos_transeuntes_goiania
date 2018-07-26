@@ -9,6 +9,8 @@ from config import APP_ENV
 from ssp.common.database import db
 from ssp.neighborhood import neighborhood_bp
 from ssp.theft import theft_bp
+from ssp.v2.neighborhood import neighborhood_v2_bp
+from ssp.v2.theft import theft_v2_bp
 
 application = Flask(__name__)
 
@@ -18,8 +20,10 @@ db.init_app(application)
 
 application.register_blueprint(theft_bp, url_prefix='/v1/thefts')
 
-application.register_blueprint(neighborhood_bp, url_prefix='/v1/neighborhood')
+application.register_blueprint(theft_v2_bp, url_prefix='/v2/thefts')
 
+application.register_blueprint(neighborhood_bp, url_prefix='/v1/neighborhood')
+application.register_blueprint(neighborhood_v2_bp, url_prefix='/v2/neighborhood')
 logger = logging.getLogger(__name__)
 
 CORS(application)

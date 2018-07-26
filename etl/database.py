@@ -14,7 +14,7 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 
 DATABASE_CONNECTION = "{}://{}:{}@{}/{}?charset=utf8mb4".format("mysql+pymysql", "root",
                                                                 "xpto1234",
-                                                                "localhost", "ssp_go")
+                                                                "tcc.covp4olpix00.sa-east-1.rds.amazonaws.com", "tcc")
 
 
 class Database:

@@ -9,7 +9,7 @@ Base = declarative_base()
 
 class City(Base):
     __tablename__ = 'city'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     name = Column('name', String(190))
@@ -20,7 +20,7 @@ class City(Base):
 
 class CityQuantity(Base):
     __tablename__ = 'city_quantity'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     theft = Column('theft', Integer)
@@ -28,12 +28,12 @@ class CityQuantity(Base):
     created_at = Column('created_at', DateTime, default=datetime.utcnow())
 
     city = relationship("City", back_populates='city_quantities')
-    city_id = Column('city_id', Integer, ForeignKey("ssp_go.city.id"))
+    city_id = Column('city_id', Integer, ForeignKey("tcc.city.id"))
 
 
 class Neighborhood(Base):
     __tablename__ = 'neighborhood'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     name = Column('name', String(190))
@@ -44,12 +44,12 @@ class Neighborhood(Base):
 
 class NeighborhoodQuantity(Base):
     __tablename__ = 'neighborhood_quantity'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     theft = Column('theft', Integer)
     date_occurrence = Column('date_occurrence', DateTime)
-    neighborhood_id = Column('neighborhood_id', Integer, ForeignKey("ssp_go.neighborhood.id"))
+    neighborhood_id = Column('neighborhood_id', Integer, ForeignKey("tcc.neighborhood.id"))
     created_at = Column('created_at', DateTime, default=datetime.utcnow())
 
     neighborhood = relationship("Neighborhood", back_populates='neighborhood_quantity')
@@ -57,7 +57,7 @@ class NeighborhoodQuantity(Base):
 
 class District(Base):
     __tablename__ = 'district'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     name = Column('name', String(190))
@@ -68,12 +68,12 @@ class District(Base):
 
 class DistrictQuantity(Base):
     __tablename__ = 'district_quantity'
-    __table_args__ = {'schema': 'ssp_go'}
+    __table_args__ = {'schema': 'tcc'}
 
     id = Column('id', Integer, primary_key=True)
     theft = Column('theft', Integer)
     date_occurrence = Column('date_occurrence', DateTime)
-    district_id = Column('district_id', Integer, ForeignKey("ssp_go.district.id"))
+    district_id = Column('district_id', Integer, ForeignKey("tcc.district.id"))
     created_at = Column('created_at', DateTime, default=datetime.utcnow())
 
     district = relationship("District", back_populates='district_quantity')
