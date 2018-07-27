@@ -17,9 +17,11 @@ export class ChartComponent implements OnInit, OnDestroy, AfterViewInit {
   @Input() subtitle: string;
   @Input() type: string;
   @Input() dataset: Observable<any>;
+  @Input() options: Observable<any>;
 
   id: string;
   chart: AmChart;
+  currentOptions: any;
 
   constructor(private analyticsSettingsService: AnalyticsSettingsService) {
     this.id = `chart_${Math.random().toString(18).substr(2)}`;
@@ -30,8 +32,11 @@ export class ChartComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
+    if (this.options) {
+      this.options.subscribe(options => this.currentOptions = options);
+    }
     this.dataset.subscribe(data => {
-      this.chart = AmCharts.makeChart(this.id, this.analyticsSettingsService.getChartSettings(this.type, data));
+      this.chart = AmCharts.makeChart(this.id, this.analyticsSettingsService.getChartSettings(this.type, data, this.currentOptions));
     });
   }
 

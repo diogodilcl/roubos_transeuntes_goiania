@@ -52,22 +52,22 @@ export class AnalyticsDataParserService {
 })
 export class AnalyticsSettingsService {
 
-  private map: Map<string, (dataset: any) => any>;
+  private map: Map<string, (dataset: any, options?: any) => any>;
 
   constructor(
     private analyticsDataParserService: AnalyticsDataParserService
   ) {
     this.map = new Map();
-    this.map.set('pie', this.pieSetting.bind(this));
-    this.map.set('serial', this.serialSetting.bind(this));
-    this.map.set('bar', this.barSetting.bind(this));
+    this.map.set('pie', this.pieSetting);
+    this.map.set('serial', this.serialSetting);
+    this.map.set('bar', this.barSetting);
   }
 
-  getChartSettings(type: string, dataset: any): any {
-    return this.map.get(type)(dataset);
+  getChartSettings(type: string, dataset: any, options?: any): any {
+    return this.map.get(type)(dataset, options);
   }
 
-  pieSetting(dataset: any): any {
+  pieSetting = (dataset: any): any => {
     return Object.assign({}, {
       'type': 'pie',
       'fontFamily': 'Roboto, \'Helvetica Neue\',sans-serif',
@@ -91,7 +91,7 @@ export class AnalyticsSettingsService {
     })
   }
 
-  serialSetting(dataset: any): any {
+  serialSetting = (dataset: any, options: any): any => {
     const valueAxes = [], graphs = [];
     const { titles, data } = this.analyticsDataParserService.serialDataParser(dataset);
     titles.forEach((title, index) => {
@@ -123,7 +123,7 @@ export class AnalyticsSettingsService {
       'dataDateFormat': 'YYYY-MM',
       'categoryAxis': {
         'minPeriod': 'MM',
-        'parseDates': true
+        'parseDates': options? !!options.parseDates : true
       },
       'chartCursor': {
         'enabled': true,
@@ -140,7 +140,7 @@ export class AnalyticsSettingsService {
     });
   }
 
-  barSetting(dataset: any): any {
+  barSetting = (dataset: any): any => {
 
   }
 

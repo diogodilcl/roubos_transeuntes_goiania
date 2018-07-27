@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject, BehaviorSubject, merge } from 'rxjs';
+import { of, Observable, BehaviorSubject } from 'rxjs';
 
-import { flatMap } from 'rxjs/operators';
+import { flatMap, shareReplay, tap } from 'rxjs/operators';
 
 import { ApiService } from '../core/api/api.service';
 import { ParamsService } from '../core/params/params.service';
@@ -15,7 +15,7 @@ declare const moment: any;
 })
 export class HomeComponent implements OnInit {
 
-  private params$: Subject<any>;
+  private params$: Observable<any>;
 
   chartCitySerial: any;
 
@@ -26,36 +26,35 @@ export class HomeComponent implements OnInit {
   chartNeighborhoodSerial: any;
 
   year: string;
-  perioid: string;
+  period: string;
   locality: string;
-  modelType: boolean;
-  labelModelType: String;
+
 
   years: Array<any>;
   periods: Array<any>;
   localities: Array<any>;
 
+  private events: BehaviorSubject<any>;
 
-
-
-  constructor(private apiService: ApiService, private paramsService: ParamsService) {
-
-    this.modelType = true;
-    this.labelModelType = "Modelo Multiplicativo";
-
-    paramsService.getLocalities().subscribe((localities) => {
-      this.localities = localities;
+  constructor(
+    private apiService: ApiService,
+    private paramsService: ParamsService
+  ) {
+    this.years = paramsService.years;
+    this.periods = paramsService.periods;
+    this.period = this.periods[0].value
+    this.year = this.years[0].value
+    this.events = new BehaviorSubject({
+      year: this.year,
+      period: this.period
     });
-    paramsService.getYears().subscribe((years) => {
-      this.years = years;
-      this.year = this.years[0].value
-      this.params$ = new BehaviorSubject({
-        year: this.year
-      });
-    });
-    paramsService.getPeriods().subscribe((periods) => {
-      this.periods = periods;
-    });
+    this.params$ = this.events.pipe(
+      shareReplay(1),
+      tap(params => {
+        this.year = params.year;
+        this.period = params.period
+      })
+    );
   }
 
   ngOnInit() {
@@ -63,70 +62,129 @@ export class HomeComponent implements OnInit {
       title: 'Percentual regional',
       subtitle: '-',
       type: 'pie',
-      dataset: this.params$.pipe(flatMap((params) => {
-        const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
-        const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
-        return this.apiService.fetchDistricts({ start, end });
-      }))
+      dataset: this.params$.pipe(
+        flatMap((params) => {
+          const periodicity = params.period
+          if (params.year == 'all') {
+            return this.apiService.fetchDistricts({ periodicity });
+          } else {
+            const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
+            const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
+            return this.apiService.fetchDistricts({ start, end, periodicity });
+          }
+        }))
     }
     this.chartNeighborhoodPie = {
       title: 'Percentual Local',
       subtitle: '-',
       type: 'pie',
-      dataset: this.params$.pipe(flatMap((params) => {
-        const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
-        const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
-        return this.apiService.fetchNeighborhoods({ start, end });
-      }))
+      dataset: this.params$.pipe(
+        flatMap((params) => {
+          const periodicity = params.period
+          if (params.year == 'all') {
+            return this.apiService.fetchNeighborhoods({ periodicity });
+          } else {
+            const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
+            const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
+            return this.apiService.fetchNeighborhoods({ start, end, periodicity });
+          }
+        }))
     }
     this.chartCitySerial = {
       title: 'Quantitativo de Crimes',
       subtitle: 'Crimes em Goiânia através do tempo',
       type: 'serial',
-      dataset: this.params$.pipe(flatMap((params) => {
-        const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
-        const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
-        return this.apiService.fetchCities({ start, end });
-      }))
+      options: this.params$.pipe(
+        flatMap((params) => {
+          if (params.period !== 'monthly') {
+            return of({
+              parseDates: false
+            });
+          }
+          return of({
+            parseDates: true
+          });
+        })),
+      dataset: this.params$.pipe(
+        flatMap((params) => {
+          const periodicity = params.period
+          if (params.year == 'all') {
+            return this.apiService.fetchCities({ periodicity });
+          } else {
+            const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
+            const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
+            return this.apiService.fetchCities({ start, end, periodicity });
+          }
+        }))
     }
     this.chartDistrictSerial = {
       title: 'Quantitativo Regional',
       subtitle: 'Crimes por regiões',
       type: 'serial',
-      dataset: this.params$.pipe(flatMap((params) => {
-        const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
-        const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
-        return this.apiService.fetchDistricts({ start, end });
-      }))
+      options: this.params$.pipe(
+        flatMap((params) => {
+          if (params.period !== 'monthly') {
+            return of({
+              parseDates: false
+            });
+          }
+          return of({
+            parseDates: true
+          });
+        })),
+      dataset: this.params$.pipe(
+        flatMap((params) => {
+          const periodicity = params.period
+          if (params.year == 'all') {
+            return this.apiService.fetchDistricts({ periodicity });
+          } else {
+            const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
+            const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
+            return this.apiService.fetchDistricts({ start, end, periodicity });
+          }
+        }))
     }
     this.chartNeighborhoodSerial = {
       title: 'Quantitativo Local',
       subtitle: 'Crimes por bairros',
       type: 'serial',
-      dataset: this.params$.pipe(flatMap((params) => {
-        const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
-        const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
-        return this.apiService.fetchNeighborhoods({ start, end });
-      }))
+      options: this.params$.pipe(
+        flatMap((params) => {
+          if (params.period !== 'monthly') {
+            return of({
+              parseDates: false
+            });
+          }
+          return of({
+            parseDates: true,
+          });
+        })),
+      dataset: this.params$.pipe(
+        flatMap((params) => {
+          const periodicity = params.period
+          if (params.year == 'all') {
+            return this.apiService.fetchNeighborhoods({ periodicity });
+          } else {
+            const start = moment().year(params.year).month(0).dayOfYear(1).toDate();
+            const end = moment().year(params.year).month(0).dayOfYear(365).toDate();
+            return this.apiService.fetchNeighborhoods({ start, end, periodicity });
+          }
+        }))
     }
   }
 
   onSelectYear(event) {
-    this.params$.next({
-      year: event.value
+    this.events.next({
+      year: event.value,
+      period: this.period
     });
   }
 
   onSelectPeriod(event) {
-    // this.params$.next({
-    //   year: event.value
-    // });
+    this.events.next({
+      year: this.year,
+      period: event.value
+    });
   }
-
-  onCheck(event) {
-    this.modelType = event.checked;
-    this.labelModelType = "Modelo " + (this.modelType ? "Multiplicativo" : "Aditivo");
-  }
-
 
 }

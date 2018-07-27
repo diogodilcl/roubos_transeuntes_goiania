@@ -8,8 +8,8 @@ import { DateService } from '../date/date.service';
 })
 export class ApiService {
 
-  private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v1';
-  //private static readonly BASE_URL = 'http://localhost:5000/v1';
+  // private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v1';
+  private static readonly BASE_URL = 'http://localhost:5000/v2';
 
   constructor(
     private http: HttpClient,
@@ -57,7 +57,7 @@ export class ApiService {
     Object.keys(parameters).forEach(key => {
       const value = parameters[key];
       if (value instanceof Date) {
-      httpParams = httpParams.set(key, this.dateService.format(value, 'YYYY-MM-DD'));
+        httpParams = httpParams.set(key, this.dateService.format(value, 'YYYY-MM-DD'));
       } else {
         httpParams = httpParams.set(key, value);
       }

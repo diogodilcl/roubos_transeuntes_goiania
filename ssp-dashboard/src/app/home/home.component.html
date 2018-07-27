@@ -14,7 +14,7 @@
                 </mat-form-field>
 
                 <mat-form-field class="period-selector" style="margin-left:40px">
-                    <mat-select placeholder="Selecione o período de tempo" [(value)]="period">
+                    <mat-select placeholder="Selecione o período de tempo" [value]="period" (selectionChange)="onSelectPeriod($event)">
                         <mat-option *ngFor="let p of periods" [value]="p.value">
                             {{p.viewValue}}
                         </mat-option>
@@ -43,28 +43,28 @@
 
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartCitySerial.title" [subtitle]="chartCitySerial.subtitle" [type]="chartCitySerial.type" [dataset]="chartCitySerial.dataset"></app-chart>
+        <app-chart [title]="chartCitySerial.title" [options]="chartCitySerial.options" [subtitle]="chartCitySerial.subtitle" [type]="chartCitySerial.type" [dataset]="chartCitySerial.dataset"></app-chart>
     </div>
 </div>
 
 <div class="content">
     <div class="col col-60">
-        <app-chart [title]="chartDistrictSerial.title" [subtitle]="chartDistrictSerial.subtitle" [type]="chartDistrictSerial.type"
+        <app-chart [title]="chartDistrictSerial.title" [options]="chartDistrictSerial.options" [subtitle]="chartDistrictSerial.subtitle" [type]="chartDistrictSerial.type"
             [dataset]="chartDistrictSerial.dataset"></app-chart>
     </div>
     <div class="col col-40">
-        <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset"></app-chart>
+        <app-chart [title]="chartDistrictPie.title" [options]="chartDistrictPie.options" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset"></app-chart>
     </div>
 </div>
 
 <div class="content">
     <div class="col col-60">
-        <app-chart [title]="chartNeighborhoodSerial.title" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
+        <app-chart [title]="chartNeighborhoodSerial.title" [options]="chartNeighborhoodSerial.options" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
             [dataset]="chartNeighborhoodSerial.dataset"></app-chart>
 
     </div>
     <div class="col col-40">
-        <app-chart [title]="chartNeighborhoodPie.title" [subtitle]="chartNeighborhoodPie.subtitle" [type]="chartNeighborhoodPie.type"
+        <app-chart [title]="chartNeighborhoodPie.title" [options]="chartNeighborhoodPie.options" [subtitle]="chartNeighborhoodPie.subtitle" [type]="chartNeighborhoodPie.type"
             [dataset]="chartNeighborhoodPie.dataset"></app-chart>
     </div>
 </div>
