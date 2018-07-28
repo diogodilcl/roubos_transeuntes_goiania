@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Subject, BehaviorSubject, merge, Observable } from 'rxjs';
-
 import { flatMap, shareReplay, tap } from 'rxjs/operators';
-
 import { ApiService } from '../core/api/api.service';
 import { ParamsService } from '../core/params/params.service';
 
@@ -76,7 +74,6 @@ export class RegioesComponent implements OnInit {
         return this.apiService.fetchDistricts({ start, end });
       }))
     }
-
     this.chartDistrictSerialTrend = {
       title: 'Tendência',
       subtitle: '',
@@ -87,7 +84,6 @@ export class RegioesComponent implements OnInit {
         return this.apiService.fetchDistrictsTrends({ year, model });
       }))
     }
-
     this.chartDistrictSerialSeasonal = {
       title: 'Sazonalidade',
       subtitle: '',
@@ -98,7 +94,6 @@ export class RegioesComponent implements OnInit {
         return this.apiService.fetchDistrictsSeasonal({ year, model });
       }))
     }
-
     this.chartDistrictSerialResid = {
       title: 'Ruídos',
       subtitle: '',
@@ -109,6 +104,14 @@ export class RegioesComponent implements OnInit {
         return this.apiService.fetchDistrictsResids({ year, model });
       }))
     }
+  }
+
+  onSelectYear(event) {
+    this.events.next({
+      year: this.year,
+      labelModelType: "Modelo " + (event.checked ? "Multiplicativo" : "Aditivo"),
+      modelType: event.checked
+    });
   }
 
   onCheck(event) {

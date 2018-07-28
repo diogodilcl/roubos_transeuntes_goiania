@@ -61,7 +61,6 @@ def districts():
 
 @theft_v2_bp.route("/districts/<type>")
 def districts_trends(type):
-    ## todo testar
     year = int(request.args.get('year'))
     start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
     end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
@@ -82,6 +81,9 @@ def general():
     start = request.args.get('start')
     end = request.args.get('end')
     ids = request.args.getlist('ids', type=int)
+    periodicity = request.args.get('periodicity')
+    query = FACT_thefts.query.join(DIM_neighborhood) \
+        .join(DIM_time)
     if not ids:
         query_ids = FACT_thefts.query
         if start and end:
@@ -95,22 +97,28 @@ def general():
 
         ids_to_query = query_ids.all()
         ids = [x.neighborhood_id for x in ids_to_query]
-    query = FACT_thefts.query.join(DIM_neighborhood).join(DIM_time).with_entities(DIM_neighborhood.name.label('name'),
-                                                                                  DIM_time.date_occur.label(
-                                                                                      'date'),
-                                                                                  FACT_thefts.theft.label(
-                                                                                      'theft'), DIM_time.year).filter(
+
+    if periodicity and periodicity != 'monthly':
+        query = query.group_by('DIM_time.{}'.format(periodicity), DIM_neighborhood.name) \
+            .with_entities(DIM_neighborhood.name, 'DIM_time.{}'.format(periodicity),
+                           func.sum(FACT_thefts.theft).label(
+                               'theft'), DIM_time.year)
+    else:
+        query = query.with_entities(DIM_neighborhood.name, DIM_time.date_occur.label('date'),
+                                    FACT_thefts.theft)
+
+    query = query.filter(
         FACT_thefts.DIM_neighborhood_id.in_(ids))
+
     if start and end:
         query = query.filter(
             DIM_time.date_occur >= start).filter(DIM_time.date_occur <= end)
     rows = query.all()
-    return jsonify(__transform(rows))
+    return jsonify(__transform2(rows, periodicity))
 
 
 @theft_v2_bp.route("/neighborhoods/<type>")
 def neighborhoods_trends(type):
-    ## todo testar
     year = int(request.args.get('year'))
     start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
     end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()

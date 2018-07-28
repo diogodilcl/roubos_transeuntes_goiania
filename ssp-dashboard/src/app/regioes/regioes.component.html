@@ -14,7 +14,7 @@
         </mat-form-field>
         <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
           {{labelModelType}}
-      </mat-slide-toggle>
+        </mat-slide-toggle>
       </mat-card-content>
     </mat-card>
   </div>
@@ -32,18 +32,21 @@
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialTrend.title" [subtitle]="chartDistrictSerialTrend.subtitle" [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialTrend.title" [subtitle]="chartDistrictSerialTrend.subtitle" [type]="chartDistrictSerialTrend.type"
+      [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialSeasonal.title" [subtitle]="chartDistrictSerialSeasonal.subtitle" [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialSeasonal.title" [subtitle]="chartDistrictSerialSeasonal.subtitle" [type]="chartDistrictSerialSeasonal.type"
+      [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialResid.title" [subtitle]="chartDistrictSerialResid.subtitle" [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialResid.title" [subtitle]="chartDistrictSerialResid.subtitle" [type]="chartDistrictSerialResid.type"
+      [dataset]="chartDistrictSerialResid.dataset"></app-chart>
   </div>
 </div>
