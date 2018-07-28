@@ -114,7 +114,7 @@ def general():
         query = query.filter(
             DIM_time.date_occur >= start).filter(DIM_time.date_occur <= end)
     rows = query.all()
-    return jsonify(__transform2(rows, periodicity))
+    return jsonify(__transform2(rows, periodicity and periodicity != 'monthly'))
 
 
 @theft_v2_bp.route("/neighborhoods/<type>")
