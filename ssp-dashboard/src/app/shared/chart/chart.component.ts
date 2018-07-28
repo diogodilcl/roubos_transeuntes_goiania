@@ -22,9 +22,11 @@ export class ChartComponent implements OnInit, OnDestroy, AfterViewInit {
   id: string;
   chart: AmChart;
   currentOptions: any;
+  hasError: boolean;
 
   constructor(private analyticsSettingsService: AnalyticsSettingsService) {
     this.id = `chart_${Math.random().toString(18).substr(2)}`;
+    this.hasError = false;
   }
 
   ngOnInit() {
@@ -36,7 +38,19 @@ export class ChartComponent implements OnInit, OnDestroy, AfterViewInit {
       this.options.subscribe(options => this.currentOptions = options);
     }
     this.dataset.subscribe(data => {
+      this.hasError = false;
       this.chart = AmCharts.makeChart(this.id, this.analyticsSettingsService.getChartSettings(this.type, data, this.currentOptions));
+    }, () => {
+      this.hasError = true;
+    });
+  }
+
+  onClickRetry() {
+    this.hasError = false;
+    this.dataset.subscribe(data => {
+      this.chart = AmCharts.makeChart(this.id, this.analyticsSettingsService.getChartSettings(this.type, data, this.currentOptions));
+    }, () => {
+      this.hasError = true;
     });
   }
 

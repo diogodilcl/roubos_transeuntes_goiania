@@ -15,6 +15,7 @@
                 <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
                     {{labelModelType}}
                 </mat-slide-toggle>
+                <app-bairro-search (bairrosChanged)="onBairrosChanged($event)"></app-bairro-search>
             </mat-card-content>
         </mat-card>
     </div>

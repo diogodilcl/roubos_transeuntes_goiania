@@ -61,6 +61,7 @@ def districts():
 
 @theft_v2_bp.route("/districts/<type>")
 def districts_trends(type):
+    ## todo adaptar codigo igual ao do neighborhoods
     year = int(request.args.get('year'))
     start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
     end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
@@ -119,26 +120,36 @@ def general():
 
 @theft_v2_bp.route("/neighborhoods/<type>")
 def neighborhoods_trends(type):
-    year = int(request.args.get('year'))
-    start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
-    end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
+    year = request.args.get('year')
+    if year:
+        year = int(request.args.get('year'))
+        start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
+        end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
     ids = request.args.getlist('ids', type=int)
     model = str_to_bool(request.args.get('model'))
     if not ids:
-        ids_to_query = FACT_thefts.query.join(DIM_neighborhood).join(DIM_time).with_entities(
+        query_ids = FACT_thefts.query.join(DIM_neighborhood).join(DIM_time).with_entities(
             FACT_thefts.DIM_neighborhood_id.label('neighborhood_id'),
             func.sum(FACT_thefts.theft).label("total")).group_by(
-            FACT_thefts.DIM_neighborhood_id).filter(
-            DIM_time.date_occur >= start).filter(
-            DIM_time.date_occur <= end).order_by(desc("total")).limit(5).all()
+            FACT_thefts.DIM_neighborhood_id)
+        if year:
+            query_ids = query_ids.filter(
+                DIM_time.date_occur >= start).filter(
+                DIM_time.date_occur <= end)
+        ids_to_query = query_ids.order_by(desc("total")).limit(5).all()
         ids = [x.neighborhood_id for x in ids_to_query]
-    rows = FACT_thefts.query.join(DIM_neighborhood).join(DIM_time).with_entities(DIM_neighborhood.name.label('name'),
-                                                                                 DIM_time.date_occur.label(
-                                                                                     'date'),
-                                                                                 FACT_thefts.theft.label(
-                                                                                     'theft')).filter(
-        DIM_time.date_occur >= start).filter(
-        DIM_time.date_occur < end).filter(FACT_thefts.DIM_neighborhood_id.in_(ids)).all()
+    query = FACT_thefts.query.join(DIM_neighborhood).join(DIM_time).with_entities(DIM_neighborhood.name.label('name'),
+                                                                                  DIM_time.date_occur.label(
+                                                                                      'date'),
+                                                                                  FACT_thefts.theft.label(
+                                                                                      'theft')).filter(
+        FACT_thefts.DIM_neighborhood_id.in_(ids))
+    if year:
+        query = query.filter(
+            DIM_time.date_occur >= start).filter(
+            DIM_time.date_occur < end)
+
+    rows = query.all()
 
     return jsonify(__to_analytics(rows, type, model))
 
