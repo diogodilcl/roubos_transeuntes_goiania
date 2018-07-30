@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 import { ChartComponent } from './chart.component';
 
@@ -10,6 +11,7 @@ import { ChartComponent } from './chart.component';
   imports: [
     CommonModule,
     
+    MatButtonModule,
     MatCardModule,
     MatIconModule
   ],

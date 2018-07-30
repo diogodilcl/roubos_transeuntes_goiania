@@ -6,7 +6,8 @@
     <mat-card-title>{{title}}</mat-card-title>
     <mat-card-subtitle>{{subtitle}}</mat-card-subtitle>
   </mat-card-header>
-  <mat-card-content>
-    <div [id]="id" class="chart"></div>
+  <mat-card-content class="card-content">
+    <div [id]="id" *ngIf="!hasError" class="chart"></div>
+    <button class="btn-retry" *ngIf="hasError" mat-button color="primary" (click)="onClickRetry()">Tentar de Novo</button>
   </mat-card-content>
 </mat-card>
