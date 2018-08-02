@@ -123,7 +123,7 @@ export class AnalyticsSettingsService {
       'dataDateFormat': 'YYYY-MM',
       'categoryAxis': {
         'minPeriod': 'MM',
-        'parseDates': options? !!options.parseDates : true
+        'parseDates': options ? !!options.parseDates : true
       },
       'chartCursor': {
         'enabled': true,
@@ -136,7 +136,18 @@ export class AnalyticsSettingsService {
         'useGraphSettings': true
       },
       'language': 'pt',
-      'dataProvider': data
+      'dataProvider': data,
+      'export': {
+        'enabled': true,
+        'menu': [{
+          'format': 'JPG',
+          'label': 'Save as JPG',
+          'title': 'Export chart to JPG',
+        }, 'PNG']
+      },
+      'chartScrollbar': {
+        'enabled': true
+      },
     });
   }
 
