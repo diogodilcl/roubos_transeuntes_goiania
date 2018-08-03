@@ -44,7 +44,7 @@ def districts():
         query = query.filter(
             DIM_time.date_occur >= start).filter(DIM_time.date_occur <= end)
     if periodicity and periodicity != 'monthly':
-        query = query.group_by('DIM_time.{}'.format(periodicity), DIM_district.name) \
+        query = query.group_by('DIM_time.{}'.format(periodicity), DIM_district.name, DIM_time.year) \
             .with_entities(DIM_district.name, 'DIM_time.{}'.format(periodicity),
                            func.sum(FACT_thefts.theft).label(
                                'theft'), DIM_time.year)
@@ -58,16 +58,19 @@ def districts():
 
 @theft_v2_bp.route("/districts/<type>")
 def districts_trends(type):
-    year = int(request.args.get('year'))
-    start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
-    end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
-    ids = request.args.getlist('ids', type=int)
+    year = request.args.get('year')
+    start = None
+    end = None
     model = str_to_bool(request.args.get('model'))
+    ids = request.args.getlist('ids', type=int)
     periodicity = request.args.get('periodicity', default='monthly')
 
-    query = FACT_thefts.query.join(DIM_district).join(DIM_time).filter(
-        DIM_time.date_occur >= start).filter(
-        DIM_time.date_occur <= end)
+    if year:
+        year = int(request.args.get('year'))
+        start = datetime.strptime('{}-01-01'.format(year - 2), '%Y-%m-%d').date()
+        end = datetime.strptime('{}-12-30'.format(year), '%Y-%m-%d').date()
+
+    query = FACT_thefts.query.join(DIM_district).join(DIM_time)
     if ids:
         query = query.filter(FACT_thefts.DIM_neighborhood_id.in_(ids))
     if periodicity and periodicity != 'monthly':
@@ -79,7 +82,10 @@ def districts_trends(type):
         query = query.with_entities(DIM_time.date_occur.label('date'),
                                     DIM_district.name.label('name'),
                                     FACT_thefts.theft.label('theft'))
-
+    if start and end:
+        query = query.filter(
+            DIM_time.date_occur >= start).filter(
+            DIM_time.date_occur <= end)
     return jsonify(__to_analytics(query.all(), type, periodicity, model))
 
 
@@ -107,7 +113,7 @@ def general():
         ids = [x.neighborhood_id for x in ids_to_query]
 
     if periodicity and periodicity != 'monthly':
-        query = query.group_by('DIM_time.{}'.format(periodicity), DIM_neighborhood.name) \
+        query = query.group_by('DIM_time.{}'.format(periodicity), DIM_neighborhood.name, DIM_time.year) \
             .with_entities(DIM_neighborhood.name, 'DIM_time.{}'.format(periodicity),
                            func.sum(FACT_thefts.theft).label(
                                'theft'), DIM_time.year)
@@ -231,9 +237,8 @@ def __to_analytics(rows, type, periodicity='monthly', model=True):
     total_general = 0
     labels = list()
     type_model = 'additive' if model else 'multiplicative'
-    index_df = sorted(list(set(df.index)))
-    for key in index_df:
-        labels.append(key.strftime('%Y-%m'))
+    # index_df = sorted(list(set(df.index)))
+
     for name, group in df.groupby('name'):
         group.drop('name', axis=1, inplace=True)
         group = group.sort_index()
@@ -242,14 +247,17 @@ def __to_analytics(rows, type, periodicity='monthly', model=True):
         result_sort = variable.sort_index()
         result_sort.dropna(inplace=True)
         thefts = []
-        total = 0
 
-        for value in index_df:
-            val = 0
-            if value in group.index:
-                val = float("{0:.4f}".format(group.loc[value].item()))
+        labels = list()
+        for key, value in result_sort.groupby(['date']):
+            labels.append(key.strftime('%Y-%m'))
+
+        total = 0
+        for value in result_sort.values:
+            val = float("{0:.4f}".format(value[0]))
             thefts.append(val)
             total += val
+
         data.append({"values": thefts, "label": name, "total": total})
         total_general += total
 

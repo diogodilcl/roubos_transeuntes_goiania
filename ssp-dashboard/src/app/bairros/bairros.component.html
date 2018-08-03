@@ -12,6 +12,13 @@
                         </mat-option>
                     </mat-select>
                 </mat-form-field>
+                <mat-form-field class="period-selector" style="margin-left:40px">
+                    <mat-select placeholder="Selecione o período de tempo" [value]="period" (selectionChange)="onSelectPeriod($event)">
+                        <mat-option *ngFor="let p of periods" [value]="p.value">
+                            {{p.viewValue}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
                 <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
                     {{labelModelType}}
                 </mat-slide-toggle>
@@ -22,7 +29,7 @@
 </div>
 <div class="content">
     <div class="col col-60">
-        <app-chart [title]="chartNeighborhoodSerial.title" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
+        <app-chart [title]="chartNeighborhoodSerial.title" [options]="chartNeighborhoodSerial.options" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
             [dataset]="chartNeighborhoodSerial.dataset"></app-chart>
 
     </div>
@@ -33,17 +40,17 @@
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroTrend.title" [subtitle]="chartBairroTrend.subtitle" [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset"></app-chart>
+        <app-chart [title]="chartBairroTrend.title" [options]="chartBairroTrend.options" [subtitle]="chartBairroTrend.subtitle" [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset"></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroSeasonal.title" [subtitle]="chartBairroSeasonal.subtitle" [type]="chartBairroSeasonal.type"
+        <app-chart [title]="chartBairroSeasonal.title" [options]="chartBairroSeasonal.options" [subtitle]="chartBairroSeasonal.subtitle" [type]="chartBairroSeasonal.type"
             [dataset]="chartBairroSeasonal.dataset"></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroResid.title" [subtitle]="chartBairroResid.subtitle" [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset"></app-chart>
+        <app-chart [title]="chartBairroResid.title" [options]="chartBairroResid.options" [subtitle]="chartBairroResid.subtitle" [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset"></app-chart>
     </div>
 </div>

@@ -12,6 +12,13 @@
             </mat-option>
           </mat-select>
         </mat-form-field>
+        <mat-form-field class="period-selector" style="margin-left:40px">
+          <mat-select placeholder="Selecione o período de tempo" [value]="period" (selectionChange)="onSelectPeriod($event)">
+            <mat-option *ngFor="let p of periods" [value]="p.value">
+              {{p.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
         <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
           {{labelModelType}}
         </mat-slide-toggle>
@@ -22,8 +29,8 @@
 
 <div class="content">
   <div class="col col-60">
-    <app-chart [title]="chartDistrictSerial.title" [subtitle]="chartDistrictSerial.subtitle" [type]="chartDistrictSerial.type"
-      [dataset]="chartDistrictSerial.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerial.title" [options]="chartDistrictSerial.options" [subtitle]="chartDistrictSerial.subtitle"
+      [type]="chartDistrictSerial.type" [dataset]="chartDistrictSerial.dataset"></app-chart>
   </div>
   <div class="col col-40">
     <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset"></app-chart>
@@ -32,21 +39,21 @@
 
 <div class="content">
   <div class="col">
-    <app-chart [title]="chartDistrictSerialTrend.title" [subtitle]="chartDistrictSerialTrend.subtitle" [type]="chartDistrictSerialTrend.type"
-      [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialTrend.title" [options]="chartDistrictSerialTrend.options" [subtitle]="chartDistrictSerialTrend.subtitle"
+      [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-    <app-chart [title]="chartDistrictSerialSeasonal.title" [subtitle]="chartDistrictSerialSeasonal.subtitle" [type]="chartDistrictSerialSeasonal.type"
-      [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialSeasonal.title" [options]="chartDistrictSerialSeasonal.options" [subtitle]="chartDistrictSerialSeasonal.subtitle"
+      [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-    <app-chart [title]="chartDistrictSerialResid.title" [subtitle]="chartDistrictSerialResid.subtitle" [type]="chartDistrictSerialResid.type"
-      [dataset]="chartDistrictSerialResid.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialResid.title" [options]="chartDistrictSerialResid.options" [subtitle]="chartDistrictSerialResid.subtitle"
+      [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset"></app-chart>
   </div>
 </div>

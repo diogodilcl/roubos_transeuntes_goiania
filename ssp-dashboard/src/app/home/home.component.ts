@@ -74,6 +74,7 @@ export class HomeComponent implements OnInit {
           }
         }))
     }
+
     this.chartNeighborhoodPie = {
       title: 'Percentual Local',
       subtitle: '-',
@@ -90,6 +91,7 @@ export class HomeComponent implements OnInit {
           }
         }))
     }
+    
     this.chartCitySerial = {
       title: 'Quantitativo de Crimes',
       subtitle: 'Crimes em Goiânia através do tempo',
