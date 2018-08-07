@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
     this.years = paramsService.years;
     this.periods = paramsService.periods;
     this.period = this.periods[0].value
-    this.year = this.years[0].value
+    this.year = this.years[1].value
     this.events = new BehaviorSubject({
       year: this.year,
       period: this.period

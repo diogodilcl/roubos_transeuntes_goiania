@@ -137,16 +137,15 @@ export class AnalyticsSettingsService {
       },
       'language': 'pt',
       'dataProvider': data,
-      'export': {
-        'enabled': true,
-        'menu': [{
-          'format': 'JPG',
-          'label': 'Save as JPG',
-          'title': 'Export chart to JPG',
-        }, 'PNG']
-      },
       'chartScrollbar': {
         'enabled': true
+      },
+      'export': {
+        'enabled': true,
+        'pageMargins': {
+          'bottom': 30,
+          'right': 40
+        }
       },
     });
   }

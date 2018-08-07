@@ -9,6 +9,7 @@ export class ParamsService {
 
   get years(): Array<any> {
     return [].concat([
+      { value: '2018', viewValue: '2018' },
       { value: '2017', viewValue: '2017' },
       { value: '2016', viewValue: '2016' },
       { value: '2015', viewValue: '2015' },

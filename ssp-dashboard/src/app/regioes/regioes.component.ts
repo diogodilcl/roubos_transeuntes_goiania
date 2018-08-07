@@ -38,7 +38,7 @@ export class RegioesComponent implements OnInit {
     private paramsService: ParamsService
   ) {
     this.years = paramsService.years;
-    this.year = this.years[0].value;
+    this.year = this.years[1].value;
     this.modelType = true;
     this.labelModelType = "Modelo Aditivo";
     this.periods = paramsService.periods;

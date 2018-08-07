@@ -8,8 +8,8 @@ import { DateService } from '../date/date.service';
 })
 export class ApiService {
 
-  // private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v2';
-  private static readonly BASE_URL = 'http://localhost:5000/v2';
+  private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v2';
+  // private static readonly BASE_URL = 'http://localhost:5000/v2';
 
   constructor(
     private http: HttpClient,
