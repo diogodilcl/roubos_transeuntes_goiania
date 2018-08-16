@@ -222,7 +222,7 @@ def __to_analytics(rows, type, periodicity='monthly', model=True):
         "quarter": 4,
         "semester": 2
     }
-
+    ## todo analizar quando saão todos os anos e mensal e multiplicativo
     rows_tuple = list()
     if periodicity and periodicity != 'monthly':
         for current in rows:
