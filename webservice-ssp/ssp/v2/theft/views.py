@@ -29,7 +29,7 @@ def cities():
         query = query.with_entities(DIM_city.name, DIM_time.date_occur.label('date'),
                                     FACT_thefts.theft)
     rows = query.all()
-    values = __transform2(rows, periodicity and periodicity != 'monthly')
+    values = __transform(rows, periodicity and periodicity != 'monthly')
     return jsonify(values)
 
 
@@ -52,7 +52,7 @@ def districts():
         query = query.with_entities(DIM_district.name, DIM_time.date_occur.label('date'),
                                     FACT_thefts.theft)
     rows = query.all()
-    values = __transform2(rows, periodicity and periodicity != 'monthly')
+    values = __transform(rows, periodicity and periodicity != 'monthly')
     return jsonify(values)
 
 
@@ -128,7 +128,7 @@ def general():
         query = query.filter(
             DIM_time.date_occur >= start).filter(DIM_time.date_occur <= end)
     rows = query.all()
-    return jsonify(__transform2(rows, periodicity and periodicity != 'monthly'))
+    return jsonify(__transform(rows, periodicity and periodicity != 'monthly'))
 
 
 @theft_v2_bp.route("/neighborhoods/<type>")
@@ -181,7 +181,7 @@ def neighborhoods_trends(type):
     return jsonify(__to_analytics(rows, type, periodicity, model))
 
 
-def __transform2(rows, periodicity=False):
+def __transform(rows, periodicity=False):
     rows_tuple = list()
     if periodicity:
         for current in rows:
