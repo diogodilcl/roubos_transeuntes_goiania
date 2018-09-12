@@ -10,8 +10,8 @@ from statsmodels.tsa.arima_model import ARIMAResults
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 from config import ROOT
-from ssp.models import DistrictQuantity, District, CityQuantity, City, Neighborhood, NeighborhoodQuantity
-from ssp.theft import theft_bp
+from ssp.v1.models import DistrictQuantity, District, CityQuantity, City, Neighborhood, NeighborhoodQuantity
+from ssp.v1.theft import theft_bp
 
 
 @theft_bp.route("/cities")

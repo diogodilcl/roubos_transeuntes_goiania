@@ -7,8 +7,8 @@ from werkzeug.exceptions import NotFound
 
 from config import APP_ENV
 from ssp.common.database import db
-from ssp.neighborhood import neighborhood_bp
-from ssp.theft import theft_bp
+from ssp.v1.neighborhood import neighborhood_bp
+from ssp.v1.theft import theft_bp
 from ssp.v2.neighborhood import neighborhood_v2_bp
 from ssp.v2.theft import theft_v2_bp
 
