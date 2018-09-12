@@ -13,6 +13,10 @@ export class ParamsService {
       { value: '2017', viewValue: '2017' },
       { value: '2016', viewValue: '2016' },
       { value: '2015', viewValue: '2015' },
+      { value: '2014', viewValue: '2014' },
+      { value: '2013', viewValue: '2013' },
+      { value: '2012', viewValue: '2012' },
+      { value: '2011', viewValue: '2011' },
       { value: 'all', viewValue: 'Todos' }
     ]);
   }
