@@ -7,7 +7,7 @@ from ssp.v2.models_dw import DIM_district
 @district_v2_bp.route("")
 def neighborhood():
     districts = [{"id": x.id, "name": x.name} for x in
-                     DIM_district.query.with_entities(DIM_district.id, DIM_district.name).all()]
+                 DIM_district.query.with_entities(DIM_district.id, DIM_district.name).all()]
     return json.dumps(districts)
 
 

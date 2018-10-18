@@ -67,6 +67,8 @@ class FACT_thefts(db.Model, Base):
     DIM_city_id = db.Column('DIM_city_id', db.Integer, db.ForeignKey("tcc.DIM_city.id"), default=None, nullable=True)
     theft = db.Column('theft', db.Integer)
 
+    prediction = db.Column('prediction', db.Boolean)
+
     dim_time = relationship("DIM_time", back_populates='FACT_thefts')
     dim_neighborhood = relationship("DIM_neighborhood", back_populates='FACT_thefts')
     dim_district = relationship("DIM_district", back_populates='FACT_thefts')

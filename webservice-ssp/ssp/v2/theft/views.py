@@ -24,12 +24,12 @@ def cities():
         query = query.group_by('DIM_time.{}'.format(periodicity), 'DIM_city.name', 'DIM_time.year') \
             .with_entities(DIM_city.name, 'DIM_time.{}'.format(periodicity),
                            func.sum(FACT_thefts.theft).label(
-                               'theft'), DIM_time.year)
+                               'theft'), DIM_time.year, FACT_thefts.prediction)
     else:
         query = query.with_entities(DIM_city.name, DIM_time.date_occur.label('date'),
-                                    FACT_thefts.theft)
+                                    FACT_thefts.theft, FACT_thefts.prediction)
     rows = query.all()
-    values = __transform(rows, periodicity and periodicity != 'monthly')
+    values = __transform_city(rows, periodicity and periodicity != 'monthly')
     return jsonify(values)
 
 
@@ -198,7 +198,8 @@ def __transform(rows, periodicity=False):
     index_df = sorted(list(set(df.index)))
 
     for key in index_df:
-        labels.append(key.strftime('%Y-%m'))
+        labels.append({'date': key.strftime('%Y-%m'),
+                       'prediction': False})
 
     for name, group in df.groupby('name'):
         group.drop('name', axis=1, inplace=True)
@@ -207,7 +208,44 @@ def __transform(rows, periodicity=False):
         for value in index_df:
             val = 0
             if value in group.index:
-                val = group.loc[value].item()
+                val = int(group.loc[value]['theft'])
+            thefts.append(val)
+            total += val
+        data.append({"values": thefts, "label": name, "total": total})
+        total_general += total
+
+    return {"labels": labels, "data": data, "total": total_general}
+
+
+def __transform_city(rows, periodicity=False):
+    rows_tuple = list()
+    if periodicity:
+        for current in rows:
+            date = datetime.strptime('{}-0{}-01'.format(current[3], current[1]), '%Y-%m-%d').date()
+            tuple = {"date": date, "name": current[0], "theft": int(current[2]),
+                     "prediction": current[4] if len(current) > 4 else False}
+            rows_tuple.append(tuple)
+    else:
+        rows_tuple = list(rows)
+    df = pandas.DataFrame(rows_tuple)
+    df = df.set_index('date').sort_index()
+    data = []
+    labels = list()
+    total_general = 0
+    index_df = sorted(list(set(df.index)))
+
+    for key in index_df:
+        labels.append({'date': key.strftime('%Y-%m'),
+                       'prediction': False if 'prediction' not in df.loc[key] else bool(df.loc[key]['prediction'])})
+
+    for name, group in df.groupby('name'):
+        group.drop('name', axis=1, inplace=True)
+        thefts = []
+        total = 0
+        for value in index_df:
+            val = 0
+            if value in group.index:
+                val = int(group.loc[value]['theft'])
             thefts.append(val)
             total += val
         data.append({"values": thefts, "label": name, "total": total})
@@ -250,7 +288,7 @@ def __to_analytics(rows, type, periodicity='monthly', model=True):
 
         labels = list()
         for key, value in result_sort.groupby(['date']):
-            labels.append(key.strftime('%Y-%m'))
+            labels.append({'date': key.strftime('%Y-%m'), 'prediction': False})
 
         total = 0
         for value in result_sort.values:
