@@ -28,11 +28,12 @@ export class HomeComponent implements OnInit {
   year: string;
   period: string;
   locality: string;
-
+  isBars: boolean;
 
   years: Array<any>;
   periods: Array<any>;
   localities: Array<any>;
+  labelIsBars: string;
 
   private events: BehaviorSubject<any>;
 
@@ -43,16 +44,19 @@ export class HomeComponent implements OnInit {
     this.years = paramsService.years;
     this.periods = paramsService.periods;
     this.period = this.periods[0].value
-    this.year = this.years[1].value
+    this.year = this.years[1].value;
+    this.labelIsBars = 'Gráfico de linha';
     this.events = new BehaviorSubject({
       year: this.year,
-      period: this.period
+      period: this.period,
+      isBars: this.isBars
     });
     this.params$ = this.events.pipe(
       shareReplay(1),
       tap(params => {
         this.year = params.year;
         this.period = params.period
+        this.isBars = params.isBars;
       })
     );
   }
@@ -100,11 +104,13 @@ export class HomeComponent implements OnInit {
         flatMap((params) => {
           if (params.period !== 'monthly') {
             return of({
-              parseDates: false
+              parseDates: false,
+              hasBars: params.isBars
             });
           }
           return of({
-            parseDates: true
+            parseDates: true,
+            hasBars: params.isBars
           });
         })),
       dataset: this.params$.pipe(
@@ -127,11 +133,13 @@ export class HomeComponent implements OnInit {
         flatMap((params) => {
           if (params.period !== 'monthly') {
             return of({
-              parseDates: false
+              parseDates: false,
+              hasBars: params.isBars
             });
           }
           return of({
-            parseDates: true
+            parseDates: true,
+            hasBars: params.isBars
           });
         })),
       dataset: this.params$.pipe(
@@ -154,11 +162,13 @@ export class HomeComponent implements OnInit {
         flatMap((params) => {
           if (params.period !== 'monthly') {
             return of({
-              parseDates: false
+              parseDates: false,
+              hasBars: params.isBars
             });
           }
           return of({
             parseDates: true,
+            hasBars: params.isBars
           });
         })),
       dataset: this.params$.pipe(
@@ -178,14 +188,25 @@ export class HomeComponent implements OnInit {
   onSelectYear(event) {
     this.events.next({
       year: event.value,
-      period: this.period
+      period: this.period,
+      isBars: this.isBars,
     });
   }
 
   onSelectPeriod(event) {
     this.events.next({
       year: this.year,
-      period: event.value
+      period: event.value,
+      isBars: this.isBars,
+    });
+  }
+
+  onCheckBar(event) {
+    this.labelIsBars = `Gráfico de ${event.checked ? 'barra' : 'linha'}`;
+    this.events.next({
+      year: this.year,
+      isBars: event.checked,
+      period: this.period
     });
   }
 

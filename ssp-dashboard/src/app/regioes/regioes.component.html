@@ -30,30 +30,30 @@
 <div class="content">
   <div class="col col-60">
     <app-chart [title]="chartDistrictSerial.title" [options]="chartDistrictSerial.options" [subtitle]="chartDistrictSerial.subtitle"
-      [type]="chartDistrictSerial.type" [dataset]="chartDistrictSerial.dataset"></app-chart>
+      [type]="chartDistrictSerial.type" [dataset]="chartDistrictSerial.dataset" description="Dados históricos separados por região. As varias regiões podem ser ocultadas clicando na legenda abaixo do gráfico. O período pode ser filtrado selecionando o período no próprio gráfico."></app-chart>
   </div>
   <div class="col col-40">
-    <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset"></app-chart>
+    <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset" description="O gráfico de pizza representa a porcentagem que a série possui dos dados exibidos."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
     <app-chart [title]="chartDistrictSerialTrend.title" [options]="chartDistrictSerialTrend.options" [subtitle]="chartDistrictSerialTrend.subtitle"
-      [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
+      [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset" description="O gráfico de tendência, é uma das partes de uma série. É isolado somente a tendência da(s) série(s) que é(são) exibida(s) no topo da pagina. Facilitando assim a visibilidade da tendência."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
     <app-chart [title]="chartDistrictSerialSeasonal.title" [options]="chartDistrictSerialSeasonal.options" [subtitle]="chartDistrictSerialSeasonal.subtitle"
-      [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
+      [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset" description="O gráfico de sazonalidade, é uma das partes de uma série. É isolado somente a sazonalidade da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
     <app-chart [title]="chartDistrictSerialResid.title" [options]="chartDistrictSerialResid.options" [subtitle]="chartDistrictSerialResid.subtitle"
-      [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset"></app-chart>
+      [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset" description="O gráfico de ruído, é uma das partes de uma série. É isolado somente o ruído da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
   </div>
 </div>

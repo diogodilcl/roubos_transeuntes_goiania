@@ -30,27 +30,27 @@
 <div class="content">
     <div class="col col-60">
         <app-chart [title]="chartNeighborhoodSerial.title" [options]="chartNeighborhoodSerial.options" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
-            [dataset]="chartNeighborhoodSerial.dataset"></app-chart>
+            [dataset]="chartNeighborhoodSerial.dataset" description="Dados históricos dos 5 bairros com maior criminalidade quando não há bairros selecionados. Os varios bairros podem ser ocultadas clicando na legenda abaixo do gráfico. O período pode ser filtrado selecionando o período no próprio gráfico."></app-chart>
 
     </div>
     <div class="col col-40">
         <app-chart [title]="chartNeighborhoodPie.title" [subtitle]="chartNeighborhoodPie.subtitle" [type]="chartNeighborhoodPie.type"
-            [dataset]="chartNeighborhoodPie.dataset"></app-chart>
+            [dataset]="chartNeighborhoodPie.dataset" description="O gráfico de pizza representa a porcentagem que a série possui dos dados exibidos."></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroTrend.title" [options]="chartBairroTrend.options" [subtitle]="chartBairroTrend.subtitle" [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset"></app-chart>
+        <app-chart [title]="chartBairroTrend.title" [options]="chartBairroTrend.options" [subtitle]="chartBairroTrend.subtitle" [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset" description="O gráfico de tendência, é uma das partes de uma série. É isolado somente a tendência da(s) série(s) que é(são) exibida(s) no topo da pagina. Facilitando assim a visibilidade da tendência."></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
         <app-chart [title]="chartBairroSeasonal.title" [options]="chartBairroSeasonal.options" [subtitle]="chartBairroSeasonal.subtitle" [type]="chartBairroSeasonal.type"
-            [dataset]="chartBairroSeasonal.dataset"></app-chart>
+            [dataset]="chartBairroSeasonal.dataset" description="O gráfico de sazonalidade, é uma das partes de uma série. É isolado somente a sazonalidade da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroResid.title" [options]="chartBairroResid.options" [subtitle]="chartBairroResid.subtitle" [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset"></app-chart>
+        <app-chart [title]="chartBairroResid.title" [options]="chartBairroResid.options" [subtitle]="chartBairroResid.subtitle" [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset" description="O gráfico de ruído, é uma das partes de uma série. É isolado somente o ruído da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
     </div>
 </div>

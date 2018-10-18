@@ -24,6 +24,7 @@ import { CoreModule } from './core/core.module';
 import { BairrosComponent } from './bairros/bairros.component';
 import { RegioesComponent } from './regioes/regioes.component';
 import { BairroSearchModule } from './shared/bairro-search/bairro-search.module';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,10 @@ import { BairroSearchModule } from './shared/bairro-search/bairro-search.module'
     MatNativeDateModule,
     MatSelectModule,
     MatSlideToggleModule,
-    ChartModule
+
+    ChartModule,
+
+    MatTooltipModule,
 
   ],
   providers: [],

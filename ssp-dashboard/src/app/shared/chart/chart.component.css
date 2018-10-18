@@ -9,3 +9,12 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.help-wrapper {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.help-wrapper .help {
+    cursor: help;
+}   

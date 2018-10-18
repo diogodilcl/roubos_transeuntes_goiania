@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { ChartComponent } from './chart.component';
 
@@ -13,7 +14,8 @@ import { ChartComponent } from './chart.component';
     
     MatButtonModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
   ],
   declarations: [ChartComponent],
   exports: [ChartComponent]

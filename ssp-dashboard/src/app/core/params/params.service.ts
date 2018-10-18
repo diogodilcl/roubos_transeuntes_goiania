@@ -25,7 +25,8 @@ export class ParamsService {
     return [].concat([
       { value: 'monthly', viewValue: 'Mensal' },
       { value: 'quarter', viewValue: 'Trimestral' },
-      { value: 'semester', viewValue: 'Semestral' }
+      { value: 'semester', viewValue: 'Semestral' },
+      // { value: 'year', viewValue: 'Anual' }
     ]);
   }
 

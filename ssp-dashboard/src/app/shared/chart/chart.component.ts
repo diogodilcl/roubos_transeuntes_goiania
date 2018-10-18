@@ -15,6 +15,7 @@ export class ChartComponent implements OnInit, OnDestroy, AfterViewInit {
 
   @Input() title: string;
   @Input() subtitle: string;
+  @Input() description: string;
   @Input() type: string;
   @Input() dataset: Observable<any>;
   @Input() options: Observable<any>;

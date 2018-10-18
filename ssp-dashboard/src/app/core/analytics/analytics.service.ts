@@ -12,6 +12,7 @@ export class AnalyticsDataParserService {
     this.map.set('pie', this.pieDataParser);
     this.map.set('serial', this.serialDataParser);
     this.map.set('bar', this.barDataParser);
+    this.map.set('column', this.columnDataParser);
   }
 
   pieDataParser(dataset: any): any {
@@ -28,7 +29,8 @@ export class AnalyticsDataParserService {
     });
     const data = result.labels.map((label, index) => {
       const obj = {
-        date: label
+        date: label.date,
+        dashLength: label.prediction ? 8 : 0
       };
       filteredData.forEach(d => {
         obj[d.label] = d.values[index];
@@ -43,6 +45,27 @@ export class AnalyticsDataParserService {
 
   barDataParser(dataset: any): any {
 
+  }
+
+  columnDataParser(result: any): any {
+    const titles = [], filteredData = result.data.map(d => {
+      titles.push(d.label);
+      return d;
+    });
+    const data = result.labels.map((label, index) => {
+      const obj = {
+        date: label.date,
+        dashLength: label.prediction ? 8 : 0
+      };
+      filteredData.forEach(d => {
+        obj[d.label] = d.values[index];
+      });
+      return obj;
+    });
+    return {
+      titles: titles,
+      data: data
+    };
   }
 
 }
@@ -61,6 +84,7 @@ export class AnalyticsSettingsService {
     this.map.set('pie', this.pieSetting);
     this.map.set('serial', this.serialSetting);
     this.map.set('bar', this.barSetting);
+    this.map.set('column', this.columnSetting);
   }
 
   getChartSettings(type: string, dataset: any, options?: any): any {
@@ -102,17 +126,34 @@ export class AnalyticsSettingsService {
         'axisAlpha': 1,
         'position': 'left'
       });
-      graphs.push({
-        'valueAxis': `axis_${title}`,
-        'balloonText': `[[title]]: <b>[[value]]</b>`,
-        'bulletBorderThickness': 1,
-        'hideBulletsCount': 30,
-        'lineThickness': 2,
-        'title': title,
-        'valueField': title,
-        'fillAlphas': 0,
-        'animationPlayed': true
-      });
+      if (options.hasBars) {
+        graphs.push({
+          'alphaField': 'alpha',
+          'balloonText': '[[value]]',
+          'dashLengthField': 'dashLength',
+          'fillAlphas': 0.7,
+          'legendPeriodValueText': 'total: [[value.sum]]',
+          'legendValueText': '[[value]]',
+          'title': title,
+          'type': 'column',
+          'valueField': title,
+          'valueAxis': `axis_${title}`
+        });
+      } else {
+        graphs.push({
+          'valueAxis': `axis_${title}`,
+          'balloonText': `[[title]]: <b>[[value]]</b>`,
+          'bulletBorderThickness': 1,
+          'hideBulletsCount': 30,
+          'lineThickness': 2,
+          'title': title,
+          'valueField': title,
+          'fillAlphas': 0,
+          'animationPlayed': true,
+          'dashLengthField': 'dashLength',
+          'bullet': 'round'
+        });
+      }
     });
     return Object.assign({}, {
       'type': 'serial',
@@ -142,6 +183,7 @@ export class AnalyticsSettingsService {
       },
       'export': {
         'enabled': true,
+        'position': 'bottom-right',
         'pageMargins': {
           'bottom': 30,
           'right': 40
@@ -152,6 +194,74 @@ export class AnalyticsSettingsService {
 
   barSetting = (dataset: any): any => {
 
+  }
+
+  columnSetting = (datase: any): any => {
+
+    return Object.assign({}, {
+      'type': 'serial',
+      'categoryField': 'category',
+      'startDuration': 1,
+      'categoryAxis': {
+        'gridPosition': 'start'
+      },
+      'trendLines': [],
+      'graphs': [
+        {
+          'balloonText': '[[title]] of [[category]]:[[value]]',
+          'fillAlphas': 1,
+          'id': 'AmGraph-1',
+          'title': 'graph 1',
+          'type': 'column',
+          'valueField': 'column-1'
+        },
+        {
+          'balloonText': '[[title]] of [[category]]:[[value]]',
+          'fillAlphas': 1,
+          'id': 'AmGraph-2',
+          'title': 'graph 2',
+          'type': 'column',
+          'valueField': 'column-2'
+        }
+      ],
+      'guides': [],
+      'valueAxes': [
+        {
+          'id': 'ValueAxis-1',
+          'title': 'Axis title'
+        }
+      ],
+      'allLabels': [],
+      'balloon': {},
+      'legend': {
+        'enabled': true,
+        'useGraphSettings': true
+      },
+      'titles': [
+        {
+          'id': 'Title-1',
+          'size': 15,
+          'text': 'Chart Title'
+        }
+      ],
+      'dataProvider': [
+        {
+          'category': 'category 1',
+          'column-1': 8,
+          'column-2': 5
+        },
+        {
+          'category': 'category 2',
+          'column-1': 6,
+          'column-2': 7
+        },
+        {
+          'category': 'category 3',
+          'column-1': 2,
+          'column-2': 3
+        }
+      ]
+    })
   }
 
 }
