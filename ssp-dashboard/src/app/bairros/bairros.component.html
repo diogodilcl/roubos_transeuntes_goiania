@@ -2,11 +2,15 @@
     <div class="col">
         <mat-card class="card-chart">
             <mat-card-header>
+                <div class="help-wrapper">
+                    <mat-icon class="help" matTooltip="Parâmetros que podem ser usados para visualização. Ao alterar os parâmetros todos os gráficos são atualizados.">help_outline</mat-icon>
+                </div>
                 <mat-card-title>Parâmetros</mat-card-title>
             </mat-card-header>
             <mat-card-content>
                 <mat-form-field class="year-selector">
-                    <mat-select placeholder="Selecione o ano para visualizar o histórico" (selectionChange)="onSelectYear($event)" [value]="years[0].value">
+                    <mat-select placeholder="Selecione o ano para visualizar o histórico" (selectionChange)="onSelectYear($event)"
+                        [value]="years[0].value">
                         <mat-option *ngFor="let year of years" [value]="year.value">
                             {{year.viewValue}}
                         </mat-option>
@@ -19,7 +23,8 @@
                         </mat-option>
                     </mat-select>
                 </mat-form-field>
-                <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
+                <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType"
+                    (change)="onCheck($event)">
                     {{labelModelType}}
                 </mat-slide-toggle>
                 <app-bairro-search (bairrosChanged)="onBairrosChanged($event)"></app-bairro-search>
@@ -29,8 +34,8 @@
 </div>
 <div class="content">
     <div class="col col-60">
-        <app-chart [title]="chartNeighborhoodSerial.title" [options]="chartNeighborhoodSerial.options" [subtitle]="chartNeighborhoodSerial.subtitle" [type]="chartNeighborhoodSerial.type"
-            [dataset]="chartNeighborhoodSerial.dataset" description="Dados históricos dos 5 bairros com maior criminalidade quando não há bairros selecionados. Os varios bairros podem ser ocultadas clicando na legenda abaixo do gráfico. O período pode ser filtrado selecionando o período no próprio gráfico."></app-chart>
+        <app-chart [title]="chartNeighborhoodSerial.title" [options]="chartNeighborhoodSerial.options" [subtitle]="chartNeighborhoodSerial.subtitle"
+            [type]="chartNeighborhoodSerial.type" [dataset]="chartNeighborhoodSerial.dataset" description="Dados históricos dos 5 bairros com maior criminalidade quando não há bairros selecionados. Os varios bairros podem ser ocultadas clicando na legenda abaixo do gráfico. O período pode ser filtrado selecionando o período no próprio gráfico."></app-chart>
 
     </div>
     <div class="col col-40">
@@ -40,17 +45,19 @@
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroTrend.title" [options]="chartBairroTrend.options" [subtitle]="chartBairroTrend.subtitle" [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset" description="O gráfico de tendência, é uma das partes de uma série. É isolado somente a tendência da(s) série(s) que é(são) exibida(s) no topo da pagina. Facilitando assim a visibilidade da tendência."></app-chart>
+        <app-chart [title]="chartBairroTrend.title" [options]="chartBairroTrend.options" [subtitle]="chartBairroTrend.subtitle"
+            [type]="chartBairroTrend.type" [dataset]="chartBairroTrend.dataset" description="O gráfico de tendência, é uma das partes de uma série. É isolado somente a tendência da(s) série(s) que é(são) exibida(s) no topo da pagina. Facilitando assim a visibilidade da tendência."></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroSeasonal.title" [options]="chartBairroSeasonal.options" [subtitle]="chartBairroSeasonal.subtitle" [type]="chartBairroSeasonal.type"
-            [dataset]="chartBairroSeasonal.dataset" description="O gráfico de sazonalidade, é uma das partes de uma série. É isolado somente a sazonalidade da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
+        <app-chart [title]="chartBairroSeasonal.title" [options]="chartBairroSeasonal.options" [subtitle]="chartBairroSeasonal.subtitle"
+            [type]="chartBairroSeasonal.type" [dataset]="chartBairroSeasonal.dataset" description="O gráfico de sazonalidade, é uma das partes de uma série. É isolado somente a sazonalidade da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
     </div>
 </div>
 <div class="content">
     <div class="col">
-        <app-chart [title]="chartBairroResid.title" [options]="chartBairroResid.options" [subtitle]="chartBairroResid.subtitle" [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset" description="O gráfico de ruído, é uma das partes de uma série. É isolado somente o ruído da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
+        <app-chart [title]="chartBairroResid.title" [options]="chartBairroResid.options" [subtitle]="chartBairroResid.subtitle"
+            [type]="chartBairroResid.type" [dataset]="chartBairroResid.dataset" description="O gráfico de ruído, é uma das partes de uma série. É isolado somente o ruído da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
     </div>
 </div>
