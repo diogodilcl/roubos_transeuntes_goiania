@@ -163,12 +163,4 @@ class SSPRepository:
     def auth(self):
         auth = 'http://pentaho.ssp.go.gov.br/pentaho/content/pentaho-cdf-dd/Render?solution=observatorio&path=%2Fpaineis%2FmapaPublico&file=painel_publico.wcdf&userid=anonymousUser&password=anonymousUser'
         self.session_request.get(auth)
-        # return self.session_request.cookies.get_dict()['JSESSIONID']
-        return '9B0E18A8E71930F4CA529F72A74E5D80'
-
-
-nature = '[Natureza].[CRIMES CONTRA O PATRIMÔNIO].[CPB ART. 155 CAPUT: FURTO].[FURTO A TRANSEUNTE]'
-location = 'AISP 01 - ÁREA CENTRAL DE GOIÂNIA'
-year = 2017
-
-# print(SSPRepository().get_months(year, nature, location))
+        return self.session_request.cookies.get_dict()['JSESSIONID']
