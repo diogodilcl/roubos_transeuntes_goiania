@@ -2,6 +2,9 @@
   <div class="col">
     <mat-card class="card-chart">
       <mat-card-header>
+          <div class="help-wrapper">
+              <mat-icon class="help" matTooltip="Parâmetros que podem ser usados para visualização. Ao alterar os parâmetros todos os gráficos são atualizados.">help_outline</mat-icon>
+          </div>
         <mat-card-title>Parâmetros</mat-card-title>
       </mat-card-header>
       <mat-card-content>
@@ -12,6 +15,16 @@
             </mat-option>
           </mat-select>
         </mat-form-field>
+        <mat-form-field class="period-selector" style="margin-left:40px">
+          <mat-select placeholder="Selecione o período de tempo" [value]="period" (selectionChange)="onSelectPeriod($event)">
+            <mat-option *ngFor="let p of periods" [value]="p.value">
+              {{p.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-slide-toggle style="margin-left:150px" title="Tipo do Modelo" matInput [checked]="modelType" (change)="onCheck($event)">
+          {{labelModelType}}
+        </mat-slide-toggle>
       </mat-card-content>
     </mat-card>
   </div>
@@ -19,28 +32,31 @@
 
 <div class="content">
   <div class="col col-60">
-    <app-chart [title]="chartDistrictSerial.title" [subtitle]="chartDistrictSerial.subtitle" [type]="chartDistrictSerial.type"
-      [dataset]="chartDistrictSerial.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerial.title" [options]="chartDistrictSerial.options" [subtitle]="chartDistrictSerial.subtitle"
+      [type]="chartDistrictSerial.type" [dataset]="chartDistrictSerial.dataset" description="Dados históricos separados por região. As varias regiões podem ser ocultadas clicando na legenda abaixo do gráfico. O período pode ser filtrado selecionando o período no próprio gráfico."></app-chart>
   </div>
   <div class="col col-40">
-    <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset"></app-chart>
+    <app-chart [title]="chartDistrictPie.title" [subtitle]="chartDistrictPie.subtitle" [type]="chartDistrictPie.type" [dataset]="chartDistrictPie.dataset" description="O gráfico de pizza representa a porcentagem que a série possui dos dados exibidos."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialTrend.title" [subtitle]="chartDistrictSerialTrend.subtitle" [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialTrend.title" [options]="chartDistrictSerialTrend.options" [subtitle]="chartDistrictSerialTrend.subtitle"
+      [type]="chartDistrictSerialTrend.type" [dataset]="chartDistrictSerialTrend.dataset" description="O gráfico de tendência, é uma das partes de uma série. É isolado somente a tendência da(s) série(s) que é(são) exibida(s) no topo da pagina. Facilitando assim a visibilidade da tendência."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialSeasonal.title" [subtitle]="chartDistrictSerialSeasonal.subtitle" [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialSeasonal.title" [options]="chartDistrictSerialSeasonal.options" [subtitle]="chartDistrictSerialSeasonal.subtitle"
+      [type]="chartDistrictSerialSeasonal.type" [dataset]="chartDistrictSerialSeasonal.dataset" description="O gráfico de sazonalidade, é uma das partes de uma série. É isolado somente a sazonalidade da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
   </div>
 </div>
 
 <div class="content">
   <div class="col">
-      <app-chart [title]="chartDistrictSerialResid.title" [subtitle]="chartDistrictSerialResid.subtitle" [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset"></app-chart>
+    <app-chart [title]="chartDistrictSerialResid.title" [options]="chartDistrictSerialResid.options" [subtitle]="chartDistrictSerialResid.subtitle"
+      [type]="chartDistrictSerialResid.type" [dataset]="chartDistrictSerialResid.dataset" description="O gráfico de ruído, é uma das partes de uma série. É isolado somente o ruído da(s) série(s) que é(são) exibida(s) no topo da pagina."></app-chart>
   </div>
 </div>

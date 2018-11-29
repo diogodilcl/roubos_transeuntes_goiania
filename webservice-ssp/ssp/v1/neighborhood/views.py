@@ -1,7 +1,7 @@
 from flask import json, request
 
-from ssp.models import Neighborhood
-from ssp.neighborhood import neighborhood_bp
+from ssp.v1.models import Neighborhood
+from ssp.v1.neighborhood import neighborhood_bp
 
 
 @neighborhood_bp.route("")

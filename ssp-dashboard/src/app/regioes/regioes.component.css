@@ -1,0 +1,8 @@
+.help-wrapper {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.help-wrapper .help {
+    cursor: help;
+}   

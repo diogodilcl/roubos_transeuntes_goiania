@@ -13,9 +13,9 @@ export class AppComponent {
 
   links = [
     { path: '/', icon: 'home', label: 'Home'},
-    { path: '/bairros', icon: 'info', label: 'Bairros'},
-    { path: '/regioes', icon: 'info', label: 'Regiões'},
-    { path: '/about', icon: 'info', label: 'Items'}
+    { path: '/bairros', icon: 'place', label: 'Bairros'},
+    { path: '/regioes', icon: 'map', label: 'Regiões'},
+    { path: '/about', icon: 'info', label: 'Sobre'}
   ];
 
   prepareRouterState(router: RouterOutlet) {

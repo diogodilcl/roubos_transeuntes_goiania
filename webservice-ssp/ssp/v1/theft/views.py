@@ -10,8 +10,8 @@ from statsmodels.tsa.arima_model import ARIMAResults
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 from config import ROOT
-from ssp.models import DistrictQuantity, District, CityQuantity, City, Neighborhood, NeighborhoodQuantity
-from ssp.theft import theft_bp
+from ssp.v1.models import DistrictQuantity, District, CityQuantity, City, Neighborhood, NeighborhoodQuantity
+from ssp.v1.theft import theft_bp
 
 
 @theft_bp.route("/cities")
@@ -23,7 +23,7 @@ def cities():
         CityQuantity.date_occurrence >= start).filter(CityQuantity.date_occurrence <= end).all()
     values = __transform(rows)
     if datetime.strptime(start, '%Y-%m-%d') >= datetime.strptime('2018-01-01', '%Y-%m-%d'):
-        loaded = ARIMAResults.load(ROOT + '/cities.pkl')
+        loaded = ARIMAResults.load(ROOT + 'ssp/v1/cities.pkl')
         d = pandas.date_range(start='1/1/2018', end='12/1/2018', freq='MS')
         d = d.format(formatter=lambda current: current.strftime('%Y-%m'))
         x = [int(round(x)) for x in loaded.forecast(steps=12)[0]]

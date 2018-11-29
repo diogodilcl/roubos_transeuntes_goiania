@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bairro-selector {
+    flex-grow: 1;
+}
+
+.bairros-selecionados {
+    width: 100%;
+}

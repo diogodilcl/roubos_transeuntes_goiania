@@ -8,8 +8,8 @@ import { DateService } from '../date/date.service';
 })
 export class ApiService {
 
-  private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v1';
-  //private static readonly BASE_URL = 'http://localhost:5000/v1';
+  private static readonly BASE_URL = 'http://tcc-env.fmpyp2b6w6.sa-east-1.elasticbeanstalk.com/v2';
+  // private static readonly BASE_URL = 'http://localhost:5000/v2';
 
   constructor(
     private http: HttpClient,
@@ -52,14 +52,24 @@ export class ApiService {
     return this.http.get(`${ApiService.BASE_URL}/thefts/neighborhoods/seasonal`, { params: this.parseParameters(parameters) });
   }
 
+  searchNeighborhoods(parameters) {
+    return this.http.get(`${ApiService.BASE_URL}/neighborhood/search`, { params: this.parseParameters(parameters) });
+  }
+
   parseParameters(parameters: any = {}): HttpParams {
     let httpParams = new HttpParams();
     Object.keys(parameters).forEach(key => {
       const value = parameters[key];
       if (value instanceof Date) {
-      httpParams = httpParams.set(key, this.dateService.format(value, 'YYYY-MM-DD'));
+        httpParams = httpParams.set(key, this.dateService.format(value, 'YYYY-MM-DD'));
       } else {
-        httpParams = httpParams.set(key, value);
+        if (parameters[key] instanceof Array) {
+          if (parameters[key].length > 0) {
+            parameters[key].forEach(v => httpParams = httpParams.append(key, v))
+          }
+        } else {
+          httpParams = httpParams.set(key, value);
+        }
       }
     });
     return httpParams;
